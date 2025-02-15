@@ -1,0 +1,96 @@
+/*
+ Theme Name:   Moesia Child
+ Theme URI:    http://athemes.com/theme/moesia 
+ Description:  Moesia child theme
+ Author:       Natasha Pierre-Louis
+ Author URI:   http://natashasworld.com/
+ Template:     moesia
+ Version:      1.0
+ Tags:         Light, Two Columns, Three Columns, Right Sidebar, Fluid Layout, Responsive Layout, Custom Colors, Custom Background, Custom Header, Custom Menu, Featured Images, Sticky Post, Theme Options, Threaded Comments, Translation Ready
+*/
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: normal;
+}
+
+.welcome-title {
+    font-size: 50px;
+    line-height: 1.2;
+    text-shadow: inherit;
+}
+
+.welcome-desc {
+    color: #fff;
+	font-size: 32px;
+    text-shadow: inherit;
+	padding: 0 70px;
+}
+
+.sticky-wrapper {
+    background-color: #fff;
+	height: auto !important;
+}
+
+.main-navigation {
+	margin-top: 10px;
+}
+
+.site-branding {
+    background: url("http://natashasworld.com/journal/wp-content/uploads/2015/02/nwordl-logo-gray.png") no-repeat 0 10px;
+	-webkit-background-size: 65px auto;
+	-moz-background-size: 65px auto;
+	-o-background-size: 65px auto; 
+	background-size: 65px auto; 
+	padding-left: 80px !important;
+	min-height: 95px;
+}
+
+.is-sticky .site-branding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-bar {
+    box-shadow: 0 1px 1px #ddd;
+}
+
+.site-description {
+   	font-weight: normal;
+	font-size: 16px;
+}
+
+.service-title, .employee-name, .latest-news-area .entry-title {
+    font-size: 18px;
+}
+
+.services-area .container{
+	padding
+}
+
+.entry-meta, 
+.entry-meta a, 
+.entry-footer, 
+.entry-footer a,
+.moesia_recent_posts_widget h4 a {
+    color: #333;
+}
+
+.moesia_recent_posts_widget h4 {
+    font-size: 14px;
+}
+
+@media (max-width: 320px) {
+	.site-branding.col-md-4 {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.main-navigation.toggled {
+		margin-top: 0;
+	}
+	
+}

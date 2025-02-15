@@ -1,0 +1,637 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.8.9.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-24 08:09-0800\n"
+"PO-Revision-Date: \n"
+"Language-Team: @commentluv, Gianni Diurno <admin@comluv.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sw\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:48
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv inahitaji Wordpress 3.0 au karibu zaidi."
+
+#: ../commentluv.php:48
+msgid "Please Update!"
+msgstr "Tafadhali Mwisho!"
+
+#: ../commentluv.php:217
+msgid ""
+"Please enter a URL and then click the CommentLuv checkbox if you want to add "
+"your last blog post"
+msgstr ""
+"Tafadhali kuingia URL na kisha click CommentLuv checkbox kama unataka "
+"kuongeza blog post yako ya mwisho"
+
+#: ../commentluv.php:218
+msgid "Please use http:// in front of your url"
+msgstr "Tafadhali kutumia http: // mbele ya url yako"
+
+#: ../commentluv.php:219
+msgid ""
+"You need to visit your profile in the dashboard and update your details with "
+"your site URL"
+msgstr ""
+"Unahitaji kutembelea maelezo yako katika dashibodi na update maelezo yako na "
+"tovuti yako URL"
+
+#: ../commentluv.php:220
+msgid "No info was available or an error occured"
+msgstr "Hakuna maelezo ulipatikana au kosa ilitokea"
+
+#: ../commentluv.php:243
+msgid "Please wait"
+msgstr "Tafadhali subiri"
+
+#: ../commentluv.php:243
+msgid "Please check your inbox, an email will be sent to"
+msgstr "Tafadhali angalia sanduku lako, email watapelekwa"
+
+#: ../commentluv.php:243
+msgid "in the next few minutes with a confirmation link"
+msgstr "katika dakika chache zijazo na uthibitisho kiungo"
+
+#: ../commentluv.php:243
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "Makosa yaliyotokea na ombi. Jaribu kusainiwa katika tovuti"
+
+#: ../commentluv.php:272
+msgid ""
+"Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr ""
+"Wordpress yako kufunga ni kukosa <strong> wp_commentmeta </ strong> meza!"
+
+#: ../commentluv.php:272
+msgid ""
+" CommentLuv cannot work without this table please see this wordpress forum "
+"post to learn how to add one ->"
+msgstr ""
+"CommentLuv hawawezi kufanya kazi bila meza hii tafadhali tazama chapisho "
+"hili wordpress jukwaa kujifunza jinsi ya kuongeza moja ->"
+
+#: ../commentluv.php:272
+msgid "Missing wp_commentmeta table"
+msgstr "Kukosa wp_commentmeta meza"
+
+#: ../commentluv.php:365
+msgid "Twice Monthly"
+msgstr "Mara mbili kila mwezi"
+
+#: ../commentluv.php:392
+msgid "CommentLuv is enabled"
+msgstr "CommentLuv ni kuwezeshwa"
+
+#: ../commentluv.php:433
+msgid "Show more posts"
+msgstr "Kuonyesha posts zaidi"
+
+#: ../commentluv.php:523
+msgid "I have only commented on this post"
+msgstr "I have tu maoni juu ya post hii"
+
+#: ../commentluv.php:526
+msgid ""
+"If I had made more comments on this site, you would see more of my other "
+"posts here"
+msgstr ""
+"Kama mimi alikuwa alitoa ufafanuzi zaidi kwenye tovuti hii, ungependa kuona "
+"zaidi ya nafasi yangu nyingine hapa"
+
+#: ../commentluv.php:551
+msgid "User has not saved a description in their profile page"
+msgstr "User hana kuokolewa maelezo katika ukurasa wao wasifu"
+
+#: ../commentluv.php:563
+msgid "is the administrator of this site"
+msgstr "ni msimamizi wa tovuti hii"
+
+#: ../commentluv.php:565
+msgid "is a registered member of my site"
+msgstr "ni mwanachama wa usajili za tovuti yangu"
+
+#: ../commentluv.php:568 ../commentluv.php:587
+msgid "Clicks on this link on this comment"
+msgstr "Clicks juu ya kiungo huu juu ya maoni hii"
+
+#: ../commentluv.php:568 ../commentluv.php:588
+msgid "approved comments on this site"
+msgstr "maoni kupitishwa kwenye tovuti hii"
+
+#: ../commentluv.php:568 ../commentluv.php:589
+msgid "Some other posts I have commented on"
+msgstr "Baadhi posts nyingine nimekuwa maoni juu ya"
+
+#: ../commentluv.php:568
+msgid "Some of my other posts"
+msgstr "Baadhi ya posts yangu nyingine"
+
+#: ../commentluv.php:581
+msgid "has not registered on this site"
+msgstr "ina haijasajiliwa kwenye tovuti hii"
+
+#: ../commentluv.php:703
+msgid "Could not get posts for home blog"
+msgstr "Hakuweza kupata posts kwa ajili ya nyumba blog"
+
+#: ../commentluv.php:759
+msgid ""
+"If you are registered, you need to log in to get 10 posts to choose from"
+msgstr ""
+"Kama wewe ni kusajiliwa, unahitaji kuingia kwenye kupata posts 10 kwa "
+"kuchagua kutoka"
+
+#: ../commentluv.php:783 ../commentluv.php:1235
+msgid "Register"
+msgstr "Daftari"
+
+#: ../commentluv.php:788
+msgid "recently posted"
+msgstr "hivi karibuni posted"
+
+#: ../commentluv.php:789
+msgid ""
+"If you register as a user on my site, you can get your 10 most recent blog "
+"posts to choose from in this box."
+msgstr ""
+"Kama kujiandikisha kama mtumiaji kwenye tovuti yangu, unaweza kupata yako 10 "
+"hivi karibuni blog posts kwa kuchagua kutoka katika sanduku hili."
+
+#: ../commentluv.php:790
+msgid ""
+"If this user had registered to my site then they could get 10 last posts to "
+"choose from when they comment and you would be able to see a list of their "
+"recent posts in this panel"
+msgstr ""
+"Kama mtumiaji huyu alikuwa kusajiliwa na tovuti yangu kisha waweze kupata 10 "
+"posts mwisho kwa kuchagua kutoka wakati wao kutoa maoni na ungependa kuwa na "
+"uwezo wa kuona orodha ya vituo vyao hivi karibuni katika jopo hili"
+
+#: ../commentluv.php:971
+msgid "Settings"
+msgstr "mazingira"
+
+#: ../commentluv.php:1010
+msgid "No Posts Were Found!"
+msgstr "Hakuna Posts Walikuwa Kupatikana!"
+
+#: ../commentluv.php:1050
+msgid ""
+"There is a new version of Commentluv available, please upgrade by visiting "
+"this site"
+msgstr ""
+"Kuna toleo jipya la Commentluv inapatikana, tafadhali kuboresha kwa "
+"kutembelea tovuti hii"
+
+#: ../commentluv.php:1053
+msgid "Dismiss notice"
+msgstr "kumfukuza taarifa"
+
+#: ../commentluv.php:1080
+msgid "CommentLuv Settings v"
+msgstr "CommentLuv Mazingira v"
+
+#: ../commentluv.php:1090
+msgid "Important!"
+msgstr "Muhimu!"
+
+#: ../commentluv.php:1090
+msgid "Subscription Information"
+msgstr "Taarifa michango"
+
+#: ../commentluv.php:1095
+msgid "CommentLuv 3.0 Premium is coming soon!"
+msgstr "CommentLuv 3.0 Premium ni kuja hivi karibuni!"
+
+#: ../commentluv.php:1096
+msgid ""
+"I promise not to sell your details or send you spam. You will ONLY receive "
+"emails about plugin updates."
+msgstr ""
+"Mimi ahadi si kuuza maelezo yako au kutuma wewe taka. Utakuwa tu kupokea "
+"barua pepe kuhusu Plugin updates."
+
+#: ../commentluv.php:1099
+msgid ""
+"There is a premium version of CommentLuv coming that will have much more "
+"control of how the plugin works as well as exclusive features like keyword "
+"name, inline registration and much much more!. Signup to find out as soon as "
+"it is ready"
+msgstr ""
+"Kuna toleo premium ya CommentLuv kuja kwamba itakuwa na udhibiti zaidi wa "
+"jinsi Plugin kazi pamoja na sifa ya kipekee kama jina keyword, inline "
+"usajili na mengi zaidi !. Jisajili ili kujua kwa haraka kama yuko tayari"
+
+#: ../commentluv.php:1102
+msgid ""
+"You have already subscribed, if you have not received the verification "
+"within 12 hours, please click the button to resend or try the form at"
+msgstr ""
+"Wewe tayari Subscribed, kama wewe hawajapata uhakiki ndani ya masaa 12, "
+"tafadhali bonyeza kifungo kutuma upya au kujaribu aina katika"
+
+#: ../commentluv.php:1102
+msgid "Resend Verification"
+msgstr "Resend Uhakiki"
+
+#: ../commentluv.php:1104
+msgid "Click to register now!"
+msgstr "Bofya kujiandikisha sasa!"
+
+#: ../commentluv.php:1119
+msgid "Primary Setting"
+msgstr "Kuweka msingi"
+
+#: ../commentluv.php:1119 ../commentluv.php:1153 ../commentluv.php:1212
+#: ../commentluv.php:1268 ../commentluv.php:1299
+msgid "Help Video"
+msgstr "msaada Video"
+
+#: ../commentluv.php:1123
+msgid "Enable CommentLuv?"
+msgstr "Kuwawezesha CommentLuv?"
+
+#: ../commentluv.php:1124
+msgid "Yes"
+msgstr "Ndiyo"
+
+#: ../commentluv.php:1125
+msgid "No"
+msgstr "Hakuna"
+
+#: ../commentluv.php:1130
+msgid "On Posts"
+msgstr "On Posts"
+
+#: ../commentluv.php:1131
+msgid "On Pages"
+msgstr "On kuhusiana"
+
+#: ../commentluv.php:1132
+msgid "On Both"
+msgstr "On Wote"
+
+#: ../commentluv.php:1137
+msgid "On by default?"
+msgstr "On by default?"
+
+#: ../commentluv.php:1141
+msgid "On for admin?"
+msgstr "On kwa admin?"
+
+#: ../commentluv.php:1153
+msgid "Appearance"
+msgstr "muonekano"
+
+#: ../commentluv.php:1157
+msgid "Badge"
+msgstr "beji"
+
+#: ../commentluv.php:1158
+msgid "Custom Image URL"
+msgstr "Desturi Image URL"
+
+#: ../commentluv.php:1159
+msgid "Use Text"
+msgstr "matumizi Nakala"
+
+#: ../commentluv.php:1167
+msgid "Default"
+msgstr "Default"
+
+#: ../commentluv.php:1168
+msgid "White"
+msgstr "White"
+
+#: ../commentluv.php:1169
+msgid "Black"
+msgstr "Black"
+
+#: ../commentluv.php:1170
+msgid "None"
+msgstr "hakuna"
+
+#: ../commentluv.php:1187
+msgid "Link to Commentluv?"
+msgstr "Kiungo kwa Commentluv?"
+
+#: ../commentluv.php:1194
+msgid "Enable info panel?"
+msgstr "Kuwawezesha maelezo jopo?"
+
+#: ../commentluv.php:1195
+msgid "Info panel background color"
+msgstr "Maelezo jopo rangi ya asili"
+
+#: ../commentluv.php:1196
+msgid "Info panel text color"
+msgstr "Maelezo jopo rangi ya maandishi"
+
+#: ../commentluv.php:1202
+msgid "Example text and background color"
+msgstr "Mfano wa maandishi na rangi ya asili"
+
+#: ../commentluv.php:1212
+msgid "Messages"
+msgstr "ujumbe"
+
+#: ../commentluv.php:1219
+msgid "Text to be displayed in the comment"
+msgstr "Nakala ya kuonyeshwa katika maoni"
+
+#: ../commentluv.php:1222
+msgid "[name] = The users name"
+msgstr "[jina] = jina watumiaji"
+
+#: ../commentluv.php:1222
+msgid "[lastpost] = The last blog post link"
+msgstr "[lastpost] = iliyopita baada ya blog kiungo"
+
+#: ../commentluv.php:1229
+msgid "Message for unregistered user in the drop down box"
+msgstr "Ujumbe kwa haijasajiliwa mtumiaji katika kushuka chini sanduku"
+
+#: ../commentluv.php:1230 ../commentluv.php:1254
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr "Ujumbe si kuonyeshwa kama huna usajili kuwezeshwa"
+
+#: ../commentluv.php:1234
+msgid "Your register link code"
+msgstr "Kiungo kujiandikisha yako kificho"
+
+#: ../commentluv.php:1244
+msgid ""
+"You have NOT set your blog to allow registrations, you can do that in "
+"Settings/General"
+msgstr ""
+"Wewe si kuweka blog yako ili kuruhusu usajili, unaweza kufanya hivyo katika "
+"Mipangilio / General"
+
+#: ../commentluv.php:1245
+msgid "here"
+msgstr "hapa"
+
+#: ../commentluv.php:1253
+msgid "Message for unregistered user in the info panel"
+msgstr "Ujumbe kwa haijasajiliwa mtumiaji katika maelezo jopo"
+
+#: ../commentluv.php:1268
+msgid "Operational Settings"
+msgstr "Ufundi Mazingira"
+
+#: ../commentluv.php:1275
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr ""
+"Ambao kutoa 10 posts mwisho kwa kuchagua kutoka wakati wao kutoa maoni?"
+
+#: ../commentluv.php:1276
+msgid "Only Registered Members"
+msgstr "Tu Registered Members"
+
+#: ../commentluv.php:1277
+msgid "Everybody"
+msgstr "Kila mtu"
+
+#: ../commentluv.php:1278
+msgid "Nobody"
+msgstr "hakuna mtu"
+
+#: ../commentluv.php:1285
+msgid "Whose links should be dofollow?"
+msgstr "Ambao viungo lazima dofollow?"
+
+#: ../commentluv.php:1286
+msgid "Only Registered Members Links"
+msgstr "Tu Registered Members Links"
+
+#: ../commentluv.php:1287
+msgid "Everybody gets dofollow links"
+msgstr "Kila mtu anapata viungo dofollow"
+
+#: ../commentluv.php:1288
+msgid "Nobody gets dofollow links"
+msgstr "Hakuna mtu anapata viungo dofollow"
+
+#: ../commentluv.php:1299
+msgid "Technical Settings"
+msgstr "Ufundi Mazingira"
+
+#: ../commentluv.php:1299
+msgid "Click to open technical settings"
+msgstr "Click kufungua mazingira ya kiufundi"
+
+#: ../commentluv.php:1306
+msgid "Please check the help video for this section before changing settings"
+msgstr ""
+"Tafadhali angalia msaada video kwa sehemu hii kabla ya kubadilisha mazingira"
+
+#: ../commentluv.php:1307
+msgid ""
+"In most cases, you will NOT need to change the settings in this box unless "
+"you have a custom comment form, template or you are using minifying or "
+"caching plugins"
+msgstr ""
+"Katika kesi nyingi, utakuwa si haja ya kubadili mazingira katika sanduku "
+"hili kama una maoni desturi fomu, template au unatumia minifying au Caching "
+"Plugins"
+
+#: ../commentluv.php:1312
+msgid "Compatibility"
+msgstr "utangamano"
+
+#: ../commentluv.php:1316
+msgid "Use manual insert of badge code?"
+msgstr "Kutumia kuingiza mwongozo wa kanuni beji?"
+
+#: ../commentluv.php:1320
+msgid "Enable minifying compatibility?"
+msgstr "Kuwawezesha minifying utangamano?"
+
+#: ../commentluv.php:1321
+msgid "For caching plugins (places localized code in footer)"
+msgstr "Kwa Caching Plugins (maeneo ya ndani kificho katika footer)"
+
+#: ../commentluv.php:1326
+msgid "API URL"
+msgstr "API URL"
+
+#: ../commentluv.php:1330
+msgid "URL to use for API"
+msgstr "URL kutumia kwa API"
+
+#: ../commentluv.php:1334
+msgid "Comment Form Field Values"
+msgstr "Maoni kidato Uwanja Maadili"
+
+#: ../commentluv.php:1337
+msgid "Authors Name field name"
+msgstr "Mwandishi Jina uwanja jina"
+
+#: ../commentluv.php:1342
+msgid "Email field name"
+msgstr "Barua pepe uwanja jina"
+
+#: ../commentluv.php:1347
+msgid "Authors URL field name"
+msgstr "Waandishi URL uwanja jina"
+
+#: ../commentluv.php:1352
+msgid "Comment Text Area name"
+msgstr "Maoni Nakala Area jina"
+
+#: ../commentluv.php:1357
+msgid "Diagnostics Info"
+msgstr "uchunguzi Info"
+
+#: ../commentluv.php:1375
+msgid "You can copy this information and send it to me if I request it"
+msgstr "Unaweza nakala habari hii na kutuma kwa mimi kama mimi ombi hilo"
+
+#: ../commentluv.php:1382
+msgid "Save Settings"
+msgstr "kuokoa settings"
+
+#: ../commentluv.php:1384
+msgid "Reset Settings"
+msgstr "Rudisha Settings"
+
+#: ../commentluv.php:1387
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr ""
+"Una uhakika unataka upya mazingira yako? Vyombo vya habari Sawa ili kuendelea"
+
+#: ../commentluv.php:1390
+msgid "Reset"
+msgstr "Rudisha"
+
+#: ../commentluv.php:1398
+msgid "Plugin Info"
+msgstr "Plugin Info"
+
+#: ../commentluv.php:1401
+msgid "Start Here"
+msgstr "ANZA"
+
+#: ../commentluv.php:1402
+msgid "Author"
+msgstr "Mwandishi"
+
+#: ../commentluv.php:1403
+msgid "Home Page"
+msgstr "Mzee"
+
+#: ../commentluv.php:1403
+msgid "Visit www.commentluv.com!"
+msgstr "Ziara www.commentluv.com!"
+
+#: ../commentluv.php:1404
+msgid "Social"
+msgstr "Kijamii"
+
+#: ../commentluv.php:1405
+msgid "Help"
+msgstr "Msaada"
+
+#: ../commentluv.php:1405
+msgid "Help Desk"
+msgstr "Msaada"
+
+#: ../commentluv.php:1406
+msgid "Do you like this plugin?"
+msgstr "Je, wewe kama hii Plugin?"
+
+#: ../commentluv.php:1408
+msgid "News"
+msgstr "Habari"
+
+#: ../commentluv.php:1414
+msgid "Thanks to the following for translations"
+msgstr "Shukrani kwa kufuatia kwa tafsiri"
+
+#: ../commentluv.php:1415
+msgid "Italian"
+msgstr "Italian"
+
+#: ../commentluv.php:1416
+msgid "Dutch"
+msgstr "Uholanzi"
+
+#: ../commentluv.php:1417
+msgid "Polish"
+msgstr "polish"
+
+#: ../commentluv.php:1418
+msgid "Georgian"
+msgstr "georgian"
+
+#: ../commentluv.php:1419
+msgid "Lithuanian"
+msgstr "lithuanian"
+
+#: ../commentluv.php:1420
+msgid "Portuguese"
+msgstr "Ureno"
+
+#: ../commentluv.php:1421
+msgid "Malaysian"
+msgstr "Malaysia"
+
+#: ../commentluv.php:1422
+msgid "Hindi"
+msgstr "hindi"
+
+#: ../commentluv.php:1423
+msgid "Russian"
+msgstr "Urusi"
+
+#: ../commentluv.php:1424
+msgid "Chinese"
+msgstr "Kichina"
+
+#: ../commentluv.php:1425
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: ../commentluv.php:1426
+msgid "French"
+msgstr "French"
+
+#: ../commentluv.php:1428
+msgid "Romanian"
+msgstr "Kirumi"
+
+#: ../commentluv.php:1429
+msgid "German"
+msgstr "german"
+
+#: ../commentluv.php:1430
+msgid "Arabic"
+msgstr "Kiarabu"
+
+#: ../commentluv.php:1432
+msgid "Want your link here?"
+msgstr "Wanataka kiungo wako hapa?"
+
+#: ../commentluv.php:1432
+msgid "How To Submit A Translation"
+msgstr "Jinsi ya Kuwasilisha tafsiri"
+
+#: ../commentluv.php:1433
+msgid "Special thanks go to the following"
+msgstr "Shukrani za pekee kwenda zifuatazo"
+
+#: ../commentluv.php:1434
+msgid "CSS Help"
+msgstr "CSS Msaada"
+
+#: ../commentluv.php:1435
+msgid "Badge GFX"
+msgstr "beji GFX"

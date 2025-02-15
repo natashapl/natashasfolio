@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+    <head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Embed Any Document Plus - WordPress plugin Dcoumentation</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+p, table, hr, .box {
+	margin-bottom:25px;
+}
+.box p {
+	margin-bottom:10px;
+}
+</style>
+    </head>
+
+    <body>
+<header>
+      <h1><img src="assets/images/ead-logo.png" alt="Embed Any Document Plus"/></h1>
+      <ol class="alpha menu">
+    <li><a href="#installing">Install</a></li>
+    <li><a href="#embedding">Embedding Documents</a></li>
+    <li><a href="#settings">Settings &amp; Options</a>
+    <li><a href="#cloudapi">Configure Cloud API</a>
+          <ol class="">
+        <li> <a href="#dropboxapi">Dropbox</a></li>
+        <li> <a href="#driveapi">Google Drive</a></li>
+        <li> <a href="#boxapi">Box.com</a></li>
+      </ol>
+        </li>
+    <li><a href="#viewers">Viewers</a></li>
+    <li><a href="#shortcode">Shortcode &amp; Attributes</a></li>
+    <li><a href="#faqs">FAQ</a></li>
+    <li><a href="#issues">Known Issues</a></li>
+  </ol>
+    </header>
+<div class="container">
+      <h3 class=" alt">Embed Any Document Plus Documentation by AWSM Innovations v1.0</h3>
+      <hr>
+      <h1>Embed Any Document Plus - WordPress Plugin</h1>
+      <div class="borderTop">
+    <p class="prepend-top append-0">Thank you for purchasing our plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form <a href="http://themeforest.net/user/awsmin">here</a>. Thanks so much!</p>
+  </div>
+      
+      <hr>
+      <img src="assets/images/ead-intro.jpg" alt="EAD Intro" />
+      <hr>
+      <div class="block-content">
+    <p>'Embed Any Document Plus' WordPress plugin lets you upload and display your documents easily in your WordPress website without any additional browser plugins like Flash or Acrobat reader. 'Plus' version allows you to embed files from your Dropbox, Google Drive and Box.com accounts.</strong></p>
+        
+    <p>Similar to services like Scribd and SlideShare, 'Embed Any Document Plus' will allow you to embed supported files directly into your page or post, not requiring the user to have any other software installed to view the contents. </p>    
+    <hr>
+        
+        <h2>What can you use this plugin for?</h2>
+        <p><strong>Embed PDF Files:</strong> Do you have a PDF file you want to let people read from your website? Simply embed the document using Embed Any Document Plus. You can even run a website like Scribd using this plugin.</p>
+        <p><strong>Embed PowerPoint Presentations:</strong> Do you want to add your keynotes in your website and let your visitors browse them like in SlideShare? This is the right plugin for you.</p>
+        <p><strong>Embed Word and Excel documents:</strong> It is not so common to see a Word or Excel document embedded in a website. That's because there were no any easy way to do it. Embed Any Document Plus does that too. Check our the <a href="http://dev.awsm.in/innovations/embed-any-document-plugin-demo/" target="_blank">live demo.</a></p>
+   
+        
+    <hr>
+    
+         <h2>Quick Start Quide</h2>
+    <p><strong><a href="#installing">Install Plugin</a> > <a href="#cloudapi">Configure APIs</a> > <a href="#embedding">Start Embedding Documents.</a></strong> Yes, that's all!</p>
+    <p>A novice or an expert, you will not need anything more than 5 minutes to get this plugin installed and working in your WordPress website. Read the documentation carefully before you start. We agree that API configuration is a little bit tricky and looks 'high-tech'. Don't worry about it. Our <a href="#cloudapi">step-by-step guide</a> will help you to tackle it easily.</p>
+        
+    <hr>
+        
+    <p class="center"><a href="http://dev.awsm.in/innovations/embed-any-document-plugin-demo/" class="button" target="_blank">Live Demo</a> <a href="https://www.youtube.com/playlist?list=PLkjdRq_sbz-qBlyD8DnXVLRl-AASDDJFT" class="button" target="_blank">Watch Video Tutorials</a> <a href="http://awsm.in" class="button" target="_blank">Get Support</a></p>
+    <hr id="installing">
+    <h2>A. Installing Plugin</h2>
+    <img src="assets/images/ead-add-plugin.png" alt="Add Plugin" />
+    <p>Before beginning the installation and configuring of the plugin, you must first have WordPress already installed on a server.
+          Once you have setup a copy of WordPress, there are two ways you can go about installing the plugin:</p>
+    <ol>
+          <li><strong>FTP Upload:</strong> Unzip the download and upload the plugin directory /embed-any-document-plus/ into your WordPress plugins directory /wp-content/plugins/</li>
+          <li><strong>WordPress Upload:</strong> This is definitely the easiest route for most. Simply navigate to Plugins› Add New Plugin› Upload. Click the "browse" button and locate the still zipped plugin folder. The plugin will be uploaded and installed in a matter of seconds.</li>
+        </ol>
+    <hr id="embedding">
+    <h2>B. Embedding Documents</h2>
+    <p>Embed Any Document is integrated seamlessly into the post editor. With a click on 'Add Document' button it lets you upload documents directly into media library and embed them. Currently the plugin supports five methods for adding documents. </p>
+    <p> Click on the <img src="assets/images/btn-add-doc.png" alt"Add Document" style="position:relative; bottom:-10px;" /> button right next to 'Add Media' button in visual editor to get started. </p>
+    <img src="assets/images/ead-add-doc.png" alt="Add Document" />
+    <p>It will open a popup with different options</p>
+    <img src="assets/images/ead-add-pop.png" alt="Add Document Popup" />
+    <p>Insert Document Popup with advanced options.</p>
+    <img src="assets/images/ead-inser-doc.png" />
+    <hr>
+    <h3>B.1. Upload A Document</h3>
+    <p>This option lets you directly upload documents to your media library. The files will be uploaded to wp-content/uploads folder. </p>
+    <h3>B.2. Add from External URL</h3>
+    <img src="assets/images/ead-url-pop.png" alt="Add from URL" />
+    <p>Using this option you can add files hosted on a different server. Just insert the direct link in the text box and click on the Insert button. The document will be embedded instantly. The plugin will verify the URL for supported formats before you can insert it.</p>
+    <h3>B.3. Add from Dropbox</h3>
+    <img src="assets/images/ead-dropbox-pop.png" alt="Dopbox Popup" />
+    <p>This option lets you access and embed documents hosted in your Dropbox. To activate the feature you will need to create an API for your Dropbox account and insert in Embed Any Document Cloud Settings panel.</p>
+    <h3>B.3. Add from Google Drive</h3>
+    <img src="assets/images/ead-googledrive-pop.png" alt="Google Drive Popup" />
+    <p>This option lets you access and embed documents from your Google Drive. You have to either create a document in your Google Drive account or upload an existing document before you can embed. <strong>Your document must be publicly accessible to be able to view on your website.</strong></p>
+    <h3>B.3. Add from Box.com</h3>
+    <img src="assets/images/ead-box-pop.png" alt="Box.com Popup" />
+    <p>Embed your files hosted on the Box.com cloud service. Unlike the other options here the files will be displayed in Box.com's native viewer.</p>
+    <hr id="settings">
+    <h2>C. Settings &amp; Options</h2>
+    <p>You can access the settings page from 'Settings > Embed Any Document Plus'</p>
+    <h3>C.1. General Settings</h3>
+    
+     <img src="assets/images/ead-settings-general.png" />
+    <p>You can set default size and download link options from this page</p>
+    <h3>C.2. Cloud Settings</h3>
+     <img src="assets/images/ead-settings-cloud.png" />
+    <p>In order to make the cloud options work you need to generate API keys for the respective services and paste them here. <a href="#cloudapi">How to obtain keys</a>.</p>
+    <h3>C.3. Support</h3>    
+     <img src="assets/images/ead-settings-support.png" />
+    <p>Reaching us can't be easier than this! Feel free to use this tab any time. </p>
+
+    <hr id="cloudapi">
+    <h2>D. Configuring Cloud APIs</h2>
+    <p>To be able to embed documents from your cloud accounts you need to get an API key from the respective service providers and add them to Embed Any Documents Cloud Settings page.</p>
+        <img src="assets/images/ead-add-pop-noconfig.png" /> &nbsp;
+    <h3 id="dropboxapi">D.1. Getting Dropbox API Key</h3>
+    <p>You need to create a 'Drop-ins' App in Dropbox to get an API Key. Follow the steps below to get your API key.</p>
+    <ol>
+          <li>Click on <a href="https://www.dropbox.com/developers/apps/create?app_type_checked=dropins" target="_blank">this link</a></li>
+          <li>Choose 'Drop-ins app'</li>
+          <li>Enter a name for the app</li>
+          <li>Click on 'Create App' button</li>
+          <li>In App Settings page, add the domain name in which you have installed the plugin</li>
+          <li>Copy the API key</li>
+        </ol>
+    <img src="assets/images/ead-dropbox-api-1.png" /> <img src="assets/images/ead-dropbox-api-2.png" />
+    <hr class="space">
+    <hr class="space" id="driveapi">
+    <h3>D.2. Getting Google Drive API</h3>
+    <p>This is a bit tricky. You need to add a Client ID also along with API key for Google Drive. <strong>We highly recommend you to watch our video tutorial before you proceed.</strong></p>
+    <p><a href="https://www.youtube.com/watch?v=KKyIVFzkR2A" target="_blank" /><img src="assets/images/ead-googledrive-api.png" alt="How to obtain Google Drive API" /> </a></p>
+    <ol>
+          <li>Click <a href="https://console.developers.google.com/project" target="_blank">this link</a></li>
+          <li>Click on 'Create Project' button</li>
+          <li>Give your project a name and click on 'Create'</li>
+          <li>Click on 'APIs &amp; Auth' link in the left sidebar</li>
+          <li>Turn on <strong>Drive API</strong> and <strong>Google Picker API</strong></li>
+          <li>Click on 'Credentials' link in the left sidebar</li>
+          <li>Click on 'Create Client ID' button</li>
+          <li>Choose 'Web Application' in the popup and click on 'Configure consent screen' button</li>
+          <li>In consent screen choose your email address and enter a product name and click on 'Save'. You can leave the rest of the fields blank.</li>
+          <li>On the following screen enter the domain name in which you have installed the plugin and click on 'Create Client ID' button</li>
+          <li>Now you have your Client ID created. Now let's create your API key! Click on 'Create new key' button under 'Public API Access'</li>
+          <li>Click on 'Browser Key' button in the popup</li>
+          <li>Again enter the domain name in which you have installed the plugin and click on 'Create' button</li>
+          <li>Now copy Client ID and API Key from the 'Credentials' page and paste them in your website's 'Cloud Settings' page</li>
+        </ol>
+    <hr class="space">
+    <hr class="space" id="boxapi">
+    <h3>D.3. Getting Box.com API</h3>
+    <p>Getting an API key for your Box.com account is a rather simple thing. Click on the link below to watch video tutorial.</p>
+    <p><a href="https://www.youtube.com/watch?v=VwbuksoU5WY" target="_blank" /><img src="assets/images/ead-box-api.png" alt="How to obtain Box.com API Key" /> </a></p>
+    <ol>
+          <li>Click on <a href="https://app.box.com/developers/services/edit/" target="_blank">this link</a></li>
+          <li>Login to your Box.com Accont</li>
+          <li>From the following screen Select 'Box View'</li>
+          <li>Enter a name for app and click 'Create Application'</li>
+          <li>Click 'Configure your application' button from the following screen</li>
+          <li>Find your API key and copy/paste it in your plugin settings page.</li>
+        </ol>
+    <hr id="viewers">
+    <h2>E. The Viewers</h2>
+    The plugin supports three kinds of viewers.
+    <ul>
+          <li>Google Docs Viewer</li>
+          <li>Microsoft Office Online</li>
+          <li>Box.com Native</li>
+        </ul>
+    <h3>E.1. Google Docs Viewer</h3>
+    <p><a href="https://docs.google.com/viewer" target="_blank">The Google Docs Viewer</a> is an online service from Google to view and embed various types of document files. Embed Any Document plugin primarily uses Google Docs Viewer service to embed and display your documents.</p>
+    <h4>Supported file types</h4>
+    <ul>
+          <li>Microsoft Word (docx, docm, dotm, dotx)</li>
+          <li>Microsoft Excel (xlsx, xlsb, xls, xlsm)</li>
+          <li>Microsoft PowerPoint (pptx, ppsx, ppt, pps, pptm, potm, ppam, potx, ppsm)</li>
+          <li>Adobe Portable Document Format (pdf)</li>
+          <li>Text files (txt)</li>
+          <li>TIFF Images (tif, tiff)</li>
+          <li>Adobe Illustrator (ai)</li>
+          <li>Scalable Vector Graphics (svg)</li>
+        </ul>
+    <h3>E.2. Microsoft Office Online</h3>
+    <p><a href="http://products.office.com/en-us/office-online/view-office-documents-online" target="_blank">Office Online</a> is an online tool from Microsoft to easily embed and view Microsoft Office Documents. It is the best tool for viewing Office Documents online.</p>
+    <h4>Supported file types</h4>
+    <ul>
+          <li>Microsoft Word (docx, docm, dotm, dotx)</li>
+          <li>Microsoft Excel (xlsx, xlsb, xls, xlsm)</li>
+          <li>Microsoft PowerPoint (pptx, ppsx, ppt, pps, pptm, potm, ppam, potx, ppsm)</li>
+        </ul>
+    <h3>E.3. Box.com Native Document Viewer</h3>
+    <p>Files hosted in your Box.com account will be embedded using Box.com's native UI. You cannot change it to Google Docs Viwer or Microsoft Office Online.</p>
+    <hr id="shortcode">
+    <h2>F. Shortcode &amp; Attributes</h2>
+    <p>Example of a shortcode supported by Embed Any Document plugin is below</p>
+    <pre>[embeddoc url="http://awsm.in/ppt.pptx" width="550px" height="700px" download="none" viewer="microsoft"]</pre>
+    <p>Attributes are explained below</p>
+    <table>
+          <tr>
+        <td><code>url </code></td>
+        <td>File URL <br/>
+              Accepted Arguments: valid file url </td>
+      </tr>
+          <tr>
+        <td><code>width </code></td>
+        <td>Width of document either in px or in %. <br/>
+              Accepted Argument Examples: 90% , 590px etc.</td>
+      </tr>
+          <tr>
+        <td><code>height </code></td>
+        <td>Height of document in px. <br/>
+              Accepted Argument Example: 500px.</td>
+      </tr>
+          <tr>
+        <td><code>download </code></td>
+        <td>Show or hide download link. <br/>
+              Accepted Arguments: <br/>
+              <code>all</code> - For all user <br/>
+              <code>logged</code> - For logged user <br/>
+              <code>none</code> - no download </td>
+      </tr>
+          <tr>
+        <td><code>viewer </code></td>
+        <td>Service provider <br/>
+              Accepted Arguments: <code>google, drive, box, microsoft</code></td>
+      </tr>
+        </table>
+    <hr id="faqs">
+    <h2>G. FAQs</h2>
+    <h4>1. How do I add documents?</h4>
+    <p>Once the plugin is activated you can find 'Add Document' button in your WordPress visual editor. Just click on that and follow your heart.</p>
+    <h4>2. File not found error in my localhost site!</h4>
+    <p>The viewers (Google Docs Viewer and Microsoft Office Online) do not support locally hosted files. Your document has to be available online for the viewers to access.</p>
+    <hr id="issues">
+    <h2>H. Known Issues</h2>
+    <h4>1. Google Docs Viewer shows Bandwidth exceeded or File can't be opened error.</h4>
+    <p> The issue is caused by Google Docs Viewer, not the plugin. Google Docs Viewer is a standalone documents viewer which doesn't limit bandwidth. When the problem occurs, usually reloading the page will result in the document loading properly. If it is still not working try changing the viewer to Microsoft Office Online (for MS Office Documents) or upload document to your Google Drive and embed it directly from there.</p>
+    <h4>2. Large files are not working</h4>
+    <p>The viewers can handle files of a limited size only (Maximum 8MB for Google Docs Viewer and 10MB for Microsoft Office Online). Try your best to keep the documents under 5MB. Check out some <a href="http://office.microsoft.com/en-in/word-help/ways-to-reduce-file-size-HP005230740.aspx?redir=0" target="_blank">ways to reduce file size.</a> <strong>If you have a larger file you want to embed in your website, try uploading it to your Google Drive or Box.com account and embed directly from there.</strong></p>
+    <hr>
+    <p>For more information and instructions visit <a href="http://awsm.in/embed-any-document/" rel="nofollow">our website.</a>.</p>
+    <p>This is an <a href="http://awsm.in" rel="nofollow">AWSM</a> Project.</p>
+    <div id="plugin-tags"> </div>
+  </div>
+      <hr class="space">
+    </div>
+<!-- end div .container -->
+</body>
+</html>

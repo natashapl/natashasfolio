@@ -1,0 +1,524 @@
+/*
+Theme Name: Moesia Child
+Theme URI: http://athemes.com/theme/moesia
+Template: moesia
+Author: Natasha Pierre-Louis
+Author URI: http://natashasworld.com/
+Description: Moesia child theme
+Tags: Light,Two Columns,Three Columns,Right Sidebar,Fluid Layout,Responsive Layout,Custom Colors,Custom Background,Custom Header,Custom Menu,Featured Images,Sticky Post,Theme Options,Threaded Comments,Translation Ready
+Version: 1.0.1527494436
+Updated: 2018-08-19 14:36
+
+*/
+
+input, textarea {
+    border: 1px solid #333;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #3b6b94;
+    -moz-box-shadow: 0 5px 0 #29577f;
+    -webkit-box-shadow: 0 5px 0 #29577f;
+    -o-box-shadow: 0 5px 0 #29577f;
+    box-shadow: 0 5px 0 #29577f;
+}
+.main-navigation {
+    margin-top: 20px;
+}
+.main-navigation a {
+    font-size: 14px;
+    outline: none;
+}
+.search-close {
+    width: 26px;
+    height: 26px;
+}
+.post-navigation .nav-previous, .post-navigation .nav-next, .paging-navigation .nav-previous, .paging-navigation .nav-next {
+    background-color: #3b6b94;
+}
+.moesia_recent_comments .list-group-item, .moesia_recent_posts_widget .list-group-item {
+    padding-top: 0;
+    line-height: normal;
+}
+.hentry .entry-content img {
+    margin-bottom: 0;
+}
+.entry-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.entry-footer {
+    border-top: 1px solid #ebebeb;
+}
+.site-branding {
+    max-width: 375px;
+}
+.site-description {
+    display: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+.service-title, .employee-name, .latest-news-area .entry-title {
+    font-size: 18px;
+}
+.social-area a:before {
+    font-size: 60px;
+    text-shadow: 0 0 1px #3b6b94;
+}
+.pp-icon {
+    display: none;
+}
+.project-image:hover > .link-icon {
+    left: 40%;
+}
+.top-bar {
+    -moz-box-shadow: 0 1px 1px #ddd;
+    -webkit-box-shadow: 0 1px 1px #ddd;
+    -o-box-shadow: 0 1px 1px #ddd;
+    box-shadow: 0 1px 1px #ddd;
+    opacity: 1;
+}
+.welcome-title {
+    margin-bottom: 15px;
+    font-size: 60px;
+    text-shadow: inherit;
+}
+.welcome-desc {
+    font-size: 32px;
+    color: #fff;
+    text-shadow: inherit;
+    padding: 0 90px;
+}
+.menu-toggle {
+    float: right !important;
+    margin: 20px 0 !important;
+}
+a:hover, a:focus {
+    color: #29577f;
+}
+ul, ol {
+    margin-bottom: 20px;
+}
+h1, h2, h2 label, h3, h4 {
+    font-weight: normal;
+}
+a {
+    color: #3b6b94;
+    outline: none;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+ul li, ol li {
+    margin-bottom: 10px;
+}
+.welcome-button, .welcome-button:focus {
+    outline: 0;
+}
+.sticky-wrapper {
+    background-color: #fff;
+}
+.is-sticky .site-branding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.site-branding h1 a {
+    display: block;
+    background-position: 0 10px;
+    background-size: 65px auto;
+    background-repeat: no-repeat;
+	padding: 30px 0 10px;
+    min-height: 95px;
+    -o-background-size: 65px auto;
+}
+
+.mPS2id-highlight {
+    color: #3b6b94 !important;
+    font-weight: bold;
+}
+.entry-meta, .entry-meta a, .entry-footer, .entry-footer a, .moesia_recent_posts_widget h4 a, .moesia_recent_comments, .moesia_recent_comments span, .moesia_recent_comments a.post-title, .footer-widget-area .widget, .footer-widget-area .widget a, .widget-area .widget, .widget-area .widget a {
+    color: #333 !important;
+}
+.moesia_recent_posts_widget h4, .moesia_recent_comments {
+    font-size: 14px;
+}
+.site-info {
+    font-size: 14px;
+    color: #ccc;
+}
+.contentRow {
+    overflow: hidden;
+}
+.contentColumn {
+    float: left;
+}
+.contentRow.aboutMe .contentColumn {
+    width: 700px;
+}
+.contentColumn.skillsDescription {
+    padding: 10px 0;
+}
+.contentRow.skillsBar #skillbar_straight {
+    float: left;
+    border-left: 1px solid #ccc;
+    padding: 10px 0 0 30px !important;
+    margin: 0 0 0 20px;
+}
+.contentColumn.skillsDescription, .contentRow.skillsBar #skillbar_straight {
+    width: 45%;
+}
+.panel.widget {
+    padding: 0 30px 80px;
+}
+.panel.widget h3.widget-title {
+    font-size: 32px !important;
+    padding: 80px 0 0;
+}
+section .widget-title:after, .panel.widget .widget-title:after {
+    border-bottom: 6px double #6a98bf;
+}
+.blackBgRow section .widget-title, .blackBgRow .panel.widget .widget-title, .blackBgRow .client-name, .blackBgRow .client-function, .blackBgRow .all-news, .blackBgRow .all-news:hover {
+    color: #fff;
+}
+.blackBgRow section .widget-title:after, .blackBgRow .panel.widget .widget-title:after {
+    border-bottom: 6px double #fff;
+}
+.blackBgRow .all-news {
+    border: 1px solid #fff;
+}
+.blackBgRow .all-news:hover {
+    -moz-box-shadow: 0 0 2px #fff;
+    -webkit-box-shadow: 0 0 2px #fff;
+    -o-box-shadow: 0 0 2px #fff;
+    box-shadow: 0 0 2px #fff;
+}
+span.wpcf7-form-control-wrap {
+    display: block;
+}
+.wpcf7-textarea {
+    width: 100%;
+    min-height: 194px;
+}
+.contactPage p {
+    margin: 0 0 13px;
+}
+.search-wrapper label {
+    width: 100%;
+    font-weight: normal;
+}
+.search-wrapper input {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 10px;
+}
+.single-projects .content-area {
+    width: 100%;
+}
+.single-projects .widget-area, .singlePageRow #projects .widget-title, .singlePageRow #testimonials .widget-title {
+    display: none;
+}
+.singlePageRow #testimonials {
+    padding-top: 0;
+}
+.hentry .post-content, .single .hentry {
+    border: 1px solid #ebebeb;
+}
+.page .hentry {
+    background-color: transparent;
+    padding-top: 0;
+    border: none;
+    min-height: 500px;
+}
+.projects img, .projects figure {
+    border: 1px solid #ddd;
+}
+.projects figure img {
+    border: none;
+}
+.projects .wp-caption .wp-caption-text {
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    padding: 0.8075em 0;
+    margin: 0;
+}
+.post-navigation, .paging-navigation, .post-navigation a, .post-navigation a:hover, .paging-navigation, .paging-navigation a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.skillsArea {
+	padding: 80px 0;
+}
+.singlePageRow .projects-area, .singlePageRow section .container {
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+.singlePageRow .project-image {
+    max-width: 350px;
+    border: 1px solid #444;
+    max-height: 251px;
+}
+.singlePageRow .projects-area .widget-title {
+    padding-top: 40px;
+    color: #333;
+}
+.singlePageRow section .widget-title:after {
+    border-bottom: 6px double #6a98bf;
+}
+.singlePageRow .project {
+    overflow: hidden;
+}
+.single-projects .fa-external-link:before {
+    font-size: 11px;
+}
+#page .panel-grid {
+    background-color: transparent;
+    border-bottom: none;
+}
+#page .entry-footer {
+    border-top: none;
+    padding: 0;
+    margin: 0;
+}
+.post-navigation .nav-previous, .post-navigation .nav-next, .paging-navigation 
+.nav-previous, .paging-navigation .nav-next {
+    font-size: 14px;
+}
+.social-widget a[href*="natashapierrelouis.com"]::before, .social-area a[href*="natashapierrelouis.com"]::before {
+    content: "";
+}
+.panel-grid-cell section.social-area {
+    border-top: 1px solid #ccc;
+    padding: 80px 0;
+}
+.whiteBorderPhoto {
+    border: 8px solid #fff;
+    -moz-box-shadow: 0 2px 9px #333;
+    -webkit-box-shadow: 0 2px 9px #333;
+    -o-box-shadow: 0 2px 9px #333;
+    box-shadow: 0 2px 9px #333;
+    margin: 0.4em 1.5em 1.5em 0.5em !important;
+}
+.small {
+    font-size: 14px;
+}
+#subscribe-email input {
+    padding: 5px;
+}
+#subscribe-submit input[type="submit"] {
+    font-size: 14px;
+    padding: 7px 15px;
+}
+.skill-bar-percent {
+    color: #333;
+}
+.resumePage h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+.resumePage h2 span {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+}
+.resumePage .contentColumn {
+    width: 45%;
+}
+.resumePage h4.last-child {
+    margin-top: 20px;
+}
+.post-525 header.entry-header {
+    display: none;
+}
+.contentColumn.skills {
+    float: right;
+}
+.resumePage  #skillbar_straight {
+    width: 100%;
+}
+.contactPage input, .contactPage textarea {
+    max-width: 100%;
+}
+.contactPage div.wpcf7 {
+    width: 60%;
+    float: left;
+    margin-right: 20px;
+}
+.contactPage .contentColumn {
+    width: 34%;
+}
+div.wpcf7-response-output {
+    clear: both;
+}
+div.wpcf7 img.ajax-loader {
+    display: none;
+}
+.submitButton {
+    text-align: right;
+    padding: 15px 0 0;
+}
+#filters {
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 30px;
+}
+#filters li {
+    float: left;
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#filters li a {
+    color: #777;
+    outline: none;
+}
+#filters li a.selected {
+    font-weight: bold;
+}
+#filters li a.selected, #filters li a:hover {
+    color: #3b6b94;
+}
+#filters .seperator {
+    color: #ccc;
+}
+#filters li a, #filters .seperator {
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+@media only screen and (max-width: 1024px) {
+.contentColumn.skillsDescription, #skillbar_straight, .contentRow.aboutMe .contentColumn, .contentRow.skillsBar .contentColumn {
+    float: none;
+}
+.contentColumn.skillsDescription, .contentRow.aboutMe .contentColumn, .contentRow.skillsBar .contentColumn {
+    width: 100%;
+}
+.contentRow #skillbar_straight, .contentRow.skillsBar  #skillbar_straight {
+    width: 90% !important;
+    border-left: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+}
+@media screen and (max-width: 991px) {
+.main-navigation.toggled {
+    margin-top: 0;
+}
+.site-branding.col-md-4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+#filters .seperator {
+    display: none;
+}
+#filters li a {
+    padding: 0 20px 0 0;
+}
+}
+@media only screen and (max-width: 991px) {
+.welcome-info {
+    top: 170px;
+}
+.blog-post:nth-of-type(3) {
+    clear: both;
+    margin-top: 30px;
+}
+.contactPage .contentColumn, .contactPage div.wpcf7 {
+    width: 100%;
+    float: none;
+}
+}
+@media only screen and (max-width: 780px) {
+.site-header {
+    display: none;
+}
+}
+@media only screen and (max-width: 767px) {
+.blog-post:nth-of-type(3) {
+    clear: both;
+}
+}
+@media only screen and (max-width: 600px) {
+.welcome-info {
+    top: 80px;
+}
+.panel-grid-cell section, .panel.widget {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+}
+@media only screen and (max-width: 499px) {
+.welcome-desc {
+    font-size: 20px;
+}
+.welcome-button {
+    margin-top: 30px;
+}
+.welcome-title {
+    font-size: 40px;
+}
+.panel-grid-cell {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.project {
+    padding: 0;
+}
+}
+@media (max-width: 499px) {
+section .widget-title, .panel.widget .widget-title {
+    font-size: 28px;
+}
+}
+@media only screen and (max-width: 450px) {
+.site-branding h1 a {
+    display: block;
+    background-position: 0 10px;
+    background-size: 40px auto;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    padding-left: 50px !important;
+    -webkit-background-size: 40px auto;
+    -moz-background-size: 40px auto;
+    max-width: 180px;
+    font-size: 20px;
+    background-image: url("http://natashasworld.com/journal/wp-content/uploads/2015/02/nwordl-logo-gray.png");
+    min-height: 60px;
+    -o-background-size: 40px auto;
+}
+.site-branding {
+    max-width: 250px;
+}
+}
+@media only screen and (max-width: 416px) {
+.welcome-info {
+    top: 50px;
+}
+.contentRow #skillbar_straight {
+    display: none;
+}
+}
+@media (max-width: 390px) {
+.whiteBorderPhoto {
+    max-width: 200px;
+}
+}
+@media (max-width: 360px) {
+.welcome-title {
+    font-size: 30px;
+}
+}
+@media (max-width: 320px) {
+.site-branding.col-md-4 {
+    text-align: left;
+}
+.site-title {
+    font-size: 24px;
+}
+}
+@media (max-width: 200px) {
+.welcome-title {
+    font-size: 24px;
+}
+}

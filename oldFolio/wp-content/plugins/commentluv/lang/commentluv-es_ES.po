@@ -1,0 +1,583 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.90.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-12 18:43-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Valentin Yonte <info@activosenred.com>\n"
+"Language-Team: Valentin Yonte - Activos en Red <info@activosenred.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:48
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv requiere Wordpress 3.0 o superior"
+
+#: ../commentluv.php:48
+msgid "Please Update!"
+msgstr "Por favor, actualizar!"
+
+#: ../commentluv.php:217
+msgid "Please enter a URL and then click the CommentLuv checkbox if you want to add your last blog post"
+msgstr "Escribe una URL, y haz click en la casilla de verificación"
+
+#: ../commentluv.php:218
+msgid "Please use http:// in front of your url"
+msgstr "Por favor, usa http:// delante de tu url"
+
+#: ../commentluv.php:219
+msgid "You need to visit your profile in the dashboard and update your details with your site URL"
+msgstr "Debes acceder a tu perfil en el tablero y actualizar los detalles de tu URL"
+
+#: ../commentluv.php:220
+msgid "No info was available or an error occured"
+msgstr "Información no disponible o se ha producido un error"
+
+#: ../commentluv.php:243
+msgid "Please wait"
+msgstr "Por favor, espera"
+
+#: ../commentluv.php:243
+msgid "Please check your inbox, an email will be sent to"
+msgstr "Por favor, comprueba tu bandeka de entrada. Te hemos enviado un correo"
+
+#: ../commentluv.php:243
+msgid "in the next few minutes with a confirmation link"
+msgstr "en los próximos minutos con un enlace de confirmación"
+
+#: ../commentluv.php:243
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "Se ha producido un error en la solicitud. Intenta identificarte en el sitio"
+
+#: ../commentluv.php:272
+msgid "Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr "La instalación de tu Wordpress ha perdido la tabla <strong>wp_commentmeta</strong>"
+
+#: ../commentluv.php:272
+msgid " CommentLuv cannot work without this table please see this wordpress forum post to learn how to add one ->"
+msgstr "CommentLuv no puede funcionar sin esta tabla. Ve a este artículo en el foro de wordpress para aprender como añadirla ->"
+
+#: ../commentluv.php:272
+msgid "Missing wp_commentmeta table"
+msgstr "Tabla perdida wp_commentmeta"
+
+#: ../commentluv.php:365
+msgid "Twice Monthly"
+msgstr "Dos veces al mes"
+
+#: ../commentluv.php:392
+msgid "CommentLuv is enabled"
+msgstr "CommentLuv está activado"
+
+#: ../commentluv.php:433
+msgid "Show more posts"
+msgstr "Mostrar más artículos"
+
+#: ../commentluv.php:523
+msgid "I have only commented on this post"
+msgstr "Sólo he comentado en este artículo"
+
+#: ../commentluv.php:526
+msgid "If I had made more comments on this site, you would see more of my other posts here"
+msgstr "Si hago más comentarios en este sitio, podrás verlos aquí"
+
+#: ../commentluv.php:551
+msgid "User has not saved a description in their profile page"
+msgstr "El usuario no ha guardado una descripcion en su página de perfil"
+
+#: ../commentluv.php:563
+msgid "is the administrator of this site"
+msgstr "es el administrador de este sitio"
+
+#: ../commentluv.php:565
+msgid "is a registered member of my site"
+msgstr "es un miembro registrado de mi sitio"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:587
+msgid "Clicks on this link on this comment"
+msgstr "Click sobre este link en este comentario"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:588
+msgid "approved comments on this site"
+msgstr "Comentarios aprobados en este sitio"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:589
+msgid "Some other posts I have commented on"
+msgstr "Otros artículos sobre los que he comentado"
+
+#: ../commentluv.php:568
+msgid "Some of my other posts"
+msgstr "Otros de mis artículos"
+
+#: ../commentluv.php:581
+msgid "has not registered on this site"
+msgstr "No estás registrado en este sitio"
+
+#: ../commentluv.php:703
+msgid "Could not get posts for home blog"
+msgstr "No puedo obtener artículos del blog principal"
+
+#: ../commentluv.php:759
+msgid "If you are registered, you need to log in to get 10 posts to choose from"
+msgstr "Si estas registrado, necesitas identificarte para elegir 10 mensajes"
+
+#: ../commentluv.php:783
+#: ../commentluv.php:1235
+msgid "Register"
+msgstr "Registro"
+
+#: ../commentluv.php:788
+msgid "recently posted"
+msgstr "publicado recientemente"
+
+#: ../commentluv.php:789
+msgid "If you register as a user on my site, you can get your 10 most recent blog posts to choose from in this box."
+msgstr "Si eres usuario registrado en mi sitio, puedes obtener las 10 publicaciones más recientes en este recuadro."
+
+#: ../commentluv.php:790
+msgid "If this user had registered to my site then they could get 10 last posts to choose from when they comment and you would be able to see a list of their recent posts in this panel"
+msgstr "Si este usuario se ha registrado en mi sitio, podran obtener las 10 últimas publicaciones seleccionadas, y una lista de los últimos comentarios realizados."
+
+#: ../commentluv.php:971
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ../commentluv.php:1010
+msgid "No Posts Were Found!"
+msgstr "No se han encontrado artículos!"
+
+#: ../commentluv.php:1050
+msgid "There is a new version of Commentluv available, please upgrade by visiting this site"
+msgstr "Hay una nueva versión de CommentLuv disponible, por favor, actualízala visitando este sitio"
+
+#: ../commentluv.php:1053
+msgid "Dismiss notice"
+msgstr "Descartar aviso"
+
+#: ../commentluv.php:1080
+msgid "CommentLuv Settings v"
+msgstr "Ajustes commentLuv"
+
+#: ../commentluv.php:1090
+msgid "Important!"
+msgstr "importante!"
+
+#: ../commentluv.php:1090
+msgid "Subscription Information"
+msgstr "Información de suscripción"
+
+#: ../commentluv.php:1095
+msgid "CommentLuv 3.0 Premium is coming soon!"
+msgstr "CommentLuv 3.0 Premium estará disponible muy pronto"
+
+#: ../commentluv.php:1096
+msgid "I promise not to sell your details or send you spam. You will ONLY receive emails about plugin updates."
+msgstr "Te prometí no venderte detalles o enviarte spam. SOLO recibirás emails referente a actualizaciones del plugin."
+
+#: ../commentluv.php:1099
+msgid "There is a premium version of CommentLuv coming that will have much more control of how the plugin works as well as exclusive features like keyword name, inline registration and much much more!. Signup to find out as soon as it is ready"
+msgstr "Hay una versión Premium de CommentLuv por venir que ofrece mejor cocntrol sobre el funcionamiento del plugin, así como características, nombre de palabras clave, registro en linea y mucho, mucho mas! Regístrate para saber cuando esté lsita."
+
+#: ../commentluv.php:1102
+msgid "You have already subscribed, if you have not received the verification within 12 hours, please click the button to resend or try the form at"
+msgstr "Ya estás registrado, si no has recibido la verificación dentro de las siguientes 12 horas. por favor, haz click en el botón para reenviarla, o completa el formulario en:"
+
+#: ../commentluv.php:1102
+msgid "Resend Verification"
+msgstr "Reenviar Verificación"
+
+#: ../commentluv.php:1104
+msgid "Click to register now!"
+msgstr "Click para registrarte ahora!"
+
+#: ../commentluv.php:1119
+msgid "Primary Setting"
+msgstr "Ajuste principal"
+
+#: ../commentluv.php:1119
+#: ../commentluv.php:1153
+#: ../commentluv.php:1212
+#: ../commentluv.php:1268
+#: ../commentluv.php:1299
+msgid "Help Video"
+msgstr "Video ayuda"
+
+#: ../commentluv.php:1123
+msgid "Enable CommentLuv?"
+msgstr "Activar CommentLuv?"
+
+#: ../commentluv.php:1124
+msgid "Yes"
+msgstr "Si"
+
+#: ../commentluv.php:1125
+msgid "No"
+msgstr "No"
+
+#: ../commentluv.php:1130
+msgid "On Posts"
+msgstr "En Artículos"
+
+#: ../commentluv.php:1131
+msgid "On Pages"
+msgstr "En Páginas"
+
+#: ../commentluv.php:1132
+msgid "On Both"
+msgstr "Ambas"
+
+#: ../commentluv.php:1137
+msgid "On by default?"
+msgstr "ACTIVADO por defecto?"
+
+#: ../commentluv.php:1141
+msgid "On for admin?"
+msgstr "ACTIVADO para admin?"
+
+#: ../commentluv.php:1153
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: ../commentluv.php:1157
+msgid "Badge"
+msgstr "Distintivo"
+
+#: ../commentluv.php:1158
+msgid "Custom Image URL"
+msgstr "URL de imagen personalizada"
+
+#: ../commentluv.php:1159
+msgid "Use Text"
+msgstr "Usar Texto"
+
+#: ../commentluv.php:1167
+msgid "Default"
+msgstr "Defecto"
+
+#: ../commentluv.php:1168
+msgid "White"
+msgstr "Blanco"
+
+#: ../commentluv.php:1169
+msgid "Black"
+msgstr "Negro"
+
+#: ../commentluv.php:1170
+msgid "None"
+msgstr "Ninguno"
+
+#: ../commentluv.php:1187
+msgid "Link to Commentluv?"
+msgstr "Enlace a CommentLuv?"
+
+#: ../commentluv.php:1194
+msgid "Enable info panel?"
+msgstr "Activar Info panel?"
+
+#: ../commentluv.php:1195
+msgid "Info panel background color"
+msgstr "Color de fondo para el Info panel"
+
+#: ../commentluv.php:1196
+msgid "Info panel text color"
+msgstr "Color del texto para el Info panel"
+
+#: ../commentluv.php:1202
+msgid "Example text and background color"
+msgstr "Texto y color de fondo de ejemplo"
+
+#: ../commentluv.php:1212
+msgid "Messages"
+msgstr "Mensajes"
+
+#: ../commentluv.php:1219
+msgid "Text to be displayed in the comment"
+msgstr "Texto para ser visualizado en el comentario"
+
+#: ../commentluv.php:1222
+msgid "[name] = The users name"
+msgstr "[name] = nombre de usuarios"
+
+#: ../commentluv.php:1222
+msgid "[lastpost] = The last blog post link"
+msgstr "[lastpost] = Enlace al último artículo del blog"
+
+#: ../commentluv.php:1229
+msgid "Message for unregistered user in the drop down box"
+msgstr "Mensaje para usuario sin registrar en el menú desplegable"
+
+#: ../commentluv.php:1230
+#: ../commentluv.php:1254
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr "El mensaje no será mostrado si no tienes el registro activado"
+
+#: ../commentluv.php:1234
+msgid "Your register link code"
+msgstr "Tu código para el enlace de registro"
+
+#: ../commentluv.php:1244
+msgid "You have NOT set your blog to allow registrations, you can do that in Settings/General"
+msgstr "No has configurado tu blog para aceptar registros, puedes hacerlo desde el menú Ajustes/General"
+
+#: ../commentluv.php:1245
+msgid "here"
+msgstr "Aquí"
+
+#: ../commentluv.php:1253
+msgid "Message for unregistered user in the info panel"
+msgstr "Mensaje para usuarios no registrados en el Info panel"
+
+#: ../commentluv.php:1268
+msgid "Operational Settings"
+msgstr "Ajustes operacionales"
+
+#: ../commentluv.php:1275
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "Quién da los 10 últimos comentarios para elegir cuando comentan?"
+
+#: ../commentluv.php:1276
+msgid "Only Registered Members"
+msgstr "Sólo miembros registrados"
+
+#: ../commentluv.php:1277
+msgid "Everybody"
+msgstr "Todo el mundo"
+
+#: ../commentluv.php:1278
+msgid "Nobody"
+msgstr "Nadie"
+
+#: ../commentluv.php:1285
+msgid "Whose links should be dofollow?"
+msgstr "Que enlaces deben ser dofollow?"
+
+#: ../commentluv.php:1286
+msgid "Only Registered Members Links"
+msgstr "Sólo enlaces de miembros registrados"
+
+#: ../commentluv.php:1287
+msgid "Everybody gets dofollow links"
+msgstr "Todo el mundo obtiene enlaces dofollows"
+
+#: ../commentluv.php:1288
+msgid "Nobody gets dofollow links"
+msgstr "Nadie obtiene enlaces dofollow"
+
+#: ../commentluv.php:1299
+msgid "Technical Settings"
+msgstr "Ajustes técnicos"
+
+#: ../commentluv.php:1299
+msgid "Click to open technical settings"
+msgstr "Click para abrir ajustes técnicos"
+
+#: ../commentluv.php:1306
+msgid "Please check the help video for this section before changing settings"
+msgstr "Por favor, comprueba los vídeos de ayuda para esta sección antes de cambiar ajustes"
+
+#: ../commentluv.php:1307
+msgid "In most cases, you will NOT need to change the settings in this box unless you have a custom comment form, template or you are using minifying or caching plugins"
+msgstr "En la mayoría de los casos, NO necesitarás cambiar los ajustes en estos cuadros aunque tengas un formulario para comentarios personalizado, plantilla o estés usando minifying or o plugins de cache."
+
+#: ../commentluv.php:1312
+msgid "Compatibility"
+msgstr "Compatibilidad"
+
+#: ../commentluv.php:1316
+msgid "Use manual insert of badge code?"
+msgstr "Insertar distintivo manualmente en el código?"
+
+#: ../commentluv.php:1320
+msgid "Enable minifying compatibility?"
+msgstr "Activar la compativilidad con minify?"
+
+#: ../commentluv.php:1321
+msgid "For caching plugins (places localized code in footer)"
+msgstr "Para cachear plugins (colocar el código localizado en el footer)"
+
+#: ../commentluv.php:1326
+msgid "API URL"
+msgstr "URL API"
+
+#: ../commentluv.php:1330
+msgid "URL to use for API"
+msgstr "URL para usar para API"
+
+#: ../commentluv.php:1334
+msgid "Comment Form Field Values"
+msgstr "Valores del campo de formulario Comentario"
+
+#: ../commentluv.php:1337
+msgid "Authors Name field name"
+msgstr "Nombre de campo Nombre de autor"
+
+#: ../commentluv.php:1342
+msgid "Email field name"
+msgstr "Nombre del campo email"
+
+#: ../commentluv.php:1347
+msgid "Authors URL field name"
+msgstr "Nombre de campo  URL de autor"
+
+#: ../commentluv.php:1352
+msgid "Comment Text Area name"
+msgstr "Nombre de area Texto de Comentario"
+
+#: ../commentluv.php:1357
+msgid "Diagnostics Info"
+msgstr "Información de diagnóstico"
+
+#: ../commentluv.php:1375
+msgid "You can copy this information and send it to me if I request it"
+msgstr "Puedes copiar esta información y enviármela a mi si es requerido"
+
+#: ../commentluv.php:1382
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: ../commentluv.php:1384
+msgid "Reset Settings"
+msgstr "Reinicar ajustes"
+
+#: ../commentluv.php:1387
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr "Estás seguro de que quieres reiniciar tus ajustes? Presiona OK para continuar"
+
+#: ../commentluv.php:1390
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: ../commentluv.php:1398
+msgid "Plugin Info"
+msgstr "Información del pluging"
+
+#: ../commentluv.php:1401
+msgid "Start Here"
+msgstr "Comienza aquí"
+
+#: ../commentluv.php:1402
+msgid "Author"
+msgstr "Autor"
+
+#: ../commentluv.php:1403
+msgid "Home Page"
+msgstr "Página de inicio"
+
+#: ../commentluv.php:1403
+msgid "Visit www.commentluv.com!"
+msgstr "Visita www.commentluv.com"
+
+#: ../commentluv.php:1404
+msgid "Social"
+msgstr "Social"
+
+#: ../commentluv.php:1405
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../commentluv.php:1405
+msgid "Help Desk"
+msgstr "Soporte"
+
+#: ../commentluv.php:1406
+msgid "Do you like this plugin?"
+msgstr "Te gusta el plugin?"
+
+#: ../commentluv.php:1408
+msgid "News"
+msgstr "Novedades"
+
+#: ../commentluv.php:1414
+msgid "Thanks to the following for translations"
+msgstr "Gracias a los traductores"
+
+#: ../commentluv.php:1415
+msgid "Italian"
+msgstr "Italiano"
+
+#: ../commentluv.php:1416
+msgid "Dutch"
+msgstr "Alemán"
+
+#: ../commentluv.php:1417
+msgid "Polish"
+msgstr "Polaco"
+
+#: ../commentluv.php:1418
+msgid "Georgian"
+msgstr "Georgiano"
+
+#: ../commentluv.php:1419
+msgid "Lithuanian"
+msgstr "Lituano"
+
+#: ../commentluv.php:1420
+msgid "Portuguese"
+msgstr "Portugués"
+
+#: ../commentluv.php:1421
+msgid "Malaysian"
+msgstr "Malasio"
+
+#: ../commentluv.php:1422
+msgid "Hindi"
+msgstr "Indio"
+
+#: ../commentluv.php:1423
+msgid "Russian"
+msgstr "Ruso"
+
+#: ../commentluv.php:1424
+msgid "Chinese"
+msgstr "Chino"
+
+#: ../commentluv.php:1425
+msgid "Hebrew"
+msgstr "Hebreo"
+
+#: ../commentluv.php:1426
+msgid "French"
+msgstr "Frances"
+
+#: ../commentluv.php:1428
+msgid "Romanian"
+msgstr "Rumano"
+
+#: ../commentluv.php:1429
+msgid "German"
+msgstr "Aleman"
+
+#: ../commentluv.php:1430
+msgid "Arabic"
+msgstr "Arabe"
+
+#: ../commentluv.php:1432
+msgid "Want your link here?"
+msgstr "Quieres tu enlace aquí?"
+
+#: ../commentluv.php:1432
+msgid "How To Submit A Translation"
+msgstr "Como hacer una traducción"
+
+#: ../commentluv.php:1433
+msgid "Special thanks go to the following"
+msgstr "Un agradecimiento especial a:"
+
+#: ../commentluv.php:1434
+msgid "CSS Help"
+msgstr "Ayuda CSS"
+
+#: ../commentluv.php:1435
+msgid "Badge GFX"
+msgstr "GFX de distintivo"
+

@@ -1,0 +1,5 @@
+0000.030 (R) [notice] Looking for others archive: file name: backup_2016-12-28-2226_Natasha039s_World_a4cc14e650c5-others.zip
+0000.030 (R) [notice] Archive is expected to be size: 5429.5 KB: OK
+0000.043 (R) [notice] Unpacking backup... (backup_2016-12-28-2226_Natasha039s_World_a4cc14e650c5-others.zip, 5.3 Mb)
+0000.078 (R) [notice] Cleaning up rubbish...
+0000.083 (R) [notice] Restore successful!

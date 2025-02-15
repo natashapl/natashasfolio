@@ -1,0 +1,12 @@
+0000.031 (R) [notice] Looking for plugins archive: file name: backup_2016-12-28-2226_Natasha039s_World_a4cc14e650c5-plugins.zip
+0000.031 (R) [notice] Archive is expected to be size: 15215.3 KB: OK
+0000.035 (R) [notice] Looking for themes archive: file name: backup_2016-12-28-2226_Natasha039s_World_a4cc14e650c5-themes.zip
+0000.035 (R) [notice] Archive is expected to be size: 12255.8 KB: OK
+0000.039 (R) [notice] Looking for uploads archive: file name: backup_2016-12-28-2226_Natasha039s_World_a4cc14e650c5-uploads.zip
+0000.039 (R) [notice] Archive is expected to be size: 32600.3 KB: OK
+0000.042 (R) [notice] Looking for others archive: file name: backup_2016-12-28-2226_Natasha039s_World_a4cc14e650c5-others.zip
+0000.042 (R) [notice] Archive is expected to be size: 5429.5 KB: OK
+0000.054 (R) [notice] Unpacking backup... (backup_2016-12-28-2226_Natasha039s_World_a4cc14e650c5-plugins.zip, 14.9 Mb)
+0000.064 (R) [notice] Error message: The package could not be installed.
+0000.065 (R) [warning] Error data: PCLZIP_ERR_BAD_FORMAT (-10) : Invalid archive structure
+0000.065 (R) [notice] Restore failed...

@@ -1,0 +1,1 @@
+Mass replaced SimplePie with SimpleCluvPie to prevent colliding with other plugins/wp

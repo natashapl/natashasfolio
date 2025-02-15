@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-10 15:17-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alexandr <pixelpwnz@gmail.com>\n"
+"Language-Team: Alyona Lompar <alyona.lompar@aol.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv-manager.php:26
+msgid "This plugin takes the url from the comment form and tries to parse the feed of the site and display the last entry made. If you have any questions, comments or if you have a good idea that you would like to see in the next version of CommentLuv, please visit http://comluv.com and let me know."
+msgstr "Цей плагін бере URL з форми для коментарів і намагається проаналізувати цей сайт і відображає останній зроблений запис. Якщо у Вас виникли питання, коментарі або якщо у вас є хороша ідея, яку ви хотіли б бачити в наступній версії CommentLuv, будь ласка, відвідайте http://comluv.com і дайте мені знати"
+
+#: ../commentluv-manager.php:36
+msgid "Display Options"
+msgstr "Параметри дисплея"
+
+#: ../commentluv-manager.php:40
+msgid "Enter the text you want displayed in the comment"
+msgstr "Введіть текст, який буде відображено в коментарі"
+
+#: ../commentluv-manager.php:43
+msgid "Text displayed in the select box"
+msgstr "Текст відображається в полі вибору"
+
+#: ../commentluv-manager.php:47
+msgid "CommentLuv on by default?"
+msgstr "CommentLuv ввімкнений за замовчуванням?"
+
+#: ../commentluv-manager.php:50
+msgid "Show heart on links?"
+msgstr "Показувати серце на посиланнях?"
+
+#: ../commentluv-manager.php:52
+msgid "Info panel background color"
+msgstr "Кольор фону інформаційної панелі"
+
+#: ../commentluv-manager.php:57
+msgid "Use template insert to show badge and checkbox?"
+msgstr "Використовувати шаблон вкладання, щоб показати значок і прапорець?"
+
+#: ../commentluv-manager.php:58
+msgid "Do NOT check this unless you have manually inserted the code into your comments.php file "
+msgstr "Не перевіряти, якщо тільки не було вставлено код вручну в comments.php файл"
+
+#: ../commentluv-manager.php:64
+msgid "Display Badge"
+msgstr "Показати Знак"
+
+#: ../commentluv-manager.php:68
+msgid "Many thanks to <a href=\"http://byteful.com\">Byteful Traveller</a> for creating these images."
+msgstr "Велике спасибі <a href=\"http://byteful.com\">Byteful Traveller</a> за створення цих малюнків."
+
+#: ../commentluv-manager.php:72
+msgid "Choose badge to display"
+msgstr "Вибрати значок для відображення"
+
+#: ../commentluv-manager.php:77
+msgid "Show nothing"
+msgstr "Нічого не показувати"
+
+#: ../commentluv-manager.php:80
+msgid "Show text"
+msgstr "Показувати текст"
+
+#: ../commentluv-manager.php:80
+msgid "Prepend html before badge or text (optional)"
+msgstr "Приєднання HTML перед піктограмою або текстом (опціонально)"
+
+#: ../commentluv-manager.php:88
+msgid "Technical Settings"
+msgstr "Технічні параметри"
+
+#: ../commentluv-manager.php:92
+msgid "In most cases you shouldn't need to change these settings unless you have a customized comment form"
+msgstr "У більшості випадків вам не потрібно змінювати ці параметри, тільки якщо ви не налаштували форму коментарю"
+
+#: ../commentluv-manager.php:93
+msgid "These are the name=\"\" values used in the HTML source for the fields on your comment form."
+msgstr "Це ім'я=\"\" значення, що використовуються в HTML джерелі для полів на вашій формі коментарів."
+
+#: ../commentluv-manager.php:99
+msgid "Authors Name field name"
+msgstr "Поле для імені Автора"
+
+#: ../commentluv-manager.php:103
+msgid "Email field name"
+msgstr "Поле для електронної пошти"
+
+#: ../commentluv-manager.php:107
+msgid "Authors URL field name"
+msgstr "Полн для авторського URL"
+
+#: ../commentluv-manager.php:111
+msgid "Comment Text Area name"
+msgstr "Поле для вводу тексту коментаря"
+
+#: ../commentluv-manager.php:124
+msgid "Reset to Default Settings"
+msgstr "Скидання налаштувань за умовчанням»"
+
+#: ../commentluv-manager.php:129
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr "Ви впевнені, що хочете скинути налаштування? Натисніть ОК для продовження"
+
+#: ../commentluv-manager.php:139
+msgid "Plugin Info"
+msgstr "Інформація про плагін"
+
+#: ../commentluv-manager.php:142
+msgid "Author"
+msgstr "Автор"
+
+#: ../commentluv-manager.php:143
+msgid "Home Page"
+msgstr "Домашня сторінка"
+
+#: ../commentluv-manager.php:143
+msgid "Visit ComLuv to register your site for more luv!"
+msgstr "Заходьте на ComLuv, щоб зареєструвати свій сайт для отримання додаткової Luv!"
+
+#: ../commentluv-manager.php:144
+msgid "Social"
+msgstr "Соціальний"
+
+#: ../commentluv-manager.php:145
+msgid "Help"
+msgstr "Допомога"
+
+#: ../commentluv-manager.php:145
+msgid "Help Desk"
+msgstr "Служба підтримки"
+
+#: ../commentluv-manager.php:146
+msgid "News"
+msgstr "Новини"
+
+#: ../commentluv-manager.php:152
+msgid "Thanks to the following for translations"
+msgstr "Дякуємо за наступні переклади"
+
+#: ../commentluv-manager.php:153
+msgid "Italian"
+msgstr "Італійський"
+
+#: ../commentluv-manager.php:154
+msgid "Russian"
+msgstr "Російська"
+
+#: ../commentluv-manager.php:155
+msgid "Chinese"
+msgstr "Китайський"
+
+#: ../commentluv-manager.php:156
+msgid "Hebrew"
+msgstr "Іврит"
+
+#: ../commentluv-manager.php:157
+msgid "French"
+msgstr "Французька"
+
+#: ../commentluv-manager.php:158
+msgid "Dutch"
+msgstr "Голландська"
+
+#: ../commentluv-manager.php:159
+msgid "Polish"
+msgstr "Польська"
+
+#: ../commentluv.php:35
+msgid "CommentLuv requires Wordpress 2.9.2 or newer."
+msgstr "CommentLuv вимагає Wordpress 2.9.2 або пізнішої версії."
+
+#: ../commentluv.php:35
+msgid "Please Update!"
+msgstr "Будь ласка, оновіть!"
+
+#: ../commentluv.php:88
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../commentluv.php:218
+msgid "There were errors with your chosen settings"
+msgstr "Були замічені помилки у вибраних налаштуваннях"
+
+#~ msgid "CommentLuv Member Area"
+#~ msgstr "CommentLuv пользовательская среда"
+
+#~ msgid ""
+#~ "If you register your site for free at <a href=\"http://comluv.com"
+#~ "\">ComLuv.com</a> you will be able to open up lots of features that are "
+#~ "for members only like link tracking so you can see which of the comments "
+#~ "you make on CommentLuv blogs are getting the last blog post clicked and "
+#~ "the ability to send back more than just blog posts. You can even create "
+#~ "your own WP2.7 blog there with commentluv pre-installed!."
+#~ msgstr ""
+#~ "Бесплатная регистрация доступна здесь <a href=\"http://comluv.com"
+#~ "\">ComLuv.com</a>. Вы можете создать собственынй WP2.7 блог с "
+#~ "предустановленным commentluv!."

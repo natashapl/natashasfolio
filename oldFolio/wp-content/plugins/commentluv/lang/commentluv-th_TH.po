@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tee <admin@jquerytips.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Language: th\n"
+
+msgid "CommentLuv Settings v2.94.1"
+msgstr "ติดตั้ง CommentLuv เวอร์ชั่น 2.94.1"
+
+msgid "Subscription Information"
+msgstr "ข้อมูลบริการ"
+
+msgid "Do you like CommentLuv? How about an even better version with much more control over dofollow and some awesome social enticements that will make your posts go viral by offering your readers more choice of posts if they +1, Like or tweet your post? Get CommentLuv Premium Today! Free plugin and 10 week blogging course delivered by email. (10 week course is free of charge,it is no obligation premium content. It was supposed to be a premium product but I decided to give it away for free. (see why in the first email).)"
+msgstr "คุณชอบ CommentLuv หรือไม่    คุณจะพบการทำงานที่น่าทึ่งในเวอร์ชั่นใหม่ การควบคุมการทำงานได้ง่ายและสะดวกมากยิ่งขึ้น  เป็นสิ่งที่จะทำให้การโพสต์ของคุณถูกเผยแพร่ไปอย่างรวดเร็ว และอีกทั้งยังทำให้ผู้อ่านมีทางเลือกในการอ่านโพสต์มากยิ่งขึ้น  ถ้าผู้อ่านทำการคลิ๊กไลค์หรือทวีตโพสต์ของคุณละ   หากคุณเลือกที่จะใช้  CommentLuvพรีเมียมวันนี้  แถมฟรีปลั๊กอินและคอรส์การทำบล็อกให้ทางอีเมลล์ 10 สัปดาห์ (คุณจะพบคอรส์ฟรี 10 สัปดาห์ในอีเมลล์ของคุณ คอร์สนี้เป็นคอร์สแถมฟรี โดยไม่มีค่าใช้จ่ายใดๆ)"
+
+msgid "CommentLuv 3.0 Premium is here! Upgrade to Premium"
+msgstr "อัพเกรดเป็น CommentLuv 3.0 พรีเมียมตอนนี้"
+
+msgid "I promise not to sell your details or send you spam. You will ONLY receive emails about plugin updates and the 10 week free course."
+msgstr "เราสัญญาว่าเราจะเก็บข้อมูลของคุณเป็นความลับ และไม่ส่งสแปมใดๆให้คุณ  คุณจะได้รับเพียงอีเมลล์ข่าวสารอัพเดตเกี่ยวกับปลั๊กอินและคอร์สเรียนฟรีเท่านั้น"
+
+msgid "Are you getting targeted by spammers? CommentLuv links are valuable which is why it promotes comments but some nasty spammers try to take advantage of this by leaving spam just to get the link. Don't worry, there is answer!... you can get CommentLuv Premium which has advanced anti-spam features which has been proven to almost eliminate spam on users blogs. You can upgrade by clicking the link above."
+msgstr "คุณเป็นเป้าหมายของสแปมเมอร์ใช่หรือไม่?   CommentLuv ลิงค์เป็นสิ่งที่คุ้มค่า ซึ่งเป็นเหตุผลที่มักจะถูกโปรโมตผ่านกล่องคอมเม้นต์ในหลายๆเว็ปๆ  แต่สแปมเมอรร์บางคนพยายามที่จะแสวงหาประโยชน์จากสิ่งนี้ โดยการเลือกที่จะปล่อยสแปมไว้ตามลิงค์ต่างๆ   คุณอย่าได้กังวล เพราะนี้คือคำตอบ!...   คุณเพียงมี CommentLuv พรีเมียม ที่คอยปกป้องคุณจากสแปม  ซึ่งพิสูจน์มาแล้วว่าสามารถจัดการและกำจัดสแปมได้เกือบทุกประเภท คุณสามารถอัพเกรดเป็นเวอร์ชั่นพรีเมียมได้โดยคลิกลิงค์ด้านบน"
+
+msgid "Not ready to buy premium yet? that's ok too! Why not try GASP which is a lite version of the anti spam plugin that CommentLuv Premium uses. You can get it for FREE by searching for GASP in your \"add new\" section of your plugins page in your dashboard."
+msgstr "ถ้ายังไม่พร้อมที่จะอัพเกรดเป็นพรีเมียมตอนนี้?  ไม่เป็นไร!   ทำไมไม่ลอง GASP ซึ่งเป็นเวอร์ชั่นทดลองการป้องกันสแปมที่ CommentLuvพรีเมียม ใช้   คุณสามารถใช้ GASP ได้ฟรี เพียงค้นหาในส่วน เพิ่มใหม่(add new) ในหน้าปลั๊กอินเพจบนส่วนแสดงข้อมูลภาพรวม(Dashboard)"
+
+msgid "Primary Setting"
+msgstr "การตั้งค่่าขั้นต้น"
+
+msgid "Enable CommentLuv?"
+msgstr "เปิดใข้งาน CommentLuv?"
+
+msgid "Yes"
+msgstr "ใช่"
+
+msgid "No"
+msgstr "ไม่ใช่"
+
+msgid "On Posts"
+msgstr "ในโพสต์"
+
+msgid "On Pages"
+msgstr "ในเพจ"
+
+msgid "On Both"
+msgstr "ในทั้งหมด"
+
+msgid "On by Default?"
+msgstr "ในค่าเริ่มต้น?"
+
+msgid "On for Admin?"
+msgstr "ในการควบคุม?"
+
+msgid "Appearance"
+msgstr "สิ่งที่ปรากฏ"
+
+msgid "Badge"
+msgstr "เครื่องหมาย"
+
+msgid "Custom Image URL"
+msgstr "URL ภาพพื้นฐาน"
+
+msgid "Use Text"
+msgstr "ใช้ข้อความ"
+
+msgid "Link to CommentLuv?"
+msgstr "ลิงค์ไปยังCommentLuv?"
+
+msgid "Enable Info panel?"
+msgstr "ใช้แผงแสดงข้อมูลรายละเอียด"
+
+msgid "Info panel background color"
+msgstr "แผงแสดงข้อมูลสีพื้นหลัง"
+
+msgid "white"
+msgstr "สีขาว"
+
+msgid "Info panel text color"
+msgstr "แผงแสดงข้อมูลสีข้อความ"
+
+msgid "black"
+msgstr "สีดำ"
+
+msgid "Messages"
+msgstr "ข้อความ"
+
+msgid "Text to be displayed in the comment"
+msgstr "ข้อความจะปรากฏในกล่องความคิดเห็น"
+
+msgid "[name] recently posted...[lastpost]"
+msgstr "[ชื่อ] โพสต์เร็วๆนี้… [โพสต์ล่าสุด]"
+
+msgid "[name] = The users name"
+msgstr "[ชื่อ]=ชื่อผู้ใช้"
+
+msgid "[lastpost] = The last blog post link"
+msgstr "[ล่าสุด]=บล็อกโพสต์ล่าสุด"
+
+msgid "Message for unregistered user in the drop down box (Message will not be shown if you do not have registrations enabled)"
+msgstr ""
+"ข้อความของผู้ที่ยังไม่ลงทะเบียนในกล่องเมนูทางเลือก\n"
+"(ถ้าคุณยังไม่ได้ลงทะเบียบ ข้อความจะไม่ปรากฏ)"
+
+msgid "If you register as a user on my site, you can get your 10 most recent blog posts to choose from in this box."
+msgstr "ถ้าคุณได้ลงทะเบียนในเว็ปไซต์นี้แล้ว  คุณสามารถเรียกดู 10 บล็อกที่ถูกโพสต์ล่าสุ"
+
+msgid "Message for unregistered user in the info panel (Message will not be shown if you do not have registrations enabled)"
+msgstr ""
+"ข้อความของผู้ที่ยังไม่ลงทะเบียนในหน้าต่างแสดงรายละเอียด\n"
+"(ถ้าคุณยังไม่ได้ลงทะเบียบ ข้อความจะไม่ปรากฏ)"
+
+msgid "If this user had registered to my site then they could get 10 last posts to choose from when they comment and you would be able to see a list of their recent posts in this panel"
+msgstr "ถ้าคุณได้ลงทะเบียนในเว็ปไซต์นี้แล้ว  คุณสามารถเรียกดู 10 โพสต์ล่าสุด และดูรายละเอียดเวลาการแสดงความคิดเห็นของโพสต์ต่างๆ "
+
+msgid "Operational Settings"
+msgstr "การตั้งค่า"
+
+msgid "Help Video"
+msgstr "ชมวีดีโอช่วยเหลือ"
+
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "ใครเป็นผู้โพส 10 คนล่าสุด และใครแสดงความคิดเห็นเมื่อไหร่ ?"
+
+msgid "Only Registered Members"
+msgstr "สมาชิกที่ลงทะเบียนเท่านั้น"
+
+msgid "Everybody"
+msgstr "ทุกคน"
+
+msgid "Nobody"
+msgstr "ไม่มีใคร"
+
+msgid "Whose links should be do follow?"
+msgstr "ลิงค์ไหนควรติดตาม?"
+
+msgid "Only Registered Members Links"
+msgstr "ลิงค์ของสมาชิกที่ลงทะเบียนเท่านั้น"
+
+msgid "Everybody gets nofollow links"
+msgstr "ทุกคนเลือกไม่ติดตามลิงค์"
+
+msgid "Nobody gets nofollow links"
+msgstr "ไม่มีใครเลือกไม่ติดตามลิงค์"
+
+msgid "Example text and background color"
+msgstr "ตัวอย่างข้อความและสีพื้นหลัง"
+
+msgid "You have NOT set your blog to allow registrations, you can do that in Settings/General here"
+msgstr "คุณไม่ได้ตั้งค่าบล๊อกของคุณ เพื่ออนุญาตให้ลงทะเบียน   คุณสามารถตั้งค่าทั่วไปได้ที่นี่"
+
+msgid "Technical Settings"
+msgstr "การตั้งค่าทางเทคนิค"
+
+msgid "Click to open technical settings"
+msgstr "คลิ๊กเพื่อเปิดการตั้งค่าทางเทคนิค"
+
+msgid "Please check the help video for this section before changing setting"
+msgstr "โปรดชมวีดีโอช่วยเหลือตรงนี้  ก่อนเปลี่ยนการตั้งค่า"
+
+msgid "Compatibility"
+msgstr "เข้ากันได้"
+
+msgid "Use manual insert of badge code? "
+msgstr "ใช้คู่มือเพื่อเพิ่มสัญลักษณ์โค้ด?"
+
+msgid "Enable minifying compatibility"
+msgstr "เปิดใช้งานการย่อขนาดที่เข้ากันได้"
+
+msgid "Disable UTF8 encoding"
+msgstr "ปิดการใช้งาน การเปลี่ยนแปลงข้อมูล UTF8 "
+
+msgid "Disable Detection"
+msgstr "ปิดการใช้งานการค้นหา"
+
+msgid "API URL"
+msgstr "เอ.พี.ไอ (API URL)"
+
+msgid "URL to use for API"
+msgstr "URL เพื่อใช้สำหรับ API"
+
+msgid "Comment Form Field Values"
+msgstr "ฟอร์มกล่องแสดงความคิดเห็น"
+
+msgid "Authors Name field name"
+msgstr "ชื่อผู้เขียน"
+
+msgid "Email field name"
+msgstr "อีเมล์"
+
+msgid "Authors URL field name"
+msgstr "URL ผู้เขียน"
+
+msgid "Comment Text Area name"
+msgstr "กล่องแสดงข้อความความคิดเห็น"
+
+msgid "Action to take if comment has no Author URL (Prevents spammer abuse)"
+msgstr "จัดการกับกล่องความคิดเห็นที่ไม่มี URL ของผู้เขียน (ป้องกันการใช้งานที่ไม่เหมาะสมขแงสแปม)"
+
+msgid "Action to take if link does not match domain of author (Prevents users from adding fake author URLs to get around Akismet)"
+msgstr "จัดการกับลิงค์ที่ไม่จับคู่กับโดเมนของผู้แต่ง (ป้องกันผู้ใข้ที่ใช้ URLs ปลอมเพื่อเข้าสุ่ Akismet)"
+
+msgid "Allow Jetpack comments module to activate?"
+msgstr "อนุญาต Jetpack ใช้งานโมดูลแสดงความคิดเห็น?"
+
+msgid "Use security nonce for ajax calls (disable if you get Parsing JSON Request failed. error! not authorized error)"
+msgstr "ใช้ความปลอดภัยเพื่อเรียกใช้จาวาสคริปปัจจุบัน (ปิดการใช้งาน ถ้าการร้องขอการจับคู่ของ JSON ที่ถูกร้องขอล้มเหลว  ไม่สำเร็จ  การไม่ได้รับการให้สิทธิอำนาจ)"
+
+msgid "Diagnostics Info"
+msgstr "วิเคราะห์ข้อมูล"
+
+msgid "You can copy this information and send it to me if I request it"
+msgstr "คุณสามารถคัดลองข้อมูลส่วนนี้ และส่งการร้องขอถึงฉัน"

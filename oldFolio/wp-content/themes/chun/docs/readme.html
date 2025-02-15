@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>A guide to the Chun theme</title>
+
+<style type="text/css">body{width:750px;margin:36px auto 60px auto;font:16px/25px Georgia,Times,'Times New Roman',serif}a:link,a:visited{color:#2f6eb9;text-decoration:none}a:hover,a:active{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin:40px 0 30px 0;color:#000;font-weight:bold;font-family:Arial,sans-serif}h1{margin-top:80px;font-size:2.2em}code{padding:0 3px;background:#eee}pre code{padding:0}pre{padding:9px;background:#eee;border:1px solid #ccc}ul{list-style:square}p.first{font-size:21px}p.second{font-size:15px}ul.space li{margin-bottom:10px}.section{overflow:hidden}.columns-2{float:left;width:350px;margin:0 0 21px 25px}.columns-3{float:left;width:230px;margin:0 0 21px 20px}</style>
+
+</head>
+<body>
+
+<h1>Chun WordPress theme</h1>
+
+<p class="first"><em>Chun</em> is a parent theme for WordPress.  It was created to be a nice theme for creative people to showcase their work.</p>
+
+<p class="second">This theme is a parent theme.  What this means is that to customize it, you should be creating a child theme.  <em>Is it a theme framework?</em>  Some people might call it that.  All you need to know is that it's a solid, yet flexible, starting point for any blog.</p>
+
+<h2>Features</h2>
+
+<p><em>Chun</em> is built from the rock-solid <a href="http://themehybrid.com/hybrid-core" title="Hybrid Core theme framework">Hybrid Core</a> theme framework, so it provides a great starting point with many useful features.</p>
+
+<ul>
+	<li>Custom "Portfolio" page template that integrates with the <a href="http://themehybrid.com/plugins/custom-content-portfolio">Custom Content Portfolio</a> plugin.</li>
+	<li>Per-post layouts that allow you to quickly change the layout of your site.</li>
+	<li>Post setting that allows you to add a custom stylesheet for individual posts.</li>
+	<li>A smart breadcrumb menu that handles tons of permalink setups.</li>
+	<li>Built-in pagination for your home, archive, and search pages.</li>
+	<li>Post thumbnails that work with WordPress' featured image functionality and provide extra features.</li>
+	<li>Dynamic body, post, and comment <acronym title="Cascading Style Sheets">CSS</acronym> classes.</li>
+	<li>Fully internationalized, so you can run the theme in any language.</li>
+	<li>Uses the built-in WordPress menu system. No need to hack your navigation into place.</li>
+	<li>Context-aware action and filter hooks, so you don't have to learn WordPress conditional tags.</li>
+	<li>Some of the most-used filter hooks are shortcode-ready and have accompanying shortcodes.</li>
+	<li>Integration with the WordPress theme customizer to allow you to customize the look of your site.</li>
+	<li>Ability to create custom templates for any post type in multiple ways.</li>
+	<li>Highly-configurable widgets that give you full control over their display.</li>
+	<li>Widget areas are content-aware, meaning that they only appear if they contain active widgets.</li>
+	<li>And much, much more!</li>
+</ul>
+
+<h2>Child themes</h2>
+
+<p>Since <em>Chun</em> is a parent theme, you'll want to create a child theme if you plan on making any customizations.  <em>Don't know how to make a child theme?</em>  It's relatively simple.  Just follow the below steps.</p>
+
+<ul>
+	<li>Create a theme folder in your <code>/wp-content/themes</code> directory called <code>chun-child</code>.</li>
+	<li>Then, create a <code>style.css</code> file within your theme folder.</li>
+	<li>At the top of your <code>style.css</code> file, add the below information.</li>
+</ul>
+
+<pre><code>/**
+ * Theme Name: Chun Child
+ * Theme URI: http://link-to-your-site.com
+ * Description: Describe what your theme should be like.
+ * Version: 0.1
+ * Author: Your Name
+ * Author URI: http://link-to-your-site.com
+ * Tags: Add, Whatever, Tags, You, Want
+ * Template: chun
+ */</code></pre>
+
+<p>From that point, you simply need to start adding your own styles.  The parent theme styles will automatically be loaded for you.</p>
+
+<p>Note that child themes are now the officially-supported way of modifying themes in WordPress.</p>
+
+<h2>Important Notes</h2>
+
+<p>Chun was designed to work alongside the <a href="http://themehybrid.com/plugins/custom-content-portfolio">Custom Content Portfolio</a> plugin.  This means that the "Portfolio" page template will only work if you have that plugin installed and in use.  Unfortunately, WordPress doesn't currently provide a way for me to hide this page template from users who are not using the plugin.  There is a <a href="http://core.trac.wordpress.org/ticket/13265">bug report</a> for this issue currently open, so it should get put into WordPress at some point.</p>
+
+<p>Other portfolio-specific features will open up (like a portfolio thumbnail size and custom menu) if you choose to use the plugin.</p>
+
+<h2>Theme support</h2>
+
+<p>Support for the <em>Chun</em> theme is not offered on the WordPress support forums.  There is a community called <a href="http://themehybrid.com" title="Theme Hybrid">Theme Hybrid</a> where support is offered for this theme.  You are encouraged to sign up to the site to use its support forums and become a part of the community.</p>
+
+<h2>Credits</h2>
+
+<p>This theme makes use of several open-source fonts available via <a href="http://www.google.com/webfonts">Google Web Fonts</a>:
+
+<ul>
+	<li><a href="http://www.google.com/webfonts/specimen/Arvo">Arvo</a> (<a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a>)</li>
+	<li><a href="http://www.google.com/webfonts/specimen/Muli">Muli</a> (<a href="http://scripts.sil.org/OFL">SIL Open Font License 1.1</a>)</li>
+	<li><a href="http://www.google.com/webfonts/specimen/Open+Sans">Open Sans</a> (<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>)</li>
+	<li><a href="http://www.google.com/webfonts/specimen/Open+Sans+Condensed">Open Sans Condensed</a> (<a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License 2.0</a>)</li>
+</ul>
+
+<h2>Copyright &amp; license</h2>
+
+<p><em>Chun</em> is licensed under the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" title="GNU GPL">GNU General Public License</a>, version 2 or later (<acronym title="GNU General Public License">GPL</acronym>).</p>
+
+<p>This theme is copyrighted to <a href="http://justintadlock.com" title="Justin Tadlock">Justin Tadlock</a>.</p>
+
+<p>2013 &copy; Justin Tadlock.</p>
+
+</body>
+</html>

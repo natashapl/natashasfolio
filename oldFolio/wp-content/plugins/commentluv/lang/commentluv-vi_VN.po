@@ -1,0 +1,811 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.8.9.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-16 05:47+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Xman <admin@user.vn>\n"
+"Language-Team: Xman <admin@user.vn>\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:53
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv yêu cầu phiên bản Wordpress 3.0 hoặc mới hơn."
+
+#: ../commentluv.php:53
+msgid "Please Update!"
+msgstr "Hãy Nâng cấp!"
+
+#: ../commentluv.php:246
+msgid ""
+"Please enter a URL and then click the CommentLuv checkbox if you want to add "
+"your last blog post"
+msgstr ""
+"Hãy nhập URL và nhấn vào nút CommentLuv nếu bạn muốn thêm bài viết mới nhất "
+"của bạn"
+
+#: ../commentluv.php:247
+msgid "Please use http:// in front of your url"
+msgstr "Hãy dùng http:// đằng trước url của bạn"
+
+#: ../commentluv.php:248
+msgid ""
+"You need to visit your profile in the dashboard and update your details with "
+"your site URL"
+msgstr ""
+"Bạn cần vào phần thông tin tài khoản trong bảng điều khiển và cập nhật thông "
+"tin chi tiết url website của bạn"
+
+#: ../commentluv.php:249
+msgid "No info was available or an error occured"
+msgstr "Không có thông tin nào hiệu lực hoặc có lỗi phát sinh"
+
+#: ../commentluv.php:273
+msgid "Please wait"
+msgstr "Xin chờ"
+
+#: ../commentluv.php:273
+msgid "Please check your inbox, an email will be sent to"
+msgstr "Hãy kiểm tra hộp thư của bạn, sẽ có email sẽ gửi tới"
+
+#: ../commentluv.php:273
+msgid "in the next few minutes with a confirmation link"
+msgstr "trong một vài phút tiếp theo với một liên kết xác nhận"
+
+#: ../commentluv.php:273
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "Lỗi phát sinh với yêu cầu. Hãy thử đăng ký ở website."
+
+#: ../commentluv.php:427
+msgid "Twice Monthly"
+msgstr "2 lần Hàng tháng"
+
+#: ../commentluv.php:488
+msgid "CommentLuv is enabled"
+msgstr "CommentLuv đã được bật"
+
+#: ../commentluv.php:531
+msgid "Show more posts"
+msgstr "Hiện thêm bài viết"
+
+#: ../commentluv.php:633
+msgid "I have only commented on this post"
+msgstr "Tôi chỉ bình luận trên bài viết này"
+
+#: ../commentluv.php:636
+msgid ""
+"If I had made more comments on this site, you would see more of my other "
+"posts here"
+msgstr ""
+"Nếu tôi có thêm bình luận trên website này, bạn có thể thấy các bài viết "
+"khác của tôi ở đây"
+
+#: ../commentluv.php:661
+msgid "User has not saved a description in their profile page"
+msgstr "Thành viên đã không cung cấp thông tin mô tả ở trang cá nhân của họ"
+
+#: ../commentluv.php:673
+msgid "is the administrator of this site"
+msgstr "là người quản trị của website này"
+
+#: ../commentluv.php:675
+msgid "is a registered member of my site"
+msgstr "là thành viên đã đăng ký trên website của tôi"
+
+#: ../commentluv.php:678 ../commentluv.php:697
+msgid "Clicks on this link on this comment"
+msgstr "Nhấn vào liên kết này trên bình luận này"
+
+#: ../commentluv.php:678 ../commentluv.php:698
+msgid "approved comments on this site"
+msgstr "bình luận đã được chấp nhận trên website này"
+
+#: ../commentluv.php:678 ../commentluv.php:699
+msgid "Some other posts I have commented on"
+msgstr "Một vài bài viết khác mà tôi đã bình luận "
+
+#: ../commentluv.php:678
+msgid "Some of my other posts"
+msgstr "Một vài bài viết khác của tôi"
+
+#: ../commentluv.php:691
+msgid "has not registered on this site"
+msgstr "chưa đăng ký trên website này"
+
+#: ../commentluv.php:855
+msgid "Could not get posts for home blog"
+msgstr "Không thể lấy bài viết từ trang chủ blog"
+
+#: ../commentluv.php:861 ../commentluv.php:1190
+msgid ""
+"Warning! You have set to show 10 posts for registered users but you have not "
+"enabled user registrations on your site. You should change the operational "
+"settings in the CommentLuv settings page to show 10 posts for everyone or "
+"enable user registrations"
+msgstr ""
+"Cảnh báo! Bạn đã đặt hiển thị 10 bài viết dành cho các thành viên đã đăng ký "
+"nhưng bạn chưa bật chức năng đăng ký thành viên trên site của bạn. Bạn nên "
+"thay đổi thiết lập trong phần Thiết lập CommentLuv để hiển thị 10 bài viết "
+"cho tất cả mọi người hoặc bật chức năng đăng ký thành viên."
+
+#: ../commentluv.php:917
+msgid "Raw file could not be found"
+msgstr "Raw file không tìm thấy"
+
+#: ../commentluv.php:972 ../commentluv.php:1013 ../commentluv.php:1577
+msgid "Register"
+msgstr "Đăng ký"
+
+#: ../commentluv.php:977
+msgid ""
+"If you are registered, you need to log in to get 10 posts to choose from"
+msgstr "Nếu bạn đã đăng ký, bạn cần phải đăng nhập để lấy 10 bài viết và chọn"
+
+#: ../commentluv.php:1019
+msgid "recently posted"
+msgstr "đã viết gần đây"
+
+#: ../commentluv.php:1020
+msgid ""
+"If you register as a user on my site, you can get your 10 most recent blog "
+"posts to choose from in this box."
+msgstr ""
+"Nếu bạn đăng ký là thành viên trên website của tôi, bạn có thể lấy 10 bài "
+"viết gần đây nhất trên blog của bạn để chọn trong phần này."
+
+#: ../commentluv.php:1021
+msgid ""
+"If this user had registered to my site then they could get 10 last posts to "
+"choose from when they comment and you would be able to see a list of their "
+"recent posts in this panel"
+msgstr ""
+"Nếu thành viên này đã đăng ký trên website của tôi thì họ có thể lấy 10 bài "
+"viết gần đây nhất để chọn khi họ bình luận và bạn có thể thấy danh sách "
+"những bài viết gần đây nhất của họ trong phần này"
+
+#: ../commentluv.php:1094
+msgid ""
+"Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr ""
+"Cài đặt Wordpress của bạn bị thiếu bảng <strong>wp_commentmeta</strong> !"
+
+#: ../commentluv.php:1094
+msgid ""
+" CommentLuv cannot work without this table please see this wordpress forum "
+"post to learn how to add one ->"
+msgstr ""
+" CommentLuv không thể thực hiện nếu không có bảng này, hãy xem bài viết trên "
+"diễn đàn wordpress để học cách thêm bảng vào ->"
+
+#: ../commentluv.php:1094
+msgid "Missing wp_commentmeta table"
+msgstr "Thiếu bảng wp_commentmeta"
+
+#: ../commentluv.php:1224
+msgid "Settings"
+msgstr "Thiết lập"
+
+#: ../commentluv.php:1286 ../commentluv.php:1342
+msgid "No Posts Were Found!"
+msgstr "Không tìm thấy bài viết nào !"
+
+#: ../commentluv.php:1383
+#, php-format
+msgid "%s or <a href=\"%s\">update now</a>."
+msgstr "%s hoặc <a href=\"%s\">cập nhật ngay bây giờ</a>."
+
+#: ../commentluv.php:1385
+msgid ""
+"There is a new version of Commentluv available, please upgrade by visiting "
+"this site"
+msgstr ""
+"Đã có phiên bản mới hơn của Commentluv, hãy nâng cấp bằng cách truy cập vào "
+"website này"
+
+#: ../commentluv.php:1414
+msgid "CommentLuv Settings v"
+msgstr "Thiết lập CommentLuv v"
+
+#: ../commentluv.php:1424
+msgid "Important!"
+msgstr "Quan trọng!"
+
+#: ../commentluv.php:1424
+msgid "Subscription Information"
+msgstr "Thông tin tham gia"
+
+#: ../commentluv.php:1429
+#, fuzzy
+msgid "CommentLuv 3.0 Premium is here!"
+msgstr "CommentLuv 3.0 Premium sắp phát hành !"
+
+#: ../commentluv.php:1430
+msgid ""
+"I promise not to sell your details or send you spam. You will ONLY receive "
+"emails about plugin updates."
+msgstr ""
+"Tôi hứa không bán thông tin hay gửi email spam cho bạn. Bạn sẽ CHỈ nhận "
+"email thông tin cập nhật về plugin"
+
+#: ../commentluv.php:1433
+msgid ""
+"Do you like CommentLuv? How about an even better version with much more "
+"control over dofollow and some awesome social enticements that will make "
+"your posts go viral by offering your readers more choice of posts if they "
+"+1, Like or tweet your post? Get CommentLuv Premium Today!"
+msgstr ""
+"Bạn có thích CommentLuv? Bạn có muốn một phiên bản tốt hơn với rất nhiều "
+"chức năng kèm theo và chứa công cụ chia sẻ social giúp cho bài viết của bạn "
+"lan tỏa đến với người đọc tốt hơn và có lựa chọn cho phép họ +1, Like hoặc "
+"Tweet bài viết của bạn? Hãy nâng cấp lên CommentLuv Premium ngay hôm nay!"
+
+#: ../commentluv.php:1436
+msgid ""
+"You have already subscribed, if you have not received the verification "
+"within 12 hours, please click the button to resend or try the form at"
+msgstr ""
+"Bạn đã tham gia rồi, nếu bạn không nhận được xác nhận trong vòng 12 tiếng, "
+"hãy nhấn vào nút để gửi lại hoặc thử lại nhập lại tại"
+
+#: ../commentluv.php:1436
+msgid "Resend Verification"
+msgstr "Gửi lại Xác nhận"
+
+#: ../commentluv.php:1438
+msgid "Click for a special offer!"
+msgstr "Nhấn vào đây để xem một đề nghị đặc biệt"
+
+#: ../commentluv.php:1446
+msgid ""
+"<b>Are you getting targeted by spammers?</b> CommentLuv links are valuable "
+"which is why it promotes comments but some nasty spammers try to take "
+"advantage of this by leaving spam just to get the link. Don't worry, there "
+"is answer!... you can get CommentLuv Premium which has advanced anti-spam "
+"features which has been proven to almost eliminate spam on users blogs. You "
+"can upgrade by clicking the link above. <p><b>Not ready to buy premium yet?</"
+"b> that's ok too! Why not try GASP which is a lite version of the anti spam "
+"plugin that CommentLuv Premium uses. You can get it for FREE by searching "
+"for GASP in your \"add new\" section of your plugins page in your dashboard."
+msgstr ""
+"<b>Bạn có phải là mục tiêu của các spammer?</b> CommentLuv liên kết chỉ có "
+"giá trị nếu đối với bình luận được đề cử nhưng đôi khi một vài spammer khôn "
+"ngoan cố gắng qua mặt điều này spam để lấy liên kết. Nhưng đừng lo, đây "
+"chính là câu trả lời!... bạn có thể nâng cấp lên CommentLuv Premium để sở "
+"hữu chức năng hạn chế spam cao cấp, chức năng này cấm được hầu hết các hành "
+"động cố tình spam của thành viên. BẠn có thể nâng cấp bằng cách nhấn vào "
+"liên kết bên trên.<p><b>Chưa sẵn sàng để mua bản premium?</b> không vấn đề "
+"gì! Tại sao không thử dùng phiên bản GASP, một phiên bản hạn chế có chứa "
+"chức năng hạn chế spam của phiên bản CommentLuv Premium. Bạn có thể lấy nó "
+"hoàn toàn toàn MIỄN PHÍ bằng cách tìm theo từ khóa GASP trong phần \"thêm mới"
+"\" plugin tại Bảng điều khiển website."
+
+#: ../commentluv.php:1458
+msgid "Primary Setting"
+msgstr "Thiết lập Chính"
+
+#: ../commentluv.php:1458 ../commentluv.php:1492 ../commentluv.php:1552
+#: ../commentluv.php:1610 ../commentluv.php:1641
+msgid "Help Video"
+msgstr "Video trợ giúp"
+
+#: ../commentluv.php:1462
+msgid "Enable CommentLuv?"
+msgstr "Bật CommentLuv?"
+
+#: ../commentluv.php:1463
+msgid "Yes"
+msgstr "Có"
+
+#: ../commentluv.php:1464
+msgid "No"
+msgstr "Không"
+
+#: ../commentluv.php:1469
+msgid "On Posts"
+msgstr "Tại Bài viết"
+
+#: ../commentluv.php:1470
+msgid "On Pages"
+msgstr "Tại Trang"
+
+#: ../commentluv.php:1471
+msgid "On Both"
+msgstr "Cả hai"
+
+#: ../commentluv.php:1476
+msgid "On by default?"
+msgstr "Bật theo mặc định ?"
+
+#: ../commentluv.php:1480
+msgid "On for admin?"
+msgstr "Bật dành cho quản trị?"
+
+#: ../commentluv.php:1492
+msgid "Appearance"
+msgstr "Giao diện"
+
+#: ../commentluv.php:1496
+msgid "Badge"
+msgstr "Khung mẫu"
+
+#: ../commentluv.php:1497
+msgid "Custom Image URL"
+msgstr "Tùy chỉnh URL hình ảnh"
+
+#: ../commentluv.php:1498
+msgid "Use Text"
+msgstr "Sử dụng chữ"
+
+#: ../commentluv.php:1506
+msgid "Default"
+msgstr "Mặc định"
+
+#: ../commentluv.php:1507
+msgid "White"
+msgstr "Trắng"
+
+#: ../commentluv.php:1508
+msgid "Black"
+msgstr "Đen"
+
+#: ../commentluv.php:1509
+msgid "None"
+msgstr "Không"
+
+#: ../commentluv.php:1527
+msgid "Link to Commentluv?"
+msgstr "Liên kết đến Commentluv?"
+
+#: ../commentluv.php:1534
+msgid "Enable info panel?"
+msgstr "Bật kênh thông tin ?"
+
+#: ../commentluv.php:1535
+msgid "Info panel background color"
+msgstr "Màu nền kinh thông tin"
+
+#: ../commentluv.php:1536
+msgid "Info panel text color"
+msgstr "Màu chữ kênh thông tin"
+
+#: ../commentluv.php:1542
+msgid "Example text and background color"
+msgstr "Màu nền và màu chữ ví dụ"
+
+#: ../commentluv.php:1552
+msgid "Messages"
+msgstr "Thông báo"
+
+#: ../commentluv.php:1559
+msgid "Text to be displayed in the comment"
+msgstr "Chữ để hiển thị trong phần bình luận"
+
+#: ../commentluv.php:1562
+msgid "[name] = The users name"
+msgstr "[name] = Tên username"
+
+#: ../commentluv.php:1562
+msgid "[lastpost] = The last blog post link"
+msgstr "[lastpost] = Liên kết bài viết cuối cùng của blog"
+
+#: ../commentluv.php:1569
+msgid "Message for unregistered user in the drop down box"
+msgstr "Thông báo cho thành viên chưa đăng ký trong hộp thoại thả xuống"
+
+#: ../commentluv.php:1570 ../commentluv.php:1596
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr "Thông báo sẽ không được hiển thị nếu bạn không cho phép đăng ký"
+
+#: ../commentluv.php:1574
+msgid "Your register link code"
+msgstr "Mã liên kết đăng ký của bạn"
+
+#: ../commentluv.php:1576
+msgid ""
+"(this will be automatically added if you have not added it yourself to the "
+"textarea above)"
+msgstr ""
+"(điều này sẽ tự động thêm vào nếu bạn không tự thêm nó vào khung textarea "
+"bên trên)"
+
+#: ../commentluv.php:1586
+msgid ""
+"You have NOT set your blog to allow registrations, you can do that in "
+"Settings/General"
+msgstr ""
+"Bạn đã KHÔNG cho phép đăng ký trên blog, bạn có thể làm điều này trong phần "
+"Thiết lập/Thiết lập chung"
+
+#: ../commentluv.php:1587
+msgid "here"
+msgstr "tại đây"
+
+#: ../commentluv.php:1595
+msgid "Message for unregistered user in the info panel"
+msgstr "Thông báo cho thành viên chưa đăng ký bên trong kênh thông tin"
+
+#: ../commentluv.php:1610
+msgid "Operational Settings"
+msgstr "Thiết lập điều khiển"
+
+#: ../commentluv.php:1617
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "Ai là người có thể lấy 10 bài viết cuối cùng để chọn khi họ bình luận?"
+
+#: ../commentluv.php:1618
+msgid "Only Registered Members"
+msgstr "Chỉ thành viên đã đăng ký"
+
+#: ../commentluv.php:1619
+msgid "Everybody"
+msgstr "Mọi người"
+
+#: ../commentluv.php:1620
+msgid "Nobody"
+msgstr "Không ai cả"
+
+#: ../commentluv.php:1627
+msgid "Whose links should be dofollow?"
+msgstr "Liên kết nào sẽ được dofollow?"
+
+#: ../commentluv.php:1628
+msgid "Only Registered Members Links"
+msgstr "Chỉ những liên kết thành viên đã đăng ký"
+
+#: ../commentluv.php:1629
+msgid "Everybody gets dofollow links"
+msgstr "Mọi người đều liên kết dofollow"
+
+#: ../commentluv.php:1630
+msgid "Nobody gets dofollow links"
+msgstr "Không ai dofollow liên kết"
+
+#: ../commentluv.php:1641
+msgid "Technical Settings"
+msgstr "Thiết lập kỹ thuật"
+
+#: ../commentluv.php:1641
+msgid "Click to open technical settings"
+msgstr "Nhấn để mở thiết lập kỹ thuật"
+
+#: ../commentluv.php:1648
+msgid "Please check the help video for this section before changing settings"
+msgstr "Hãy kiểm tra video trợ giúp cho phần này trước khi thay đổi thiết lập"
+
+#: ../commentluv.php:1649
+msgid ""
+"In most cases, you will NOT need to change the settings in this box unless "
+"you have a custom comment form, template or you are using minifying or "
+"caching plugins"
+msgstr ""
+"Trong hầu hết các trường hợp, bạn KHÔNG cần phải thay đổi thiết lập trong "
+"phần này trừ khi bạn có một mẫu bình luận riêng, giao diện hoặc bạn đang sử "
+"dụng plugin nén dữ liệu hoặc cache"
+
+#: ../commentluv.php:1654
+msgid "Compatibility"
+msgstr "Tương thích"
+
+#: ../commentluv.php:1658
+msgid "Use manual insert of badge code?"
+msgstr "Sử dụng tự chèn code khung mẫu"
+
+#: ../commentluv.php:1662
+msgid "Enable minifying compatibility?"
+msgstr "Bật tính năng tương thích nén"
+
+#: ../commentluv.php:1663
+msgid "For caching plugins (places localized code in footer)"
+msgstr "Chỉ dành cho plugin cache (đặt code cục bộ trong phần cuối trang)"
+
+#: ../commentluv.php:1666
+msgid "Disable Detection?"
+msgstr "Tắt chức năng phát hiện?"
+
+#: ../commentluv.php:1667
+msgid "For XML errors"
+msgstr "Dành cho lỗi XML"
+
+#: ../commentluv.php:1671
+msgid "API URL"
+msgstr "API"
+
+#: ../commentluv.php:1675
+msgid "URL to use for API"
+msgstr "URL để dùng cho API"
+
+#: ../commentluv.php:1679
+msgid "Comment Form Field Values"
+msgstr "Gía trị cho các mẫu nhập bình luận "
+
+#: ../commentluv.php:1682
+msgid "Authors Name field name"
+msgstr "Phần Tên tác giả"
+
+#: ../commentluv.php:1687
+msgid "Email field name"
+msgstr "Phần Email"
+
+#: ../commentluv.php:1692
+msgid "Authors URL field name"
+msgstr "Phần Tác giả URL"
+
+#: ../commentluv.php:1697
+msgid "Comment Text Area name"
+msgstr "Phần Chữ bình luận"
+
+#: ../commentluv.php:1702
+msgid "Extras"
+msgstr "Mở rộng"
+
+#: ../commentluv.php:1707 ../commentluv.php:1719
+msgid "Nothing"
+msgstr "Không có gì"
+
+#: ../commentluv.php:1708 ../commentluv.php:1720
+msgid "Hide Link"
+msgstr "Ẩn liên kết"
+
+#: ../commentluv.php:1709 ../commentluv.php:1721
+#, fuzzy
+msgid "Spam Comment"
+msgstr "Bật CommentLuv?"
+
+#: ../commentluv.php:1710 ../commentluv.php:1722
+#, fuzzy
+msgid "Delete Comment"
+msgstr "Bật CommentLuv?"
+
+#: ../commentluv.php:1712
+msgid "Action to take if comment has no Author URL"
+msgstr "Loại hành động để xử lý nếu không có URL tác giả"
+
+#: ../commentluv.php:1713
+msgid "Prevents spammer abuse"
+msgstr "Cấm spam làm phiền"
+
+#: ../commentluv.php:1724
+msgid "Action to take if link does not match domain of author"
+msgstr ""
+"Loại hành động để xử lý nếu liên kết không khớp với tên miền của tác giả"
+
+#: ../commentluv.php:1725
+msgid "Prevents users from adding fake author URLs to get around Akismet"
+msgstr "Cấm thành viên thêm URL tác giả ảo để qua mặt Akismet"
+
+#: ../commentluv.php:1730
+msgid "Allow Jetpack comments module to activate?"
+msgstr "Cho phép module bình luận Jetpack kích hoạt?"
+
+#: ../commentluv.php:1734
+msgid "Diagnostics Info"
+msgstr "Thông tin chuẩn đoán"
+
+#: ../commentluv.php:1752
+msgid "You can copy this information and send it to me if I request it"
+msgstr "Bạn có thể copy thông tin này và gửi nó cho tôi nếu tôi yêu cầu"
+
+#: ../commentluv.php:1779
+msgid "Save Settings"
+msgstr "Lưu thiết lập"
+
+#: ../commentluv.php:1781
+msgid "Reset Settings"
+msgstr "Khởi tạo lại thiết lập"
+
+#: ../commentluv.php:1784
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr ""
+"Bạn có chắc bạn muốn khởi tạo lại thiết lập của bạn? Nhấn OK để tiếp tục"
+
+#: ../commentluv.php:1787
+msgid "Reset"
+msgstr "Khởi tạo lại"
+
+#: ../commentluv.php:1795
+msgid "Plugin Info"
+msgstr "Thông tin Plugin"
+
+#: ../commentluv.php:1798
+msgid "Start Here"
+msgstr "Bắt đầu từ đây"
+
+#: ../commentluv.php:1799
+msgid "Author"
+msgstr "Tác giả"
+
+#: ../commentluv.php:1800
+msgid "Home Page"
+msgstr "Trang chủ"
+
+#: ../commentluv.php:1800
+msgid "Visit www.commentluv.com!"
+msgstr "Ghé thăm www.commentluv.com!"
+
+#: ../commentluv.php:1801
+msgid "Social"
+msgstr "Mạng xã hội"
+
+#: ../commentluv.php:1802
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: ../commentluv.php:1802
+msgid "Help Desk"
+msgstr "Trợ giúp trực tuyến"
+
+#: ../commentluv.php:1803
+msgid "Do you like this plugin?"
+msgstr "Bạn có thích plugin này không?"
+
+#: ../commentluv.php:1805
+msgid "News"
+msgstr "Tin tức"
+
+#: ../commentluv.php:1833
+msgid "Thanks to the following for translations"
+msgstr "Xin chân thành cảm ơn đến những người đã dịch sang ngôn ngữ sau"
+
+#: ../commentluv.php:1834
+msgid "Italian"
+msgstr "Tiếng Ý"
+
+#: ../commentluv.php:1835
+msgid "Dutch"
+msgstr "Hà Lan"
+
+#: ../commentluv.php:1836
+msgid "Polish"
+msgstr "Ba Lan"
+
+#: ../commentluv.php:1837
+msgid "Georgian"
+msgstr "Georgia"
+
+#: ../commentluv.php:1838
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: ../commentluv.php:1839
+msgid "Portuguese"
+msgstr "Bồ Đào Nha"
+
+#: ../commentluv.php:1840
+msgid "Malaysian"
+msgstr "Malaysia"
+
+#: ../commentluv.php:1841
+msgid "Hindi"
+msgstr "Hindi"
+
+#: ../commentluv.php:1842
+msgid "Indonesian"
+msgstr "Indonesia"
+
+#: ../commentluv.php:1843
+#, fuzzy
+msgid "Chinese (s)"
+msgstr "Tiếng Trung quốc"
+
+#: ../commentluv.php:1844
+msgid "Spanish"
+msgstr "Tây ban nha"
+
+#: ../commentluv.php:1845
+msgid "German"
+msgstr "Tiếng Đức"
+
+#: ../commentluv.php:1846
+msgid "Persian"
+msgstr "Tiếng Ba Tư"
+
+#: ../commentluv.php:1847
+msgid "Tamil"
+msgstr "Ấn độ"
+
+#: ../commentluv.php:1848
+#, fuzzy
+msgid "Ukranian"
+msgstr "Romani"
+
+#: ../commentluv.php:1849
+msgid "Latvian"
+msgstr "Latvia"
+
+#: ../commentluv.php:1850
+msgid "Romanian"
+msgstr "Romani"
+
+#: ../commentluv.php:1851
+#, fuzzy
+msgid "Norwegian"
+msgstr "Georgia"
+
+#: ../commentluv.php:1852
+msgid "French"
+msgstr "Tiếng Pháp"
+
+#: ../commentluv.php:1853
+msgid "Danish"
+msgstr "Đan Mạch"
+
+#: ../commentluv.php:1854
+msgid "Russian"
+msgstr "Tiếng Nga"
+
+#: ../commentluv.php:1855
+msgid "Bengali"
+msgstr "Bengali"
+
+#: ../commentluv.php:1856
+msgid "Hebrew"
+msgstr "Tiếng Do thái"
+
+#: ../commentluv.php:1857
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
+
+#: ../commentluv.php:1858
+msgid "Hungarian"
+msgstr "Hungari"
+
+#: ../commentluv.php:1859
+msgid "Slovak"
+msgstr "Slovakia"
+
+#: ../commentluv.php:1860
+msgid "Serbian"
+msgstr "Sécbi"
+
+#: ../commentluv.php:1861
+msgid "Turkish"
+msgstr "Thổ Nhĩ Kỳ"
+
+#: ../commentluv.php:1864
+msgid "Arabic"
+msgstr "Tiếng Ả Rập"
+
+#: ../commentluv.php:1865
+msgid "Want your link here?"
+msgstr "Bạn có muốn liên kết của bạn tại đây?"
+
+#: ../commentluv.php:1865
+msgid "How To Submit A Translation"
+msgstr "Cách gửi một bản Dịch thuật"
+
+#: ../commentluv.php:1866
+msgid "Special thanks go to the following"
+msgstr "Đặc biệt cảm ơn đến "
+
+#: ../commentluv.php:1867
+msgid "CSS Help"
+msgstr "Trợ giúp CSS"
+
+#: ../commentluv.php:1868
+msgid "Badge GFX"
+msgstr "Badge GFX"
+
+#~ msgid "Dismiss notice"
+#~ msgstr "Ẩn nhắc nhở"
+
+#~ msgid ""
+#~ "There is a premium version of CommentLuv coming that will have much more "
+#~ "control of how the plugin works as well as exclusive features like "
+#~ "keyword name, inline registration and much much more!. Signup to find out "
+#~ "as soon as it is ready"
+#~ msgstr ""
+#~ "Có một phiên bản premium của CommentLuv sắp phát hành cho phép bạn có "
+#~ "thêm các điều khiển đáng giá cho plugin làm việc như tên từ khóa, đăng ký "
+#~ "tại chỗ và rất nhiều thứ nữa!. Hãy đăng ký để có thể biết sớm nhất có thể "
+#~ "khi nó phát hành."
+
+#~ msgid "Click to register now!"
+#~ msgstr "Nhấn để đăng ký ngay bây giờ !"

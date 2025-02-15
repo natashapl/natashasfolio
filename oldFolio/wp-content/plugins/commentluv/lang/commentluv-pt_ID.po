@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.8.9.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-12 18:43-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Andy Bailey <andrewgbailey@gmail.com>\n"
+"Language-Team: rainerflame <rainer.flame@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: INDONESIA\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:48
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv membutuhkan versi Wordpress 3.0 atau lebih"
+
+#: ../commentluv.php:48
+msgid "Please Update!"
+msgstr "Harap Perbaharui!"
+
+#: ../commentluv.php:217
+msgid "Please enter a URL and then click the CommentLuv checkbox if you want to add your last blog post"
+msgstr "Harap masukkan URL lalu klik kotak CommentLuv jika anda ingin menambahkan postingan terakhir blog anda"
+
+#: ../commentluv.php:218
+msgid "Please use http:// in front of your url"
+msgstr "Harap gunakan http:// di depan url anda"
+
+#: ../commentluv.php:219
+msgid "You need to visit your profile in the dashboard and update your details with your site URL"
+msgstr "Anda harus mengunjungi halaman profile dan perbaharui detil dengan URL situs anda"
+
+#: ../commentluv.php:220
+msgid "No info was available or an error occured"
+msgstr "Info tidak tersedia atau terjadi kesalahan"
+
+#: ../commentluv.php:243
+msgid "Please wait"
+msgstr "Harap tunggu"
+
+#: ../commentluv.php:243
+msgid "Please check your inbox, an email will be sent to"
+msgstr "Harap cek kotak masuk anda, email akan dikirim ke"
+
+#: ../commentluv.php:243
+msgid "in the next few minutes with a confirmation link"
+msgstr "dalam beberapa menit dengan tautan konfirmasi"
+
+#: ../commentluv.php:243
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "Terjadi kesalahan dengan permintaan anda. Coba mendaftar di situs"
+
+#: ../commentluv.php:272
+msgid "Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr "Instalasi Wordpress anda kekurangan tabel <strong>wp_commentmeta</strong>!"
+
+#: ../commentluv.php:272
+msgid " CommentLuv cannot work without this table please see this wordpress forum post to learn how to add one ->"
+msgstr "CommentLuv tidak dapat berjalan tanpa tabel ini harap kunjungi forum wordpress untuk mengetahui cara menambahkannya ->"
+
+#: ../commentluv.php:272
+msgid "Missing wp_commentmeta table"
+msgstr "Kekurangan tabel wp_commentmeta"
+
+#: ../commentluv.php:365
+msgid "Twice Monthly"
+msgstr "Dua kali sebulan"
+
+#: ../commentluv.php:392
+msgid "CommentLuv is enabled"
+msgstr "CommentLuv diaktifkan"
+
+#: ../commentluv.php:433
+msgid "Show more posts"
+msgstr "Tampilkan post lainnya"
+
+#: ../commentluv.php:523
+msgid "I have only commented on this post"
+msgstr "Saya hanya berkomentar di post ini"
+
+#: ../commentluv.php:526
+msgid "If I had made more comments on this site, you would see more of my other posts here"
+msgstr "Jika saya berkomentar lebih banyak di situs ini, anda dapat melihat post lain dari saya disini"
+
+#: ../commentluv.php:551
+msgid "User has not saved a description in their profile page"
+msgstr "Pengguna belum menyimpan deskripsi di halaman profilnya"
+
+#: ../commentluv.php:563
+msgid "is the administrator of this site"
+msgstr "adalah administrator situs ini"
+
+#: ../commentluv.php:565
+msgid "is a registered member of my site"
+msgstr "adalah anggota terdaftar di situs saya"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:587
+msgid "Clicks on this link on this comment"
+msgstr "Klik tautan ini pada komentar ini"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:588
+msgid "approved comments on this site"
+msgstr "setujui komentar di situs ini"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:589
+msgid "Some other posts I have commented on"
+msgstr "Post lain yang telah saya komentari"
+
+#: ../commentluv.php:568
+msgid "Some of my other posts"
+msgstr "Beberapa post lain saya"
+
+#: ../commentluv.php:581
+msgid "has not registered on this site"
+msgstr "belum terdaftar di situs ini"
+
+#: ../commentluv.php:703
+msgid "Could not get posts for home blog"
+msgstr "Tidak mendapatkan post untuk halaman awal blog"
+
+#: ../commentluv.php:759
+msgid "If you are registered, you need to log in to get 10 posts to choose from"
+msgstr "Jika anda terdaftar, anda harus masuk untuk mendapatkan 10 post yang dapat dipilih"
+
+#: ../commentluv.php:783
+#: ../commentluv.php:1235
+msgid "Register"
+msgstr "Daftar"
+
+#: ../commentluv.php:788
+msgid "recently posted"
+msgstr "Baru saja diposting"
+
+#: ../commentluv.php:789
+msgid "If you register as a user on my site, you can get your 10 most recent blog posts to choose from in this box."
+msgstr "Jika anda terdaftar sebagai pengguna di situs saya, anda dapat memilih 10 postingan terbaru anda pada kotak ini."
+
+#: ../commentluv.php:790
+msgid "If this user had registered to my site then they could get 10 last posts to choose from when they comment and you would be able to see a list of their recent posts in this panel"
+msgstr "Jika pengguna ini mendaftar di situs saya, maka ia dapat memilih 10 postingan terbarunya dimana ia berkomentar dan anda dapat melihat daftar postingan terbarunya pada panel ini"
+
+#: ../commentluv.php:971
+msgid "Settings"
+msgstr "Setelan"
+
+#: ../commentluv.php:1010
+msgid "No Posts Were Found!"
+msgstr "Tidak Ada Post Ditemukan!"
+
+#: ../commentluv.php:1050
+msgid "There is a new version of Commentluv available, please upgrade by visiting this site"
+msgstr "Tersedia versi terbaru Commentluv, harap perbaharui dengan mengunjungi situs ini"
+
+#: ../commentluv.php:1053
+msgid "Dismiss notice"
+msgstr "Hilangkan pemberitahuan"
+
+#: ../commentluv.php:1080
+msgid "CommentLuv Settings v"
+msgstr "Setingan Commentluv v"
+
+#: ../commentluv.php:1090
+msgid "Important!"
+msgstr "Penting!"
+
+#: ../commentluv.php:1090
+msgid "Subscription Information"
+msgstr "Informasi Berlangganan"
+
+#: ../commentluv.php:1095
+msgid "CommentLuv 3.0 Premium is coming soon!"
+msgstr "CommentLuv 3.0 Premium akan segera hadir!"
+
+#: ../commentluv.php:1096
+msgid "I promise not to sell your details or send you spam. You will ONLY receive emails about plugin updates."
+msgstr "Saya berjanji tidak akan menjual detil atau mengirimi anda spam. anda HANYA akan menerima email pembaharuan plugin."
+
+#: ../commentluv.php:1099
+msgid "There is a premium version of CommentLuv coming that will have much more control of how the plugin works as well as exclusive features like keyword name, inline registration and much much more!. Signup to find out as soon as it is ready"
+msgstr "Akan tersedia versi premium dari CommentLuv yang akan memiliki lebih banyak kontrol bagaimana plugin bekerja serta fitur ekslusif seperti nama kata kunci, Registrasi inline dan lebih banyak lagi!. Daftar untuk mengetahui saat tersedia."
+
+#: ../commentluv.php:1102
+msgid "You have already subscribed, if you have not received the verification within 12 hours, please click the button to resend or try the form at"
+msgstr "Anda telah berlangganan, jika anda tidak menerima verifikasi dalam 12 jam, harap klik tombol untuk mengirim ulang atau coba formulir di"
+
+#: ../commentluv.php:1102
+msgid "Resend Verification"
+msgstr "Kirim Ulang Verifikasi"
+
+#: ../commentluv.php:1104
+msgid "Click to register now!"
+msgstr "Klik untuk mendaftar sekarang"
+
+#: ../commentluv.php:1119
+msgid "Primary Setting"
+msgstr "Setelan Utama"
+
+#: ../commentluv.php:1119
+#: ../commentluv.php:1153
+#: ../commentluv.php:1212
+#: ../commentluv.php:1268
+#: ../commentluv.php:1299
+msgid "Help Video"
+msgstr "Video Bantuan"
+
+#: ../commentluv.php:1123
+msgid "Enable CommentLuv?"
+msgstr "Aktifkan CommentLuv?"
+
+#: ../commentluv.php:1124
+msgid "Yes"
+msgstr "Ya"
+
+#: ../commentluv.php:1125
+msgid "No"
+msgstr "Tidak"
+
+#: ../commentluv.php:1130
+msgid "On Posts"
+msgstr "Pada Post"
+
+#: ../commentluv.php:1131
+msgid "On Pages"
+msgstr "Pada Halaman"
+
+#: ../commentluv.php:1132
+msgid "On Both"
+msgstr "Pada Keduanya"
+
+#: ../commentluv.php:1137
+msgid "On by default?"
+msgstr "Standar Aktif?"
+
+#: ../commentluv.php:1141
+msgid "On for admin?"
+msgstr "Aktif untuk admin?"
+
+#: ../commentluv.php:1153
+msgid "Appearance"
+msgstr "Tampilan"
+
+#: ../commentluv.php:1157
+msgid "Badge"
+msgstr "Pengenal"
+
+#: ../commentluv.php:1158
+msgid "Custom Image URL"
+msgstr "URL Gambar "
+
+#: ../commentluv.php:1159
+msgid "Use Text"
+msgstr "Gunakan Teks"
+
+#: ../commentluv.php:1167
+msgid "Default"
+msgstr "Standar"
+
+#: ../commentluv.php:1168
+msgid "White"
+msgstr "Putih"
+
+#: ../commentluv.php:1169
+msgid "Black"
+msgstr "Hitam"
+
+#: ../commentluv.php:1170
+msgid "None"
+msgstr "Kosong"
+
+#: ../commentluv.php:1187
+msgid "Link to Commentluv?"
+msgstr "Tautan ke CommentLuv?"
+
+#: ../commentluv.php:1194
+msgid "Enable info panel?"
+msgstr "Aktifkan panel info?"
+
+#: ../commentluv.php:1195
+msgid "Info panel background color"
+msgstr "Warna latar panel info"
+
+#: ../commentluv.php:1196
+msgid "Info panel text color"
+msgstr "Warna huruf panel info"
+
+#: ../commentluv.php:1202
+msgid "Example text and background color"
+msgstr "Contoh huruf dan warna latar"
+
+#: ../commentluv.php:1212
+msgid "Messages"
+msgstr "Pesan"
+
+#: ../commentluv.php:1219
+msgid "Text to be displayed in the comment"
+msgstr "Kata untuk ditampilkan pada komentar"
+
+#: ../commentluv.php:1222
+msgid "[name] = The users name"
+msgstr "[name] = Nama Pengguna"
+
+#: ../commentluv.php:1222
+msgid "[lastpost] = The last blog post link"
+msgstr "[lastpost] = Tautan postingan blog terakhir"
+
+#: ../commentluv.php:1229
+msgid "Message for unregistered user in the drop down box"
+msgstr "Pesan untuk pengguna belum terdaftar pada kotak drop down"
+
+#: ../commentluv.php:1230
+#: ../commentluv.php:1254
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr "Pesan tidak akan ditampilkan jika anda tidak mengaktifkan registrasi"
+
+#: ../commentluv.php:1234
+msgid "Your register link code"
+msgstr "Kode tautan pendaftaran anda"
+
+#: ../commentluv.php:1244
+msgid "You have NOT set your blog to allow registrations, you can do that in Settings/General"
+msgstr "Anda BELUM mengeset blog untuk menerima registrasi, anda dapat melakukannya di Settings/General"
+
+#: ../commentluv.php:1245
+msgid "here"
+msgstr "Disini"
+
+#: ../commentluv.php:1253
+msgid "Message for unregistered user in the info panel"
+msgstr "Pesan untuk pengguna tidak terdaftar di panel info"
+
+#: ../commentluv.php:1268
+msgid "Operational Settings"
+msgstr "Setelan Operasional"
+
+#: ../commentluv.php:1275
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "Siapa yang diberikan 10 postingan akhir untuk dipilih saat mereka berkomentar?"
+
+#: ../commentluv.php:1276
+msgid "Only Registered Members"
+msgstr "Hanya Anggota Terdaftar"
+
+#: ../commentluv.php:1277
+msgid "Everybody"
+msgstr "Semua orang"
+
+#: ../commentluv.php:1278
+msgid "Nobody"
+msgstr "Tidak siapapun"
+
+#: ../commentluv.php:1285
+msgid "Whose links should be dofollow?"
+msgstr "Tautan siapakah yang dapat dofollow?"
+
+#: ../commentluv.php:1286
+msgid "Only Registered Members Links"
+msgstr "Hanya tautan anggota terdaftar"
+
+#: ../commentluv.php:1287
+msgid "Everybody gets dofollow links"
+msgstr "Semua mendapat tautan dofollow"
+
+#: ../commentluv.php:1288
+msgid "Nobody gets dofollow links"
+msgstr "Tidak ada yang mendapat tautan dofollow"
+
+#: ../commentluv.php:1299
+msgid "Technical Settings"
+msgstr "Setelan Teknis"
+
+#: ../commentluv.php:1299
+msgid "Click to open technical settings"
+msgstr "Klik untuk membuka setelan teknis"
+
+#: ../commentluv.php:1306
+msgid "Please check the help video for this section before changing settings"
+msgstr "Harap cek video bantuan untuk bagian ini sebelum merubah setelan"
+
+#: ../commentluv.php:1307
+msgid "In most cases, you will NOT need to change the settings in this box unless you have a custom comment form, template or you are using minifying or caching plugins"
+msgstr "Dalam banyak kasus, anda tidak perlu merubah setelan di kotak ini kecuali anda memiliki format komentar tersendiri, contoh atau menggunakan plugin untuk minifying atau mengcache"
+
+#: ../commentluv.php:1312
+msgid "Compatibility"
+msgstr "Kompabilitas"
+
+#: ../commentluv.php:1316
+msgid "Use manual insert of badge code?"
+msgstr "Gunakan cara manual memasukkan kode pengenal?"
+
+#: ../commentluv.php:1320
+msgid "Enable minifying compatibility?"
+msgstr "Aktifkan kompabilitas minifying?"
+
+#: ../commentluv.php:1321
+msgid "For caching plugins (places localized code in footer)"
+msgstr "Untuk mengcache plugin (simpan kode lokalisasi di footer)"
+
+#: ../commentluv.php:1326
+msgid "API URL"
+msgstr "API URL"
+
+#: ../commentluv.php:1330
+msgid "URL to use for API"
+msgstr "URL yang digunakan untuk API"
+
+#: ../commentluv.php:1334
+msgid "Comment Form Field Values"
+msgstr "Kotak Format Komentar"
+
+#: ../commentluv.php:1337
+msgid "Authors Name field name"
+msgstr "Kotak Nama Penulis"
+
+#: ../commentluv.php:1342
+msgid "Email field name"
+msgstr "Kotak Email"
+
+#: ../commentluv.php:1347
+msgid "Authors URL field name"
+msgstr "Kotak URL Penulis"
+
+#: ../commentluv.php:1352
+msgid "Comment Text Area name"
+msgstr "Kotak Teks Komentar"
+
+#: ../commentluv.php:1357
+msgid "Diagnostics Info"
+msgstr "Info Diagnosis"
+
+#: ../commentluv.php:1375
+msgid "You can copy this information and send it to me if I request it"
+msgstr "Anda dapat menyalin informasi ini dan mengirimkannya pada saya jika saya memintanya"
+
+#: ../commentluv.php:1382
+msgid "Save Settings"
+msgstr "Simpan Setelan"
+
+#: ../commentluv.php:1384
+msgid "Reset Settings"
+msgstr "Hapus Setelan"
+
+#: ../commentluv.php:1387
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr "Apakah anda yakin ingin menghapus setelan anda? tekan OK untuk melanjutkan"
+
+#: ../commentluv.php:1390
+msgid "Reset"
+msgstr "Kembalikan"
+
+#: ../commentluv.php:1398
+msgid "Plugin Info"
+msgstr "Info Plugin"
+
+#: ../commentluv.php:1401
+msgid "Start Here"
+msgstr "Mulai Disini"
+
+#: ../commentluv.php:1402
+msgid "Author"
+msgstr "Penulis"
+
+#: ../commentluv.php:1403
+msgid "Home Page"
+msgstr "Halaman Utama"
+
+#: ../commentluv.php:1403
+msgid "Visit www.commentluv.com!"
+msgstr "Kunjungi www.commentluv.com!"
+
+#: ../commentluv.php:1404
+msgid "Social"
+msgstr "Sosial"
+
+#: ../commentluv.php:1405
+msgid "Help"
+msgstr "Bantuan"
+
+#: ../commentluv.php:1405
+msgid "Help Desk"
+msgstr "Pusat Bantuan"
+
+#: ../commentluv.php:1406
+msgid "Do you like this plugin?"
+msgstr "Apakah anda menyukai plugin ini?"
+
+#: ../commentluv.php:1408
+msgid "News"
+msgstr "Berita"
+
+#: ../commentluv.php:1414
+msgid "Thanks to the following for translations"
+msgstr "Terima kasih kepada berikut ini atas terjemahannya"
+
+#: ../commentluv.php:1415
+msgid "Italian"
+msgstr "Italia"
+
+#: ../commentluv.php:1416
+msgid "Dutch"
+msgstr "Belanda"
+
+#: ../commentluv.php:1417
+msgid "Polish"
+msgstr "Polandia"
+
+#: ../commentluv.php:1418
+msgid "Georgian"
+msgstr "Georgia"
+
+#: ../commentluv.php:1419
+msgid "Lithuanian"
+msgstr "Lituania"
+
+#: ../commentluv.php:1420
+msgid "Portuguese"
+msgstr "Portugal"
+
+#: ../commentluv.php:1421
+msgid "Malaysian"
+msgstr "Malaysia"
+
+#: ../commentluv.php:1422
+msgid "Hindi"
+msgstr ""
+
+#: ../commentluv.php:1423
+msgid "Russian"
+msgstr "Rusia"
+
+#: ../commentluv.php:1424
+msgid "Chinese"
+msgstr "Cina"
+
+#: ../commentluv.php:1425
+msgid "Hebrew"
+msgstr "Israel"
+
+#: ../commentluv.php:1426
+msgid "French"
+msgstr "Perancis"
+
+#: ../commentluv.php:1428
+msgid "Romanian"
+msgstr "Rumania"
+
+#: ../commentluv.php:1429
+msgid "German"
+msgstr "Jerman"
+
+#: ../commentluv.php:1430
+msgid "Arabic"
+msgstr "Arab"
+
+#: ../commentluv.php:1432
+msgid "Want your link here?"
+msgstr "Ingin tautan anda disini?"
+
+#: ../commentluv.php:1432
+msgid "How To Submit A Translation"
+msgstr "Bagaimana Cara Mengirimkan Terjemahan"
+
+#: ../commentluv.php:1433
+msgid "Special thanks go to the following"
+msgstr "Terima kasih banyak untuk berikut ini"
+
+#: ../commentluv.php:1434
+msgid "CSS Help"
+msgstr "Bantuan CSS"
+
+#: ../commentluv.php:1435
+msgid "Badge GFX"
+msgstr "GFX Pengenal"
+

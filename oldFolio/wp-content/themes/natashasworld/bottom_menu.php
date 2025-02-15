@@ -1,0 +1,1 @@
+<p><a href="<?php bloginfo('url'); ?>/" title="My Blog">blog</a> | <a href="http://natashasworld.com/journal/about/" title="About Natasha">about</a> | <a href="http://portfolio.natashasworld.com/" title="My Portfolio">portfolio</a> | <a href="http://natashasworld.com/journal/contact-natasha/" title="Send me an email">contact me</a></p>

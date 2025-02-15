@@ -1,0 +1,253 @@
+# Translation of Kelly in Swedish
+# This file is distributed under the same license as the Kelly package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-06 18:11:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Kelly\n"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/kelly/style.css
+msgid "A clean and simple responsive blogging theme with lots of room for your photos."
+msgstr "Ett avskalat och enkelt responsivt bloggtema med massor av utrymme för dina foton."
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "Sök"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Sök &hellip;"
+
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr "Sök"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Tyvärr matchade inget din sökning. Prova igen med något eller några andra nyckelord."
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här</a>."
+
+#: inc/template-tags.php:102
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Inget funnet"
+
+#: inc/template-tags.php:79
+msgid "<span class=\"posted-on\">Featured</span><span class=\"byline\"> by %1$s</span>"
+msgstr ""
+
+#: inc/template-tags.php:86
+msgid "<span class=\"entry-format\">%1$s</span> <span class=\"posted-on\">posted on %2$s</span><span class=\"byline\"> by %3$s</span>"
+msgstr ""
+
+#: inc/template-tags.php:89
+msgid "All %s posts"
+msgstr "Alla %s inlägg"
+
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Inläggsnavigering"
+
+#: inc/extras.php:55
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: header.php:38
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Leckerli One, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:145
+msgctxt "Leckerli One font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:37
+msgid "Menu"
+msgstr "Meny"
+
+#: functions.php:95
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Open Sans, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:139
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:79
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: functions.php:87
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s av %2$s."
+
+#: footer.php:16
+msgid "Proudly powered by %s"
+msgstr "Drivs med %s"
+
+#: content.php:70
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: content.php:70
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:70
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#: content.php:36
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:55 content.php:64
+msgid "Tagged %1$s"
+msgstr "Taggad %1$s"
+
+#: content-single.php:45 content.php:54
+msgid "Posted in %1$s"
+msgstr "Postat i %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:41 content-single.php:51 content.php:50 content.php:60
+msgid ", "
+msgstr ", "
+
+#: content-page.php:23 content-single.php:59 content.php:73
+msgid "Edit"
+msgstr "Redigera"
+
+#: content-page.php:18 content-single.php:32 content.php:39
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Kommentarer inaktiverade."
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En reaktion på &rdquo;%2$s&rdquo;"
+msgstr[1] "%1$s reaktioner på &rdquo;%2$s&rdquo;"
+
+#: archive.php:54
+msgid "Galleries"
+msgstr "Gallerier"
+
+#: archive.php:57
+msgid "Archives"
+msgstr "Arkiv"
+
+#: archive.php:51
+msgid "Links"
+msgstr "Länkar"
+
+#: archive.php:48
+msgid "Quotes"
+msgstr "Citat"
+
+#: archive.php:45
+msgid "Videos"
+msgstr "Videos"
+
+#: archive.php:42
+msgid "Images"
+msgstr "Bilder"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "År: %s"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Noteringar"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Månad: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Det verkar som inget kunde hittas för denna plats. Vill du kanske försöka med en sökning?"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Författare: %s"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan, sidan kunde inte hittas."

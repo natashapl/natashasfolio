@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.8.9.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-12 18:43-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: obugs <xeroncn@gmail.com>\n"
+"Language-Team: @commentluv, Gianni Diurno <admin@comluv.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:48
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv需要Wordpress3.0及以上版本。"
+
+#: ../commentluv.php:48
+msgid "Please Update!"
+msgstr "请升级！"
+
+#: ../commentluv.php:217
+msgid "Please enter a URL and then click the CommentLuv checkbox if you want to add your last blog post"
+msgstr "输入网址，然后点击CommentLuv前的复选框就可以分享你的最新博客文章。"
+
+#: ../commentluv.php:218
+msgid "Please use http:// in front of your url"
+msgstr "确保网址前面有 http:// 字样"
+
+#: ../commentluv.php:219
+msgid "You need to visit your profile in the dashboard and update your details with your site URL"
+msgstr "在控制板中个人设置页面更新你的网站的详细信息。"
+
+#: ../commentluv.php:220
+msgid "No info was available or an error occured"
+msgstr "找不到信息或者出错。"
+
+#: ../commentluv.php:243
+msgid "Please wait"
+msgstr "请耐心等待"
+
+#: ../commentluv.php:243
+msgid "Please check your inbox, an email will be sent to"
+msgstr "邮件已经发送到您的邮箱，请查收"
+
+#: ../commentluv.php:243
+msgid "in the next few minutes with a confirmation link"
+msgstr "接下来的几分钟会有一个确认链接"
+
+#: ../commentluv.php:243
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "请求出错。注册到这个网站试试看。"
+
+#: ../commentluv.php:272
+msgid "Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr "您的Wordpress安装时<strong>wp_commentmeta</strong>表丢失！"
+
+#: ../commentluv.php:272
+msgid " CommentLuv cannot work without this table please see this wordpress forum post to learn how to add one ->"
+msgstr "CommentLuv需要这个表才能使用，请参考wordpress论坛学习如何加入此表 ->"
+
+#: ../commentluv.php:272
+msgid "Missing wp_commentmeta table"
+msgstr "wp_commentmeta表丢失"
+
+#: ../commentluv.php:365
+msgid "Twice Monthly"
+msgstr "双月份"
+
+#: ../commentluv.php:392
+msgid "CommentLuv is enabled"
+msgstr "CommentLuv可用"
+
+#: ../commentluv.php:433
+msgid "Show more posts"
+msgstr "显示更多文章"
+
+#: ../commentluv.php:523
+msgid "I have only commented on this post"
+msgstr "我刚只在这篇博文后评论了"
+
+#: ../commentluv.php:526
+msgid "If I had made more comments on this site, you would see more of my other posts here"
+msgstr "如果我在这个网站进行了其他评论，那么这里会显示我的其他评论"
+
+#: ../commentluv.php:551
+msgid "User has not saved a description in their profile page"
+msgstr "用户没有在个人设置页面保存描述"
+
+#: ../commentluv.php:563
+msgid "is the administrator of this site"
+msgstr "是这个网站的管理员"
+
+#: ../commentluv.php:565
+msgid "is a registered member of my site"
+msgstr "是这个网站的注册用户"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:587
+msgid "Clicks on this link on this comment"
+msgstr "点击这个评论里的链接"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:588
+msgid "approved comments on this site"
+msgstr "这个网站允许评论"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:589
+msgid "Some other posts I have commented on"
+msgstr "我评论的其他博文有"
+
+#: ../commentluv.php:568
+msgid "Some of my other posts"
+msgstr "我的其他博文"
+
+#: ../commentluv.php:581
+msgid "has not registered on this site"
+msgstr "尚未注册到此网站"
+
+#: ../commentluv.php:703
+msgid "Could not get posts for home blog"
+msgstr "不能从这个博客获取博文"
+
+#: ../commentluv.php:759
+msgid "If you are registered, you need to log in to get 10 posts to choose from"
+msgstr "如果注册了CommentLuv，这里可以选择你的10篇文章"
+
+#: ../commentluv.php:783
+#: ../commentluv.php:1235
+msgid "Register"
+msgstr "注册"
+
+#: ../commentluv.php:788
+msgid "recently posted"
+msgstr "最近发布的文章"
+
+#: ../commentluv.php:789
+msgid "If you register as a user on my site, you can get your 10 most recent blog posts to choose from in this box."
+msgstr "如果注册了我的网站，你从下面可以选择你的10篇最新的博客文章之一。"
+
+#: ../commentluv.php:790
+msgid "If this user had registered to my site then they could get 10 last posts to choose from when they comment and you would be able to see a list of their recent posts in this panel"
+msgstr "注册用户在评论时可以从这个面板看到一个列表，显示他/她的最新10篇博客文章"
+
+#: ../commentluv.php:971
+msgid "Settings"
+msgstr "是遏制"
+
+#: ../commentluv.php:1010
+msgid "No Posts Were Found!"
+msgstr "找不到任何文章！"
+
+#: ../commentluv.php:1050
+msgid "There is a new version of Commentluv available, please upgrade by visiting this site"
+msgstr "新版本的CommentLuv可用，访问官网以升级。"
+
+#: ../commentluv.php:1053
+msgid "Dismiss notice"
+msgstr "忽略提示"
+
+#: ../commentluv.php:1080
+msgid "CommentLuv Settings v"
+msgstr "CommentLuv设置v"
+
+#: ../commentluv.php:1090
+msgid "Important!"
+msgstr "重要！"
+
+#: ../commentluv.php:1090
+msgid "Subscription Information"
+msgstr "订阅信息"
+
+#: ../commentluv.php:1095
+msgid "CommentLuv 3.0 Premium is coming soon!"
+msgstr "CommentLuv 3.0高级版即将推出！"
+
+#: ../commentluv.php:1096
+msgid "I promise not to sell your details or send you spam. You will ONLY receive emails about plugin updates."
+msgstr "我保证不会泄露或者出售您的个人信息，不会发送垃圾邮件到您的邮箱。您只会受到插件的更新信息。"
+
+#: ../commentluv.php:1099
+msgid "There is a premium version of CommentLuv coming that will have much more control of how the plugin works as well as exclusive features like keyword name, inline registration and much much more!. Signup to find out as soon as it is ready"
+msgstr "马上到来的新版本CommentLuv将会有更多的控制项，包括修改关键字、注册信息等等！赶紧注册以获取更新信息吧！"
+
+#: ../commentluv.php:1102
+msgid "You have already subscribed, if you have not received the verification within 12 hours, please click the button to resend or try the form at"
+msgstr "你已经订阅，12小时内未收到验证信请重新点击按钮发送或者尝试提交表格在"
+
+#: ../commentluv.php:1102
+msgid "Resend Verification"
+msgstr "重新发送验证"
+
+#: ../commentluv.php:1104
+msgid "Click to register now!"
+msgstr "现在就点击注册吧！"
+
+#: ../commentluv.php:1119
+msgid "Primary Setting"
+msgstr "主要设置"
+
+#: ../commentluv.php:1119
+#: ../commentluv.php:1153
+#: ../commentluv.php:1212
+#: ../commentluv.php:1268
+#: ../commentluv.php:1299
+msgid "Help Video"
+msgstr "帮助视频"
+
+#: ../commentluv.php:1123
+msgid "Enable CommentLuv?"
+msgstr "使用CommentLuv吗？"
+
+#: ../commentluv.php:1124
+msgid "Yes"
+msgstr "是"
+
+#: ../commentluv.php:1125
+msgid "No"
+msgstr "否"
+
+#: ../commentluv.php:1130
+msgid "On Posts"
+msgstr "文章"
+
+#: ../commentluv.php:1131
+msgid "On Pages"
+msgstr "页面"
+
+#: ../commentluv.php:1132
+msgid "On Both"
+msgstr "所有"
+
+#: ../commentluv.php:1137
+msgid "On by default?"
+msgstr "默认开启吗？"
+
+#: ../commentluv.php:1141
+msgid "On for admin?"
+msgstr "只为管理员开启吗？"
+
+#: ../commentluv.php:1153
+msgid "Appearance"
+msgstr "界面"
+
+#: ../commentluv.php:1157
+msgid "Badge"
+msgstr "CommentLuv标志"
+
+#: ../commentluv.php:1158
+msgid "Custom Image URL"
+msgstr "自定义图像地址"
+
+#: ../commentluv.php:1159
+msgid "Use Text"
+msgstr "使用的文字"
+
+#: ../commentluv.php:1167
+msgid "Default"
+msgstr "默认"
+
+#: ../commentluv.php:1168
+msgid "White"
+msgstr "白色"
+
+#: ../commentluv.php:1169
+msgid "Black"
+msgstr "黑色"
+
+#: ../commentluv.php:1170
+msgid "None"
+msgstr "无"
+
+#: ../commentluv.php:1187
+msgid "Link to Commentluv?"
+msgstr "允许链接到CommentLuv吗？"
+
+#: ../commentluv.php:1194
+msgid "Enable info panel?"
+msgstr "使用信息栏？"
+
+#: ../commentluv.php:1195
+msgid "Info panel background color"
+msgstr "信息栏背景颜色"
+
+#: ../commentluv.php:1196
+msgid "Info panel text color"
+msgstr "信息栏文字颜色"
+
+#: ../commentluv.php:1202
+msgid "Example text and background color"
+msgstr "示例文字和背景色"
+
+#: ../commentluv.php:1212
+msgid "Messages"
+msgstr "消息"
+
+#: ../commentluv.php:1219
+msgid "Text to be displayed in the comment"
+msgstr "评论中现实的文字"
+
+#: ../commentluv.php:1222
+msgid "[name] = The users name"
+msgstr "[name]代表评论人名字"
+
+#: ../commentluv.php:1222
+msgid "[lastpost] = The last blog post link"
+msgstr "[lastpost]代表最新文章及链接"
+
+#: ../commentluv.php:1229
+msgid "Message for unregistered user in the drop down box"
+msgstr "下拉框中未注册用户的提示信息"
+
+#: ../commentluv.php:1230
+#: ../commentluv.php:1254
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr "如果这个博客不允许注册，那么消息不会显示。"
+
+#: ../commentluv.php:1234
+msgid "Your register link code"
+msgstr "你的注册链接码"
+
+#: ../commentluv.php:1244
+msgid "You have NOT set your blog to allow registrations, you can do that in Settings/General"
+msgstr "你的博客现在不允许注册，可以在通用设置里面改变。"
+
+#: ../commentluv.php:1245
+msgid "here"
+msgstr "这里"
+
+#: ../commentluv.php:1253
+msgid "Message for unregistered user in the info panel"
+msgstr "信息栏中的未注册用户信息"
+
+#: ../commentluv.php:1268
+msgid "Operational Settings"
+msgstr "操作设置"
+
+#: ../commentluv.php:1275
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "评论时允许谁选择10篇他/她的最新文章？"
+
+#: ../commentluv.php:1276
+msgid "Only Registered Members"
+msgstr "只针对注册用户"
+
+#: ../commentluv.php:1277
+msgid "Everybody"
+msgstr "所有人"
+
+#: ../commentluv.php:1278
+msgid "Nobody"
+msgstr "不允许任何人"
+
+#: ../commentluv.php:1285
+msgid "Whose links should be dofollow?"
+msgstr "哪些链接需要有follow属性？"
+
+#: ../commentluv.php:1286
+msgid "Only Registered Members Links"
+msgstr "注册用户的链接"
+
+#: ../commentluv.php:1287
+msgid "Everybody gets dofollow links"
+msgstr "所有人的链接"
+
+#: ../commentluv.php:1288
+msgid "Nobody gets dofollow links"
+msgstr "不加入任何follow属性"
+
+#: ../commentluv.php:1299
+msgid "Technical Settings"
+msgstr "高级设置"
+
+#: ../commentluv.php:1299
+msgid "Click to open technical settings"
+msgstr "点击此处打开高级设置栏"
+
+#: ../commentluv.php:1306
+msgid "Please check the help video for this section before changing settings"
+msgstr "改变设置之前看一下这个演示视频"
+
+#: ../commentluv.php:1307
+msgid "In most cases, you will NOT need to change the settings in this box unless you have a custom comment form, template or you are using minifying or caching plugins"
+msgstr "大多数情况下，这些设置不需要改变。除非您使用了自定义的评论格式、模板或者博客用到了缓存或Minify（优化css）的插件"
+
+#: ../commentluv.php:1312
+msgid "Compatibility"
+msgstr "兼容性"
+
+#: ../commentluv.php:1316
+msgid "Use manual insert of badge code?"
+msgstr "手动插入CommentLuv代码吗？"
+
+#: ../commentluv.php:1320
+msgid "Enable minifying compatibility?"
+msgstr "兼容Minify（优化css）吗？"
+
+#: ../commentluv.php:1321
+msgid "For caching plugins (places localized code in footer)"
+msgstr "针对缓存插件（在footer添加本地代码）"
+
+#: ../commentluv.php:1326
+msgid "API URL"
+msgstr "API网址"
+
+#: ../commentluv.php:1330
+msgid "URL to use for API"
+msgstr "使用API时的网址"
+
+#: ../commentluv.php:1334
+msgid "Comment Form Field Values"
+msgstr "评论窗域名称"
+
+#: ../commentluv.php:1337
+msgid "Authors Name field name"
+msgstr "评论人名字域名称"
+
+#: ../commentluv.php:1342
+msgid "Email field name"
+msgstr "电子邮箱域名称"
+
+#: ../commentluv.php:1347
+msgid "Authors URL field name"
+msgstr "评论人网址域名称"
+
+#: ../commentluv.php:1352
+msgid "Comment Text Area name"
+msgstr "评论文字区名称"
+
+#: ../commentluv.php:1357
+msgid "Diagnostics Info"
+msgstr "诊断信息"
+
+#: ../commentluv.php:1375
+msgid "You can copy this information and send it to me if I request it"
+msgstr "如果我需要，你可以复制这些信息发送给我"
+
+#: ../commentluv.php:1382
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: ../commentluv.php:1384
+msgid "Reset Settings"
+msgstr "重置设置"
+
+#: ../commentluv.php:1387
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr "确定要重新设置吗？点击OK以继续"
+
+#: ../commentluv.php:1390
+msgid "Reset"
+msgstr "重置"
+
+#: ../commentluv.php:1398
+msgid "Plugin Info"
+msgstr "插件信息"
+
+#: ../commentluv.php:1401
+msgid "Start Here"
+msgstr "从这里开始"
+
+#: ../commentluv.php:1402
+msgid "Author"
+msgstr "作者"
+
+#: ../commentluv.php:1403
+msgid "Home Page"
+msgstr "首页"
+
+#: ../commentluv.php:1403
+msgid "Visit www.commentluv.com!"
+msgstr "访问CommentLuv官方网站"
+
+#: ../commentluv.php:1404
+msgid "Social"
+msgstr "社会化"
+
+#: ../commentluv.php:1405
+msgid "Help"
+msgstr "帮助"
+
+#: ../commentluv.php:1405
+msgid "Help Desk"
+msgstr "帮助平台"
+
+#: ../commentluv.php:1406
+msgid "Do you like this plugin?"
+msgstr "喜欢这个插件吗？"
+
+#: ../commentluv.php:1408
+msgid "News"
+msgstr "新闻"
+
+#: ../commentluv.php:1414
+msgid "Thanks to the following for translations"
+msgstr "感谢下列翻译者"
+
+#: ../commentluv.php:1415
+msgid "Italian"
+msgstr "意大利文"
+
+#: ../commentluv.php:1416
+msgid "Dutch"
+msgstr "荷兰文"
+
+#: ../commentluv.php:1417
+msgid "Polish"
+msgstr "波兰文"
+
+#: ../commentluv.php:1418
+msgid "Georgian"
+msgstr "格鲁吉亚文"
+
+#: ../commentluv.php:1419
+msgid "Lithuanian"
+msgstr "立陶宛文"
+
+#: ../commentluv.php:1420
+msgid "Portuguese"
+msgstr "葡萄牙文"
+
+#: ../commentluv.php:1421
+msgid "Malaysian"
+msgstr "马来西亚文"
+
+#: ../commentluv.php:1422
+msgid "Hindi"
+msgstr "印度文"
+
+#: ../commentluv.php:1423
+msgid "Russian"
+msgstr "俄文"
+
+#: ../commentluv.php:1424
+msgid "Chinese"
+msgstr "中文"
+
+#: ../commentluv.php:1425
+msgid "Hebrew"
+msgstr "希伯来文"
+
+#: ../commentluv.php:1426
+msgid "French"
+msgstr "法文"
+
+#: ../commentluv.php:1428
+msgid "Romanian"
+msgstr "罗马文"
+
+#: ../commentluv.php:1429
+msgid "German"
+msgstr "德文"
+
+#: ../commentluv.php:1430
+msgid "Arabic"
+msgstr "阿拉伯文"
+
+#: ../commentluv.php:1432
+msgid "Want your link here?"
+msgstr "现在这里加入链接吗？"
+
+#: ../commentluv.php:1432
+msgid "How To Submit A Translation"
+msgstr "如何提交一个语言包"
+
+#: ../commentluv.php:1433
+msgid "Special thanks go to the following"
+msgstr "特别感谢"
+
+#: ../commentluv.php:1434
+msgid "CSS Help"
+msgstr "CSS帮助"
+
+#: ../commentluv.php:1435
+msgid "Badge GFX"
+msgstr "CommentLuv标志作者"
+

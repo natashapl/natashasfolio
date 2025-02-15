@@ -1,0 +1,520 @@
+/*---------------------------------------------------------
+ Text and Gallery section (sections.css)
+-------------------------------------------------------- */
+.ttfmake-section-text .ttfmake-titlediv {
+	margin-bottom: 0; /*reset*/
+	padding-right: 0;
+}
+.ttfmake-section-text .ttfmake-text-column .ttfmake-media-uploader-placeholder {
+	border: 0;
+}
+.ttfmake-section-text .ttfmake-uploader {
+	padding: 15px;
+	border-left: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	background-color: #fff;
+}
+.ttfmake-section-text .ttfmake-iframe-wrapper {
+	border: 0;
+	overflow: hidden;
+	-webkit-transform: translateZ(0px);
+}
+.ttfmake-section-text .ttfmake-section-body,
+.ttfmake-section-gallery .ttfmake-section-body {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.ttfmake-gallery-items-stage .sortable-placeholder {
+	width: 100%;
+	margin: 0; /*reset*/
+	padding: 0 9px;
+}
+@media screen and ( min-width: 1160px ) {
+	.ttfmake-gallery-items-stage .sortable-placeholder {
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		flex: 1;
+		-ms-flex: 1;
+		-webkit-flex: 1;
+	}
+}
+.ttfmake-gallery-items-stage .sortable-placeholder {
+	padding: 0; /*reset*/
+}
+.ttfmake-gallery-items-stage,
+.ttfmake-text-columns-stage {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+.ttfmake-text-columns-stage .ttfmake-sortable-handle {
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.ttfmake-text-column,
+.ttfmake-gallery-item {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.ttfmake-gallery-item {
+	padding: 0 10px;
+}
+.ttfmake-text-column {
+	position: relative;
+	margin: 0 calc(0.625% - 1px);
+	border: 1px solid #e5e5e5;
+	background-color: #fff;
+}
+.ttfmake-text-columns-stage .sortable-placeholder {
+	width: 100%;
+	height: 100%;
+	margin: 0 0.625%;
+	border: 1px dashed #b9b9b9;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ttfmake-text-column.ttfmake-text-column-row-start {
+  margin-left: 0;
+}
+@media screen and ( min-width: 1160px ) {
+	.ttfmake-text-column,
+	.ttfmake-gallery-item {
+		flex: 1;
+		-ms-flex: 1;
+		-webkit-flex: 1;
+		margin-bottom: 0; /*reset*/
+	}
+  .ttfmake-text-column {
+    flex: auto;
+    -ms-flex: auto;
+    -webkit-flex: auto;
+    margin-bottom: 1.8em;
+  }
+}
+/*---------------------------------------------------------
+ Text: One column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-text-columns-1 .ttfmake-text-column {
+	flex: 0 100%;
+	-ms-flex: 0 100%;
+	-webkit-flex: 0 100%;
+}
+.ttfmake-text-columns-1 .ttfmake-text-column .column-buttons {
+    top: 0;
+}
+/*---------------------------------------------------------
+ Text: Two column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-text-columns-2 .ttfmake-text-column,
+.ttfmake-text-columns-2 .sortable-placeholder {
+	flex: 0 48.7%;
+	-ms-flex: 0 48.7%;
+	-webkit-flex: 0 48.7%;
+	margin-left: calc(0.645% - 1px);
+	margin-right: calc(0.645% - 1px);
+}
+.make-plus-enabled .ttfmake-text-columns-2 .ttfmake-text-column,
+.make-plus-enabled .ttfmake-text-columns-2 .sortable-placeholder {
+  flex: 0 48.65%;
+  -ms-flex: 0 48.65%;
+  -webkit-flex: 0 48.65%;
+  margin-left: calc(0.665% - 1px);
+  margin-right: calc(0.665% - 1px);
+}
+/*---------------------------------------------------------
+ Text: Three column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-text-columns-3 .ttfmake-text-column,
+.ttfmake-text-columns-3 .sortable-placeholder {
+	flex: 0 1 32.033%;
+	-ms-flex: 0 1 32.033%;
+	-webkit-flex: 0 1 32.033%;
+	margin-left: calc(0.645% - 1px);
+	margin-right: calc(0.645% - 1px);
+}
+.make-plus-enabled .ttfmake-text-columns-3 .ttfmake-text-column,
+.make-plus-enabled .ttfmake-text-columns-3 .sortable-placeholder {
+  flex: 0 32%;
+  -ms-flex: 0 32%;
+  -webkit-flex: 0 32%;
+  margin-left: calc(0.665% - 1px);
+  margin-right: calc(0.665% - 1px);
+}
+@media screen and ( min-width: 1160px ) {
+	.ttfmake-text-columns-2,
+	.ttfmake-text-columns-3,
+	.ttfmake-text-columns-4,
+	.ttfmake-text-columns-5,
+	.ttfmake-text-columns-6 {
+		display: flex;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+	}
+}
+/*---------------------------------------------------------
+ Text: Four column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-text-columns-4 .ttfmake-text-column,
+.ttfmake-text-columns-4 .sortable-placeholder {
+  flex: 0 23.75%;
+  -ms-flex: 0 23.75%;
+  -webkit-flex: 0 23.75%;
+}
+/*---------------------------------------------------------
+ Text: Five column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-text-columns-5 .ttfmake-text-column,
+.ttfmake-text-columns-5 .sortable-placeholder {
+	flex: 0 18.75%;
+  -ms-flex: 0 18.75%;
+  -webkit-flex: 0 18.75%;
+}
+/*---------------------------------------------------------
+ Text: Six column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-text-columns-6 .ttfmake-text-column,
+.ttfmake-text-columns-6 .sortable-placeholder {
+	flex: 0 15.41%;
+  -ms-flex: 0 15.41%;
+  -webkit-flex: 0 15.41%;
+}
+/*---------------------------------------------------------
+ Gallery: One column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-gallery-columns-1 .ttfmake-gallery-item,
+.ttfmake-gallery-columns-1 .sortable-placeholder {
+	flex: 0 100%;
+	-ms-flex: 0 100%;
+	-webkit-flex: 0 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*---------------------------------------------------------
+ Gallery: Two column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-gallery-columns-2 .ttfmake-gallery-item,
+.ttfmake-gallery-columns-2 .sortable-placeholder {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@media screen and ( min-width: 1160px ) {
+	.ttfmake-gallery-columns-2 .ttfmake-gallery-item,
+	.ttfmake-gallery-columns-2 .sortable-placeholder {
+		flex: 0 50%;
+		-ms-flex: 0 50%;
+		-webkit-flex: 0 50%;
+	}
+}
+/*---------------------------------------------------------
+ Gallery: Three column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-gallery-columns-3 .ttfmake-gallery-item,
+.ttfmake-gallery-columns-3 .sortable-placeholder {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@media screen and ( min-width: 1160px ) {
+	.ttfmake-gallery-columns-3 .ttfmake-gallery-item,
+	.ttfmake-gallery-columns-3 .sortable-placeholder {
+		flex: 0 33.333%;
+		-ms-flex: 0 33.333%;
+		-webkit-flex: 0 33.333%;
+	}
+}
+/*---------------------------------------------------------
+ Gallery: Four column (sections.css)
+-------------------------------------------------------- */
+.ttfmake-gallery-columns-4 .ttfmake-gallery-item,
+.ttfmake-gallery-columns-4 .sortable-placeholder {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@media screen and ( min-width: 1160px ) {
+	.ttfmake-gallery-columns-4 .ttfmake-gallery-item,
+	.ttfmake-gallery-columns-4 .sortable-placeholder {
+		flex: 0 25%;
+		-ms-flex: 0 25%;
+		-webkit-flex: 0 25%;
+	}
+}
+/*---------------------------------------------------------
+ Banner (sections.css)
+-------------------------------------------------------- */
+.ttfmake-banner-slide {
+	position: relative;
+	margin-bottom: 20px;
+}
+.ttfmake-banner-slide-body {
+	padding: 12px;
+}
+.ttfmake-banner-slides .ttfmake-banner-slide-header h3 {
+	background-color: #ffffff;
+}
+.ttfmake-banner-options {
+	float: left;
+	width: 100%;
+	margin-top: 40px;
+}
+.ttfmake-banner-options-container {
+	float: left;
+	margin-right: 50px;
+}
+.ttfmake-banner-options-title {
+	margin-top: 8px;
+}
+.ttfmake-add-item-wrapper {
+	clear: both;
+	height: 76px;
+	text-align: center;
+	line-height: 76px;
+}
+.ttfmake-banner-add-item-link,
+.ttfmake-gallery-add-item-link,
+.ttfmake-text-columns-add-column-link {
+	text-decoration: none; /*reset*/
+	padding: 0 20px;
+}
+.make-plus-enabled .ttfmake-text-columns-add-column-link {
+  padding: 0 0 0 10px;
+}
+.ttfmake-add-item-wrapper span {
+	display: inline-block;
+	vertical-align: middle;
+	color: #0073aa;
+}
+.ttfmake-add-item-wrapper span:hover {
+	color: #00b8ee;
+}
+.ttfmake-add-item-wrapper span:before {
+	content: "\f502";
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 2em;
+	font-family: dashicons;
+}
+
+/*---------------------------------------------------------
+ Banner: Slide (sections.css)
+-------------------------------------------------------- */
+@media screen and ( min-width: 1160px ) {
+	.ttfmake-banner-slide-option-wrapper,
+	.ttfmake-banner-slide-background-image-wrapper,
+	.ttfmake-gallery-background-image-wrapper,
+	.ttfmake-gallery-background-options-wrapper {
+		width: 50%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.ttfmake-banner-slide-option-wrapper,
+	.ttfmake-gallery-background-options-wrapper {
+		float: right;
+		padding-left: 20px;
+	}
+	.ttfmake-banner-slide-background-image-wrapper,
+	.ttfmake-gallery-background-image-wrapper {
+		float: left;
+	}
+}
+.ttfmake-banner-slide-header h3 em {
+	font-weight: normal; /*reset*/
+	color: #999999;
+}
+.ttfmake-add-slide-wrapper,
+.ttfmake-add-gallery-item-wrapper {
+	margin-bottom: 20px;
+}
+.ttfmake-add-slide-wrapper a:before,
+.ttfmake-add-gallery-item-wrapper a:before {
+	content: "\f132";
+	position: relative;
+	top: 1px;
+	padding-right: 4px;
+	font-family: Dashicons;
+}
+@media screen and ( max-width: 782px ) {
+	.ttfmake-add-slide-wrapper a:before,
+	.ttfmake-add-gallery-item-wrapper a:before {
+		top: 3px;
+	}
+}
+.ttfmake-banner-slide .ttfmake-banner-slide-body {
+	display: none;
+}
+.ttfmake-banner-slide-open .ttfmake-banner-slide-body {
+	display: block; /*reset*/
+}
+.ttfmake-stage .ttfmake-banner-slides .sortable-placeholder {
+	width: 100%;
+	margin-bottom: 18px;
+}
+/*---------------------------------------------------------
+ Gallery (sections.css)
+-------------------------------------------------------- */
+.ttfmake-gallery-items-stage {
+	float: left;
+	width: 100%;
+}
+.ttfmake-gallery-item {
+	position: relative;
+	margin-bottom: 20px;
+}
+#poststuff .ttfmake-large-title {
+	padding-top: 12px;
+	border-top: 1px solid #dfdfdf;
+}
+#poststuff .ttfmake-large-title:before {
+	content: "\f108";
+	position: relative;
+	top: 7px;
+	font-size: 30px;
+	font-family: Dashicons;
+}
+.ttfmake-gallery-background-options-wrapper label {
+	vertical-align: top;
+}
+.ttfmake-gallery-item-description-wrapper textarea {
+	width: 100%;
+	height: 75px;
+}
+.ttfmake-gallery-background-options-container {
+	float: left;
+	width: 100%;
+}
+.configure-button,
+.remove-widget-link {
+	top: 0; /*reset*/
+}
+.configure-button {
+	right: 0;
+	height: 34px;
+	border: 0;
+	background: transparent;
+}
+.remove-widget-link {
+	right: 0; /*reset*/
+}
+.column-buttons {
+	z-index: 1;
+}
+.configure-button {
+	z-index: 6;
+}
+.configure-button.active {
+	border-bottom: 0;
+}
+/*---------------------------------------------------------
+ Configure item dropdown (sections.css)
+-------------------------------------------------------- */
+.configure-item-dropdown {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: -6px;
+	z-index: 5;
+	margin: 10px 0 0;
+	padding: 6px 0 10px;
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+	background-color: #32373c;
+}
+.ttfmake-text-columns-5 .ttfmake-text-column:nth-child(5n+1) .configure-item-dropdown,
+.ttfmake-text-columns-6 .ttfmake-text-column:nth-child(6n+1) .configure-item-dropdown {
+	left: 0;
+	right: auto;
+}
+@media screen and (max-width: 1279px) {
+	.ttfmake-section-text .ttfmake-text-column:first-child .configure-item-dropdown {
+		left: 0;
+		right: auto;
+	}
+}
+.configure-item-dropdown:before {
+	position: absolute;
+	top: -8px;
+	right: 22px;
+	content: ' ';
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #32373c;
+}
+.ttfmake-text-columns-5 .ttfmake-text-column:nth-child(5n+1) .configure-item-dropdown:before,
+.ttfmake-text-columns-6 .ttfmake-text-column:nth-child(6n+1) .configure-item-dropdown:before {
+	right: auto;
+	left: 25%;
+}
+@media screen and (max-width: 1279px) {
+	.ttfmake-section-text .ttfmake-text-column:first-child .configure-item-dropdown:before {
+		right: auto;
+		left: 25%;
+	}
+}
+.ttfmake-banner-slide .configure-item-dropdown {
+	top: 40px;
+}
+.ttfmake-gallery-item .configure-item-dropdown {
+	top: 40px;
+	right: 4px;
+}
+.configure-item-dropdown li {
+	margin-bottom: 0;
+}
+.configure-item-dropdown li a {
+	display: block;
+	padding: 3px 25px 3px 10px;
+	color: rgba(240, 245, 250, 0.7);
+	text-decoration: none;
+	white-space: nowrap;
+}
+.configure-item-dropdown li a:before {
+	position: relative;
+	top: 4px;
+	padding-right: 3px;
+	font-family: dashicons;
+	font-size: 1.1rem;
+}
+.configure-item-dropdown li a.ttfmake-icon-cog:before {
+	content: "\f111";
+}
+.configure-item-dropdown li a.ttfmake-icon-pencil:before {
+	content: "\f464";
+}
+.configure-item-dropdown li a.ttfmake-icon-gauge:before {
+	content: "\f226";
+}
+.configure-item-dropdown li a.ttfmake-icon-trash:before {
+	content: "\f182";
+}
+.configure-item-dropdown li a.ttfmake-icon-duplicate:before {
+	content: "\f105";
+}
+.configure-item-dropdown li a:hover {
+	color: #00b9eb;
+}
+/*---------------------------------------------------------
+ Quick Start info (sections.css)
+-------------------------------------------------------- */
+.ttfmp-import-message-hide,
+.ttfmake-default-active .ttfmp-import-message {
+	display: none;
+}
+/*---------------------------------------------------------
+ Make Plus disabled (sections.css)
+-------------------------------------------------------- */
+.make-plus-disabled .configure-button {
+	top: 20px;
+	right: 0;
+}

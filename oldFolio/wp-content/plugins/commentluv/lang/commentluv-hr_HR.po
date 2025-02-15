@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.8.9.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-12 18:43-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bruno <bruno31@net.hr>\n"
+"Language-Team: @commentluv, Gianni Diurno <admin@comluv.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:48
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv zahtijeva Wordpress 3.0 ili noviji."
+
+#: ../commentluv.php:48
+msgid "Please Update!"
+msgstr "Molimo vas da obavite nadogradnju !"
+
+#: ../commentluv.php:217
+msgid "Please enter a URL and then click the CommentLuv checkbox if you want to add your last blog post"
+msgstr "Molimo vas da unesete vaš URL i zatim kliknete na CommentLuv checkbox ako želite dodati vaš posljednji blog post."
+
+#: ../commentluv.php:218
+msgid "Please use http:// in front of your url"
+msgstr "Molimo vas da unesete http:// ispred vaše web adrese"
+
+#: ../commentluv.php:219
+msgid "You need to visit your profile in the dashboard and update your details with your site URL"
+msgstr "Morate otvoriti vaš profil u nadzornoj ploči  i obnoviti vaše detalje tako što ćete unesti vašu web adresu"
+
+#: ../commentluv.php:220
+msgid "No info was available or an error occured"
+msgstr "Informacija nije dostupna ili se pojavila greška"
+
+#: ../commentluv.php:243
+msgid "Please wait"
+msgstr "Molimo sačekajte"
+
+#: ../commentluv.php:243
+msgid "Please check your inbox, an email will be sent to"
+msgstr "Molimo vas da provjerite vašu dolaznu poštu, biti će vam poslan email"
+
+#: ../commentluv.php:243
+msgid "in the next few minutes with a confirmation link"
+msgstr "za nekoliko trenutaka sa linkom za potvrdu"
+
+#: ../commentluv.php:243
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "Pojavila se greška sa zahtjevom. Pokušajte se registrirati na stranicu"
+
+#: ../commentluv.php:272
+msgid "Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr "Vašoj Wordpress instalaciji nedostaje <strong>wp_commentmeta</strong> tablica !"
+
+#: ../commentluv.php:272
+msgid " CommentLuv cannot work without this table please see this wordpress forum post to learn how to add one ->"
+msgstr "CommentLuv ne može raditi bez ove tablice, molimo vas da pogledate ovaj wordpress forum da naučite kako da dodate tablicu ->"
+
+#: ../commentluv.php:272
+msgid "Missing wp_commentmeta table"
+msgstr "Nedostaje wp_commentmeta tablica"
+
+#: ../commentluv.php:365
+msgid "Twice Monthly"
+msgstr "Dva puta mjesečno"
+
+#: ../commentluv.php:392
+msgid "CommentLuv is enabled"
+msgstr "CommentLuv je aktiviran"
+
+#: ../commentluv.php:433
+msgid "Show more posts"
+msgstr "Pokaži još postova"
+
+#: ../commentluv.php:523
+msgid "I have only commented on this post"
+msgstr "Komentirao sam samo na ovom postu"
+
+#: ../commentluv.php:526
+msgid "If I had made more comments on this site, you would see more of my other posts here"
+msgstr "Da sam napisao više komentara na ovoj stranici, ovdje bi vidjeli još mojih postova"
+
+#: ../commentluv.php:551
+msgid "User has not saved a description in their profile page"
+msgstr "Korisnik nije snimio opis u svojoj profilnoj stranici"
+
+#: ../commentluv.php:563
+msgid "is the administrator of this site"
+msgstr "je administrator ove stranice"
+
+#: ../commentluv.php:565
+msgid "is a registered member of my site"
+msgstr "je registrirani član moje stranice"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:587
+msgid "Clicks on this link on this comment"
+msgstr "Kliknite na ovaj link u komentaru"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:588
+msgid "approved comments on this site"
+msgstr "odobreni komentari na ovoj stranici"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:589
+msgid "Some other posts I have commented on"
+msgstr "Neki drugi postovi na kojima sam komentirao"
+
+#: ../commentluv.php:568
+msgid "Some of my other posts"
+msgstr "Neki od  mojih postova"
+
+#: ../commentluv.php:581
+msgid "has not registered on this site"
+msgstr "se nije registrirao na ovoj stranici"
+
+#: ../commentluv.php:703
+msgid "Could not get posts for home blog"
+msgstr "Ne mogu dobiti postove za home blog"
+
+#: ../commentluv.php:759
+msgid "If you are registered, you need to log in to get 10 posts to choose from"
+msgstr "Ako ste registrirani, morate se logirati da dobijete izbor od 10 vaših postova"
+
+#: ../commentluv.php:783
+#: ../commentluv.php:1235
+msgid "Register"
+msgstr "Registracija"
+
+#: ../commentluv.php:788
+msgid "recently posted"
+msgstr "nedavno objavljeno"
+
+#: ../commentluv.php:789
+msgid "If you register as a user on my site, you can get your 10 most recent blog posts to choose from in this box."
+msgstr "Ako se registrirate kao korisnik na mojoj stranici, u ovome prozoru moći ćete odabrati između 10 vaših najnovijih postova."
+
+#: ../commentluv.php:790
+msgid "If this user had registered to my site then they could get 10 last posts to choose from when they comment and you would be able to see a list of their recent posts in this panel"
+msgstr "Da se ovaj korisnik registrirao na mojoj stranici imao bi opciju da odabere postove između 10 svojih najnovijih postova, a vi bi u ovom panelu mogli vidjeti listu njegovih najnovijih postova"
+
+#: ../commentluv.php:971
+msgid "Settings"
+msgstr "Podešenja"
+
+#: ../commentluv.php:1010
+msgid "No Posts Were Found!"
+msgstr "Postovi nisu nađeni !"
+
+#: ../commentluv.php:1050
+msgid "There is a new version of Commentluv available, please upgrade by visiting this site"
+msgstr "Dostupna je nova verzija CommentLuv plugina, molimo vas da ju nadogradite posjetom na ovu stranicu"
+
+#: ../commentluv.php:1053
+msgid "Dismiss notice"
+msgstr "Ukloni obavijest"
+
+#: ../commentluv.php:1080
+msgid "CommentLuv Settings v"
+msgstr "CommentLuv podešenja v"
+
+#: ../commentluv.php:1090
+msgid "Important!"
+msgstr "Važno!"
+
+#: ../commentluv.php:1090
+msgid "Subscription Information"
+msgstr "Informacije o pretplati"
+
+#: ../commentluv.php:1095
+msgid "CommentLuv 3.0 Premium is coming soon!"
+msgstr "CommentLuv 3.0 Premium dolazi uskoro!"
+
+#: ../commentluv.php:1096
+msgid "I promise not to sell your details or send you spam. You will ONLY receive emails about plugin updates."
+msgstr "Obećavam vam da neću prodavati vaše informacije ili vam slati spam. Primati ćete ISKLJUČIVO email poruke o nadogradnjama plugina."
+
+#: ../commentluv.php:1099
+msgid "There is a premium version of CommentLuv coming that will have much more control of how the plugin works as well as exclusive features like keyword name, inline registration and much much more!. Signup to find out as soon as it is ready"
+msgstr "Uskoro dolazi premium verzija CommentLuv plugina koja će imati puno više podešenja i kontrolu kao na primjer unos ključne riječi, inline registraciju i još puno toga ! Pretplatite se da bi odmah znali kada će biti dostupna"
+
+#: ../commentluv.php:1102
+msgid "You have already subscribed, if you have not received the verification within 12 hours, please click the button to resend or try the form at"
+msgstr "Već ste se pretplatili, ako niste primili email verifikaciju u roku od 12 sati, molimo kliknite dugme za ponovno slanje ili ispunite email obrazac na"
+
+#: ../commentluv.php:1102
+msgid "Resend Verification"
+msgstr "Ponovno pošalji verifikaciju"
+
+#: ../commentluv.php:1104
+msgid "Click to register now!"
+msgstr "Klikni za registraciju!"
+
+#: ../commentluv.php:1119
+msgid "Primary Setting"
+msgstr "Osnovna podešenja"
+
+#: ../commentluv.php:1119
+#: ../commentluv.php:1153
+#: ../commentluv.php:1212
+#: ../commentluv.php:1268
+#: ../commentluv.php:1299
+msgid "Help Video"
+msgstr "Video za pomoć"
+
+#: ../commentluv.php:1123
+msgid "Enable CommentLuv?"
+msgstr "Uključi CommentLuv?"
+
+#: ../commentluv.php:1124
+msgid "Yes"
+msgstr "Da"
+
+#: ../commentluv.php:1125
+msgid "No"
+msgstr "Ne"
+
+#: ../commentluv.php:1130
+msgid "On Posts"
+msgstr "Na postovima"
+
+#: ../commentluv.php:1131
+msgid "On Pages"
+msgstr "Na stranicama"
+
+#: ../commentluv.php:1132
+msgid "On Both"
+msgstr "Na oboje"
+
+#: ../commentluv.php:1137
+msgid "On by default?"
+msgstr "Uključen po defaultu?"
+
+#: ../commentluv.php:1141
+msgid "On for admin?"
+msgstr "Uključen za administratora?"
+
+#: ../commentluv.php:1153
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ../commentluv.php:1157
+msgid "Badge"
+msgstr "Značka"
+
+#: ../commentluv.php:1158
+msgid "Custom Image URL"
+msgstr "Link na sliku po želji"
+
+#: ../commentluv.php:1159
+msgid "Use Text"
+msgstr "Koristi tekst"
+
+#: ../commentluv.php:1167
+msgid "Default"
+msgstr "Default"
+
+#: ../commentluv.php:1168
+msgid "White"
+msgstr "Bijelo"
+
+#: ../commentluv.php:1169
+msgid "Black"
+msgstr "Crno"
+
+#: ../commentluv.php:1170
+msgid "None"
+msgstr "Nijedna"
+
+#: ../commentluv.php:1187
+msgid "Link to Commentluv?"
+msgstr "Link na CommentLuv?"
+
+#: ../commentluv.php:1194
+msgid "Enable info panel?"
+msgstr "Uključi info panel?"
+
+#: ../commentluv.php:1195
+msgid "Info panel background color"
+msgstr "Boja pozadine info panela"
+
+#: ../commentluv.php:1196
+msgid "Info panel text color"
+msgstr "Boja texta info panela"
+
+#: ../commentluv.php:1202
+msgid "Example text and background color"
+msgstr "Primjer teksta i boje pozadine"
+
+#: ../commentluv.php:1212
+msgid "Messages"
+msgstr "Poruke"
+
+#: ../commentluv.php:1219
+msgid "Text to be displayed in the comment"
+msgstr "Text koji će biti prikazan u komentarima"
+
+#: ../commentluv.php:1222
+msgid "[name] = The users name"
+msgstr "[Ime] = ime korisnika"
+
+#: ../commentluv.php:1222
+msgid "[lastpost] = The last blog post link"
+msgstr "[zadnji post] = Link na posljednji blog post"
+
+#: ../commentluv.php:1229
+msgid "Message for unregistered user in the drop down box"
+msgstr "Poruka za neregistrirane korisnike u dropdown panelu"
+
+#: ../commentluv.php:1230
+#: ../commentluv.php:1254
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr "Poruka neće biti prikazana ako niste uključili registraciju"
+
+#: ../commentluv.php:1234
+msgid "Your register link code"
+msgstr "Kod vašeg linka za registraciju"
+
+#: ../commentluv.php:1244
+msgid "You have NOT set your blog to allow registrations, you can do that in Settings/General"
+msgstr "Na vašem blogu NISTE dopustili komentiranje postova, to možete napraviti u Podešenja/Općenito"
+
+#: ../commentluv.php:1245
+msgid "here"
+msgstr "ovdje"
+
+#: ../commentluv.php:1253
+msgid "Message for unregistered user in the info panel"
+msgstr "Poruka za neregistrirane korisnike u info panelu"
+
+#: ../commentluv.php:1268
+msgid "Operational Settings"
+msgstr "Operativne postavke"
+
+#: ../commentluv.php:1275
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "Kome dodijeliti 10 najnovijih postova da mogu odabrati kada komentiraju?"
+
+#: ../commentluv.php:1276
+msgid "Only Registered Members"
+msgstr "Samo registrirani članovi"
+
+#: ../commentluv.php:1277
+msgid "Everybody"
+msgstr "Svi"
+
+#: ../commentluv.php:1278
+msgid "Nobody"
+msgstr "Nitko"
+
+#: ../commentluv.php:1285
+msgid "Whose links should be dofollow?"
+msgstr "Za čije linkove želite da budu dofollow?"
+
+#: ../commentluv.php:1286
+msgid "Only Registered Members Links"
+msgstr "Samo linkovi registriranih članova"
+
+#: ../commentluv.php:1287
+msgid "Everybody gets dofollow links"
+msgstr "Svi dobivaju dofollow linkove"
+
+#: ../commentluv.php:1288
+msgid "Nobody gets dofollow links"
+msgstr "Nitko ne dobiva dofollow linkove"
+
+#: ../commentluv.php:1299
+msgid "Technical Settings"
+msgstr "Tehnička podešenja"
+
+#: ../commentluv.php:1299
+msgid "Click to open technical settings"
+msgstr "Klikni da otvoriš tehnička podešenja"
+
+#: ../commentluv.php:1306
+msgid "Please check the help video for this section before changing settings"
+msgstr "Molimo vas da pogledate video za pomoć za ovaj dio prije nego što promijenite podešenja"
+
+#: ../commentluv.php:1307
+msgid "In most cases, you will NOT need to change the settings in this box unless you have a custom comment form, template or you are using minifying or caching plugins"
+msgstr "U većini slučajeva NEĆETE morati promijeniti postavke u ovom prozoru, osim ako imate promijenjeni obrazac komentara, predložak ili koristite minifying ili caching plugins"
+
+#: ../commentluv.php:1312
+msgid "Compatibility"
+msgstr "Kompatibilnost"
+
+#: ../commentluv.php:1316
+msgid "Use manual insert of badge code?"
+msgstr "Koristi ručno učitavanje koda za značku?"
+
+#: ../commentluv.php:1320
+msgid "Enable minifying compatibility?"
+msgstr "Uključi minifying kompatibilnost?"
+
+#: ../commentluv.php:1321
+msgid "For caching plugins (places localized code in footer)"
+msgstr "Za caching pluginove (stavlja lokalizirani kod u footer)"
+
+#: ../commentluv.php:1326
+msgid "API URL"
+msgstr "API URL"
+
+#: ../commentluv.php:1330
+msgid "URL to use for API"
+msgstr "URL za korištenje kod API"
+
+#: ../commentluv.php:1334
+msgid "Comment Form Field Values"
+msgstr "Vrijednosti polja obrasca za komentiranje"
+
+#: ../commentluv.php:1337
+msgid "Authors Name field name"
+msgstr "Autorovo ime ime polja"
+
+#: ../commentluv.php:1342
+msgid "Email field name"
+msgstr "Ime Email polja"
+
+#: ../commentluv.php:1347
+msgid "Authors URL field name"
+msgstr "Ime polja autorovog URL"
+
+#: ../commentluv.php:1352
+msgid "Comment Text Area name"
+msgstr "Ime područja tekstualnog komentara"
+
+#: ../commentluv.php:1357
+msgid "Diagnostics Info"
+msgstr "Dijagnostičke informacije"
+
+#: ../commentluv.php:1375
+msgid "You can copy this information and send it to me if I request it"
+msgstr "Možete kopirati ove podatke i poslati ih meni ako ih zatražim"
+
+#: ../commentluv.php:1382
+msgid "Save Settings"
+msgstr "Snimi podešenja"
+
+#: ../commentluv.php:1384
+msgid "Reset Settings"
+msgstr "Resetiraj podešenja"
+
+#: ../commentluv.php:1387
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr "Jeste li sigurni da želite resetirati podešenja? Kliknite OK za nastavak"
+
+#: ../commentluv.php:1390
+msgid "Reset"
+msgstr "Reset"
+
+#: ../commentluv.php:1398
+msgid "Plugin Info"
+msgstr "Informacije o pluginu"
+
+#: ../commentluv.php:1401
+msgid "Start Here"
+msgstr "Start ovdje"
+
+#: ../commentluv.php:1402
+msgid "Author"
+msgstr "Autor"
+
+#: ../commentluv.php:1403
+msgid "Home Page"
+msgstr "Home stranica"
+
+#: ../commentluv.php:1403
+msgid "Visit www.commentluv.com!"
+msgstr "Posjetite www.commentluv.com!"
+
+#: ../commentluv.php:1404
+msgid "Social"
+msgstr "Social"
+
+#: ../commentluv.php:1405
+msgid "Help"
+msgstr "Pomoć"
+
+#: ../commentluv.php:1405
+msgid "Help Desk"
+msgstr "Help Desk"
+
+#: ../commentluv.php:1406
+msgid "Do you like this plugin?"
+msgstr "Da li vam se sviđa plugin?"
+
+#: ../commentluv.php:1408
+msgid "News"
+msgstr "Vijesti"
+
+#: ../commentluv.php:1414
+msgid "Thanks to the following for translations"
+msgstr "Zahvaljujemo se slijedećim osobama na prijevodu"
+
+#: ../commentluv.php:1415
+msgid "Italian"
+msgstr "Talijanski"
+
+#: ../commentluv.php:1416
+msgid "Dutch"
+msgstr "Nizozemski"
+
+#: ../commentluv.php:1417
+msgid "Polish"
+msgstr "Poljski"
+
+#: ../commentluv.php:1418
+msgid "Georgian"
+msgstr "Gruzijski"
+
+#: ../commentluv.php:1419
+msgid "Lithuanian"
+msgstr "Litvanski"
+
+#: ../commentluv.php:1420
+msgid "Portuguese"
+msgstr "Portugalski"
+
+#: ../commentluv.php:1421
+msgid "Malaysian"
+msgstr "Malezijski"
+
+#: ../commentluv.php:1422
+msgid "Hindi"
+msgstr "Hindu"
+
+#: ../commentluv.php:1423
+msgid "Russian"
+msgstr "Ruski"
+
+#: ../commentluv.php:1424
+msgid "Chinese"
+msgstr "Kineski"
+
+#: ../commentluv.php:1425
+msgid "Hebrew"
+msgstr "Hebrejski"
+
+#: ../commentluv.php:1426
+msgid "French"
+msgstr "Francuski"
+
+#: ../commentluv.php:1428
+msgid "Romanian"
+msgstr "Rumunjski"
+
+#: ../commentluv.php:1429
+msgid "German"
+msgstr "Njemački"
+
+#: ../commentluv.php:1430
+msgid "Arabic"
+msgstr "Arapski"
+
+#: ../commentluv.php:1432
+msgid "Want your link here?"
+msgstr "Želite vaš link ovdje?"
+
+#: ../commentluv.php:1432
+msgid "How To Submit A Translation"
+msgstr "Kako možete poslati prijevod"
+
+#: ../commentluv.php:1433
+msgid "Special thanks go to the following"
+msgstr "Njima ide jedno veliko hvala"
+
+#: ../commentluv.php:1434
+msgid "CSS Help"
+msgstr "CSS pomoć"
+
+#: ../commentluv.php:1435
+msgid "Badge GFX"
+msgstr "Značka GFX"
+

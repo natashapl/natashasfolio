@@ -1,0 +1,653 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.8.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-09 14:04-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Andy Bailey <andrewgbailey@gmail.com>\n"
+"Language-Team:  <admin@comluv.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:48
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv vereist Wordpress 3.0 of nieuwer."
+
+#: ../commentluv.php:48
+msgid "Please Update!"
+msgstr "Gelieve te Updaten!"
+
+#: ../commentluv.php:216
+#, fuzzy
+msgid "Please enter a URL and then click the CommentLuv checkbox if you want to add your last blog post"
+msgstr "Geef een URL in als je je laatste blog bericht toe wil voegen"
+
+#: ../commentluv.php:217
+msgid "Please use http:// in front of your url"
+msgstr "Gebruik http:// aan de voorkant van je URL"
+
+#: ../commentluv.php:218
+msgid "You need to visit your profile in the dashboard and update your details with your site URL"
+msgstr "Je moet je profiel bezoeken in het admin paneel en je gegevens bijwerken met je website URL"
+
+#: ../commentluv.php:219
+msgid "No info was available or an error occured"
+msgstr "Er was geen info beschikbaar of er is een fout opgetreden"
+
+#: ../commentluv.php:242
+msgid "Please wait"
+msgstr "Wacht alstublieft"
+
+#: ../commentluv.php:242
+msgid "Please check your inbox, an email will be sent to"
+msgstr "Controleer je inbox, een email zal verzonden worden naar"
+
+#: ../commentluv.php:242
+msgid "in the next few minutes with a confirmation link"
+msgstr "in de volgende minuten met een bevestigingslink"
+
+#: ../commentluv.php:242
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "Er is een fout opgetreden met de aanvraag. Probeer te registreren op de site"
+
+#: ../commentluv.php:271
+msgid "Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr ""
+
+#: ../commentluv.php:271
+msgid " CommentLuv cannot work without this table please see this wordpress forum post to learn how to add one ->"
+msgstr ""
+
+#: ../commentluv.php:271
+msgid "Missing wp_commentmeta table"
+msgstr ""
+
+#: ../commentluv.php:364
+msgid "Twice Monthly"
+msgstr "Tweemaandelijks"
+
+#: ../commentluv.php:391
+msgid "CommentLuv is enabled"
+msgstr "CommentLuv is ingeschakeld"
+
+#: ../commentluv.php:432
+msgid "Show more posts"
+msgstr "Laat meer berichten zien"
+
+#: ../commentluv.php:522
+msgid "I have only commented on this post"
+msgstr "Ik heb alleen een reactie gegeven op dit bericht"
+
+#: ../commentluv.php:525
+msgid "If I had made more comments on this site, you would see more of my other posts here"
+msgstr "Als ik meer reacties gegeven had op deze site zou je meer van mijn andere berichten hier zien"
+
+#: ../commentluv.php:550
+msgid "User has not saved a description in their profile page"
+msgstr "Gebruiker heeft geen omschrijving opgeslagen in zijn profiel pagina"
+
+#: ../commentluv.php:562
+msgid "is the administrator of this site"
+msgstr "is de beheerder van deze site"
+
+#: ../commentluv.php:564
+msgid "is a registered member of my site"
+msgstr "is een geregistreerd gebruiker van mijn site"
+
+#: ../commentluv.php:567
+#: ../commentluv.php:586
+msgid "Clicks on this link on this comment"
+msgstr "Kliks op deze link op deze reactie"
+
+#: ../commentluv.php:567
+#: ../commentluv.php:587
+msgid "approved comments on this site"
+msgstr "goedgekeurde reacties op deze site"
+
+#: ../commentluv.php:567
+#: ../commentluv.php:588
+msgid "Some other posts I have commented on"
+msgstr "Wat andere berichten waar ik een reactie op gegeven heb"
+
+#: ../commentluv.php:567
+msgid "Some of my other posts"
+msgstr "Enkele van mijn andere berichten"
+
+#: ../commentluv.php:580
+msgid "has not registered on this site"
+msgstr "is niet geregistreerd op deze site"
+
+#: ../commentluv.php:702
+msgid "Could not get posts for home blog"
+msgstr ""
+
+#: ../commentluv.php:758
+#, fuzzy
+msgid "If you are registered, you need to log in to get 10 posts to choose from"
+msgstr "Als je registreert als een gebruiker op mijn site kun je je 10 meest recente berichten kiezen in dit venster."
+
+#: ../commentluv.php:782
+#: ../commentluv.php:1231
+msgid "Register"
+msgstr "Registreer"
+
+#: ../commentluv.php:787
+msgid "recently posted"
+msgstr "onlangs geplaatst"
+
+#: ../commentluv.php:788
+msgid "If you register as a user on my site, you can get your 10 most recent blog posts to choose from in this box."
+msgstr "Als je registreert als een gebruiker op mijn site kun je je 10 meest recente berichten kiezen in dit venster."
+
+#: ../commentluv.php:789
+msgid "If this user had registered to my site then they could get 10 last posts to choose from when they comment and you would be able to see a list of their recent posts in this panel"
+msgstr "Als deze gebruiker geregistreerd was op mijn site kon hij de laatste 10 berichten kiezen waar hij/zij een reactie op gegeven had en jij zou een lijst van zijn/haar recente berichten kunnen zien in dit paneel"
+
+#: ../commentluv.php:967
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../commentluv.php:1006
+msgid "No Posts Were Found!"
+msgstr "Geen Berichten Zijn Gevonden!"
+
+#: ../commentluv.php:1046
+msgid "There is a new version of Commentluv available, please upgrade by visiting this site"
+msgstr "Er is een nieuwe versie van CommentLuv beschikbaar, upgrade nu  door deze website te bezoeken"
+
+#: ../commentluv.php:1049
+msgid "Dismiss notice"
+msgstr "Negeer melding"
+
+#: ../commentluv.php:1076
+#, fuzzy
+msgid "CommentLuv Settings v"
+msgstr "CommentLuv is ingeschakeld"
+
+#: ../commentluv.php:1086
+msgid "Important!"
+msgstr "Belangrijk!"
+
+#: ../commentluv.php:1086
+msgid "Subscription Information"
+msgstr "Abonnement Informatie"
+
+#: ../commentluv.php:1091
+msgid "CommentLuv 3.0 Premium is coming soon!"
+msgstr "CommentLuv 3.0 Premium komt binnenkort!"
+
+#: ../commentluv.php:1092
+msgid "I promise not to sell your details or send you spam. You will ONLY receive emails about plugin updates."
+msgstr "Ik beloof je niet je gegevens te verkopen of je spam te zenden. Je zal ALLEEN email ontvangen over plugin updates."
+
+#: ../commentluv.php:1095
+msgid "There is a premium version of CommentLuv coming that will have much more control of how the plugin works as well as exclusive features like keyword name, inline registration and much much more!. Signup to find out as soon as it is ready"
+msgstr "Er komt een premium versie van CommentLuv die veel meer controle heeft over de werking van de plugin, met exclusieve mogelijkheden zoals zoekwoord naam, inline registratie en nog veel meer! Schrijf in om informatie te ontvangen wanneer deze gereed is"
+
+#: ../commentluv.php:1098
+msgid "You have already subscribed, if you have not received the verification within 12 hours, please click the button to resend or try the form at"
+msgstr "Je bent al ingeschreven, als je geen verificatie email hebt ontvangen binnen 12 uur klik op de knop of probeer het formulier op"
+
+#: ../commentluv.php:1098
+msgid "Resend Verification"
+msgstr "Herzenden Verificatie"
+
+#: ../commentluv.php:1100
+msgid "Click to register now!"
+msgstr "Klik om nu te registreren!"
+
+#: ../commentluv.php:1115
+msgid "Primary Setting"
+msgstr "Basis Instelling"
+
+#: ../commentluv.php:1115
+#: ../commentluv.php:1149
+#: ../commentluv.php:1208
+#: ../commentluv.php:1264
+#: ../commentluv.php:1295
+msgid "Help Video"
+msgstr "Help Video"
+
+#: ../commentluv.php:1119
+msgid "Enable CommentLuv?"
+msgstr "CommentLuv Inschakelen?"
+
+#: ../commentluv.php:1120
+msgid "Yes"
+msgstr "Ja"
+
+#: ../commentluv.php:1121
+msgid "No"
+msgstr "Nee"
+
+#: ../commentluv.php:1126
+msgid "On Posts"
+msgstr "Op Berichten"
+
+#: ../commentluv.php:1127
+msgid "On Pages"
+msgstr "Op Pagina's"
+
+#: ../commentluv.php:1128
+msgid "On Both"
+msgstr "Op Beiden"
+
+#: ../commentluv.php:1133
+msgid "On by default?"
+msgstr "Standaard aan?"
+
+#: ../commentluv.php:1137
+msgid "On for admin?"
+msgstr "Aan voor beheerder?"
+
+#: ../commentluv.php:1149
+msgid "Appearance"
+msgstr "Weergave"
+
+#: ../commentluv.php:1153
+msgid "Badge"
+msgstr "Badge"
+
+#: ../commentluv.php:1154
+msgid "Custom Image URL"
+msgstr "Aangepaste afbeelding URL"
+
+#: ../commentluv.php:1155
+msgid "Use Text"
+msgstr "Gebruik Tekst"
+
+#: ../commentluv.php:1163
+msgid "Default"
+msgstr "Standaard"
+
+#: ../commentluv.php:1164
+msgid "White"
+msgstr "Wit"
+
+#: ../commentluv.php:1165
+msgid "Black"
+msgstr "Zwart"
+
+#: ../commentluv.php:1166
+msgid "None"
+msgstr "Geen"
+
+#: ../commentluv.php:1183
+msgid "Link to Commentluv?"
+msgstr "Link naar CommentLuv?"
+
+#: ../commentluv.php:1190
+msgid "Enable info panel?"
+msgstr "Info paneel inschakelen?"
+
+#: ../commentluv.php:1191
+msgid "Info panel background color"
+msgstr "Achtergrondkleur info paneel"
+
+#: ../commentluv.php:1192
+msgid "Info panel text color"
+msgstr "Tekstkleur info paneel"
+
+#: ../commentluv.php:1198
+msgid "Example text and background color"
+msgstr "Voorbeeld tekst en achtergrondkleur"
+
+#: ../commentluv.php:1208
+msgid "Messages"
+msgstr "Boodschappen"
+
+#: ../commentluv.php:1215
+msgid "Text to be displayed in the comment"
+msgstr "Weer te geven tekst in het commentaar"
+
+#: ../commentluv.php:1218
+msgid "[name] = The users name"
+msgstr ""
+
+#: ../commentluv.php:1218
+msgid "[lastpost] = The last blog post link"
+msgstr ""
+
+#: ../commentluv.php:1225
+msgid "Message for unregistered user in the drop down box"
+msgstr "Boodschap voor niet geregistreerde gebruiker in het uitklapvenster"
+
+#: ../commentluv.php:1226
+#: ../commentluv.php:1250
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr ""
+
+#: ../commentluv.php:1230
+msgid "Your register link code"
+msgstr "Je registratie link code"
+
+#: ../commentluv.php:1240
+msgid "You have NOT set your blog to allow registrations, you can do that in Settings/General"
+msgstr "Je hebt NIET je blog ingesteld om registraties toe te staan, je kan dit in Instellingen/Algemeen"
+
+#: ../commentluv.php:1241
+msgid "here"
+msgstr "hier"
+
+#: ../commentluv.php:1249
+msgid "Message for unregistered user in the info panel"
+msgstr "Boodschap voor ongeregistreerde gebruiker in het info paneel"
+
+#: ../commentluv.php:1264
+msgid "Operational Settings"
+msgstr "Operationele Instellingen"
+
+#: ../commentluv.php:1271
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "Wie de 10 laatste berichten laten kiezen wanneer zij reageren?"
+
+#: ../commentluv.php:1272
+msgid "Only Registered Members"
+msgstr "Alleen Geregistreerde Leden"
+
+#: ../commentluv.php:1273
+msgid "Everybody"
+msgstr "Iedereen"
+
+#: ../commentluv.php:1274
+msgid "Nobody"
+msgstr "Niemand"
+
+#: ../commentluv.php:1281
+msgid "Whose links should be dofollow?"
+msgstr "Welke links moeten dofollow zijn?"
+
+#: ../commentluv.php:1282
+msgid "Only Registered Members Links"
+msgstr "Alleen Links van Geregistreerde Leden"
+
+#: ../commentluv.php:1283
+msgid "Everybody gets dofollow links"
+msgstr "Iedereen krijgt dofollow links"
+
+#: ../commentluv.php:1284
+msgid "Nobody gets dofollow links"
+msgstr "Niemand krijgt dofollow links"
+
+#: ../commentluv.php:1295
+msgid "Technical Settings"
+msgstr "Technische Instellingen"
+
+#: ../commentluv.php:1295
+msgid "Click to open technical settings"
+msgstr "Klik om de technische instellingen te openen"
+
+#: ../commentluv.php:1302
+msgid "Please check the help video for this section before changing settings"
+msgstr "Controleer de help video voor deze sectie voordat je instellingen wijzigd"
+
+#: ../commentluv.php:1303
+msgid "In most cases, you will NOT need to change the settings in this box unless you have a custom comment form, template or you are using minifying or caching plugins"
+msgstr "In de meeste gevallen hoef je deze instellingen NIET te wijzigen tenzij je een aangepast reactieformulier hebt, een template of wanneer je minifying of caching plugins gebruikt"
+
+#: ../commentluv.php:1308
+msgid "Compatibility"
+msgstr "Compatibiliteit"
+
+#: ../commentluv.php:1312
+msgid "Use manual insert of badge code?"
+msgstr "Gebruik manuele plaatsing of badge code?"
+
+#: ../commentluv.php:1316
+msgid "Enable minifying compatibility?"
+msgstr "Inschakelen minifying compatibiliteit?"
+
+#: ../commentluv.php:1317
+msgid "For caching plugins (places localized code in footer)"
+msgstr "Voor caching plugins (plaatst gelokaliseerde code in voettekst)"
+
+#: ../commentluv.php:1322
+msgid "API URL"
+msgstr ""
+
+#: ../commentluv.php:1326
+msgid "URL to use for API"
+msgstr ""
+
+#: ../commentluv.php:1330
+msgid "Comment Form Field Values"
+msgstr "Reactieformulier Veldwaarden"
+
+#: ../commentluv.php:1333
+msgid "Authors Name field name"
+msgstr "Veldnaam Naam Auteur"
+
+#: ../commentluv.php:1338
+msgid "Email field name"
+msgstr "Veldnaam Email"
+
+#: ../commentluv.php:1343
+msgid "Authors URL field name"
+msgstr "Veldnaam URL Auteur"
+
+#: ../commentluv.php:1348
+msgid "Comment Text Area name"
+msgstr "Reactie Tekstruimte naam"
+
+#: ../commentluv.php:1353
+msgid "Diagnostics Info"
+msgstr "Diagnostische Informatie"
+
+#: ../commentluv.php:1371
+msgid "You can copy this information and send it to me if I request it"
+msgstr "Je kan deze informatie kopieëren en naar mij zenden wanneer ik er om vraag"
+
+#: ../commentluv.php:1378
+msgid "Save Settings"
+msgstr "Instellingen Opslaan"
+
+#: ../commentluv.php:1380
+msgid "Reset Settings"
+msgstr "Instellingen Herstellen"
+
+#: ../commentluv.php:1383
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr "Weet u zeker dat je je instellingen wilt resetten? Druk op OK om verder te gaan"
+
+#: ../commentluv.php:1386
+msgid "Reset"
+msgstr "Reset"
+
+#: ../commentluv.php:1394
+msgid "Plugin Info"
+msgstr "Plugin Informatie"
+
+#: ../commentluv.php:1397
+msgid "Start Here"
+msgstr "Start Hier"
+
+#: ../commentluv.php:1398
+msgid "Author"
+msgstr "Auteur"
+
+#: ../commentluv.php:1399
+msgid "Home Page"
+msgstr "Home Page"
+
+#: ../commentluv.php:1399
+msgid "Visit www.commentluv.com!"
+msgstr "Bezoek www.commentluv.com!"
+
+#: ../commentluv.php:1400
+msgid "Social"
+msgstr "Social"
+
+#: ../commentluv.php:1401
+msgid "Help"
+msgstr "Help"
+
+#: ../commentluv.php:1401
+msgid "Help Desk"
+msgstr "Help Desk"
+
+#: ../commentluv.php:1402
+msgid "Do you like this plugin?"
+msgstr ""
+
+#: ../commentluv.php:1404
+msgid "News"
+msgstr "Nieuws"
+
+#: ../commentluv.php:1410
+msgid "Thanks to the following for translations"
+msgstr "Dank aan deze personen voor vertalingen"
+
+#: ../commentluv.php:1411
+msgid "Italian"
+msgstr "Italiaans"
+
+#: ../commentluv.php:1412
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: ../commentluv.php:1413
+msgid "Polish"
+msgstr "Pools"
+
+#: ../commentluv.php:1414
+msgid "Georgian"
+msgstr "Georgisch"
+
+#: ../commentluv.php:1415
+msgid "Lithuanian"
+msgstr "Litouws"
+
+#: ../commentluv.php:1416
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: ../commentluv.php:1417
+#, fuzzy
+msgid "Malaysian"
+msgstr "Italiaans"
+
+#: ../commentluv.php:1418
+msgid "Russian"
+msgstr "Russisch"
+
+#: ../commentluv.php:1419
+msgid "Chinese"
+msgstr "Chinees"
+
+#: ../commentluv.php:1420
+msgid "Hebrew"
+msgstr "Hebreeuws"
+
+#: ../commentluv.php:1421
+msgid "French"
+msgstr "Frans"
+
+#: ../commentluv.php:1423
+msgid "Romanian"
+msgstr "Roemeens"
+
+#: ../commentluv.php:1424
+msgid "German"
+msgstr "Duits"
+
+#: ../commentluv.php:1425
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: ../commentluv.php:1427
+msgid "Want your link here?"
+msgstr ""
+
+#: ../commentluv.php:1427
+msgid "How To Submit A Translation"
+msgstr ""
+
+#: ../commentluv.php:1428
+msgid "Special thanks go to the following"
+msgstr ""
+
+#: ../commentluv.php:1429
+#, fuzzy
+msgid "CSS Help"
+msgstr "Help"
+
+#: ../commentluv.php:1430
+#, fuzzy
+msgid "Badge GFX"
+msgstr "Badge"
+
+#~ msgid ""
+#~ "This plugin takes the url from the comment form and tries to parse the "
+#~ "feed of the site and display the last entry made. If you have any "
+#~ "questions, comments or if you have a good idea that you would like to see "
+#~ "in the next version of CommentLuv, please visit http://comluv.com and let "
+#~ "me know."
+#~ msgstr ""
+#~ "Deze plugin haalt de url uit het reactieformulier, probeert de feed van "
+#~ "de website te ontleden en geeft het laatste bericht weer. Als je nog "
+#~ "vragen, opmerkingen of als je een goed idee hebt dat je zou willen zien "
+#~ "in de volgende versie van CommentLuv bezoek dan http://comluv.com en laat "
+#~ "het me weten."
+
+#~ msgid "Display Options"
+#~ msgstr "Weergave Opties"
+
+#~ msgid "Text displayed in the select box"
+#~ msgstr "Tekst weergegeven in het selectievak"
+
+#~ msgid "Show heart on links?"
+#~ msgstr "Laat een hartje zien bij links?"
+
+#~ msgid "Display Badge"
+#~ msgstr "Weergeven Badge"
+
+#~ msgid ""
+#~ "Many thanks to <a href=\"http://byteful.com\">Byteful Traveller</a> for "
+#~ "creating these images."
+#~ msgstr ""
+#~ "Dank aan <a href=\"http://byteful.com\">Byteful Traveller</a> voor het "
+#~ "maken van deze afbeeldingen."
+
+#~ msgid "Choose badge to display"
+#~ msgstr "Kies een badge ter weergave"
+
+#~ msgid "Show nothing"
+#~ msgstr "Laat niets zien"
+
+#~ msgid "Show text"
+#~ msgstr "Laat tekst zien"
+
+#~ msgid "Prepend html before badge or text (optional)"
+#~ msgstr "Voeg de html vooraan toe voor de badge of tekst (optioneel)"
+
+#~ msgid "CommentLuv Member Area"
+#~ msgstr "CommentLuv Leden Omgeving"
+
+#~ msgid ""
+#~ "If you register your site for free at <a href=\"http://comluv.com"
+#~ "\">ComLuv.com</a> you will be able to open up lots of features that are "
+#~ "for members only like link tracking so you can see which of the comments "
+#~ "you make on CommentLuv blogs are getting the last blog post clicked and "
+#~ "the ability to send back more than just blog posts. You can even create "
+#~ "your own WP2.7 blog there with commentluv pre-installed!."
+#~ msgstr ""
+#~ "Als je je website gratis registreert op <a href=\"http://comluv.com"
+#~ "\">ComLuv.com</a> kun je veel functies activeren welke alleen voor leden "
+#~ "bestemd zijn, zoals link tracking waarmee je kunt zien op welke van de "
+#~ "commentaren die je op CommentLuv blogs gemaakt hebt geklikt wordt en de "
+#~ "mogelijkheid om meer terug te sturen dan alleen blogberichten. Je kan "
+#~ "zelfs je eigen blog maken met WP2.7 CommentLuv vooraf geïnstalleerd !"
+
+#~ msgid "Reset to Default Settings"
+#~ msgstr "Resetten naar de standaardinstellingen"
+
+#~ msgid "There were errors with your chosen settings"
+#~ msgstr "Er waren fouten met je gekozen instellingen"

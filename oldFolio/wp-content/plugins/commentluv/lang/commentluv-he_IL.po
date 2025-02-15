@@ -1,0 +1,583 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CommentLuv 2.8.9.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-12 18:43-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: TOBI <noamtobi@gmail.com>\n"
+"Language-Team: Amrik Virdi <amrikvirdi@explorefeed.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Bengali\n"
+"X-Poedit-Country: BANGLADESH\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../commentluv.php:48
+msgid "CommentLuv requires Wordpress 3.0 or newer."
+msgstr "CommentLuv דורש וורדפרס 3.0 ומעלה"
+
+#: ../commentluv.php:48
+msgid "Please Update!"
+msgstr "עדכן בבקשה!"
+
+#: ../commentluv.php:217
+msgid "Please enter a URL and then click the CommentLuv checkbox if you want to add your last blog post"
+msgstr "אם ברצונך להוסיף את הכתבה האחרונה בבלוג שלך,סמן את התיבה"
+
+#: ../commentluv.php:218
+msgid "Please use http:// in front of your url"
+msgstr "  בתחילת כתובת האתר http://  השתמש ב "
+
+#: ../commentluv.php:219
+msgid "You need to visit your profile in the dashboard and update your details with your site URL"
+msgstr "גש לפרופיל בלוח הבקרה ועדכן את פרטיך ואת כתובתך"
+
+#: ../commentluv.php:220
+msgid "No info was available or an error occured"
+msgstr "לא נמצאו נתונים או שארעה תקלה במערכת"
+
+#: ../commentluv.php:243
+msgid "Please wait"
+msgstr "אנא המתן"
+
+#: ../commentluv.php:243
+msgid "Please check your inbox, an email will be sent to"
+msgstr "אנא בדוק את תיבת הדוא\"ל שלך, מייל ישלח לך בקרוב"
+
+#: ../commentluv.php:243
+msgid "in the next few minutes with a confirmation link"
+msgstr "בדקות הקרובות עם קישור לאישור"
+
+#: ../commentluv.php:243
+msgid "An error happened with the request. Try signing up at the site"
+msgstr "קרתה תקלה אם בקשתך. נסה להרשם באתר"
+
+#: ../commentluv.php:272
+msgid "Your Wordpress install is missing the <strong>wp_commentmeta</strong> table!"
+msgstr " <strong>wp_commentmeta</strong> התקנת וורדפרס באתרך חסרה טבלת  "
+
+#: ../commentluv.php:272
+msgid " CommentLuv cannot work without this table please see this wordpress forum post to learn how to add one ->"
+msgstr " אינו יכול לעבוד ללא טבלה זו, אנה פנה לפורום וורדפרס לעוד מידע CommentLuv"
+
+#: ../commentluv.php:272
+msgid "Missing wp_commentmeta table"
+msgstr "Wp_commentmeta חסר"
+
+#: ../commentluv.php:365
+msgid "Twice Monthly"
+msgstr "פעמיים בשבוע"
+
+#: ../commentluv.php:392
+msgid "CommentLuv is enabled"
+msgstr "מופעל CommentLuv "
+
+#: ../commentluv.php:433
+msgid "Show more posts"
+msgstr "הצג עוד פוסטים"
+
+#: ../commentluv.php:523
+msgid "I have only commented on this post"
+msgstr "הגבתי רק על כתבה זו"
+
+#: ../commentluv.php:526
+msgid "If I had made more comments on this site, you would see more of my other posts here"
+msgstr "אם הגבתי יותר באתר, תראה את יתר תגובותי כאן"
+
+#: ../commentluv.php:551
+msgid "User has not saved a description in their profile page"
+msgstr "המשתמש לא שמר תיאור בעמוד הפרופיל"
+
+#: ../commentluv.php:563
+msgid "is the administrator of this site"
+msgstr "הוא מנהל האתר"
+
+#: ../commentluv.php:565
+msgid "is a registered member of my site"
+msgstr "הוא משתמש רשום באתר"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:587
+msgid "Clicks on this link on this comment"
+msgstr "לחיצות על הקישור בתגובה"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:588
+msgid "approved comments on this site"
+msgstr "תגובות מאושרות באתר"
+
+#: ../commentluv.php:568
+#: ../commentluv.php:589
+msgid "Some other posts I have commented on"
+msgstr "פוסטים נוספים עליהם הגבתי"
+
+#: ../commentluv.php:568
+msgid "Some of my other posts"
+msgstr "פוסטים נוספים שלי"
+
+#: ../commentluv.php:581
+msgid "has not registered on this site"
+msgstr "לא נרשם באתר"
+
+#: ../commentluv.php:703
+msgid "Could not get posts for home blog"
+msgstr "לא יכול להשיג פוסטים עבור בלוג הבית"
+
+#: ../commentluv.php:759
+msgid "If you are registered, you need to log in to get 10 posts to choose from"
+msgstr "אם אתה רשום, עליך להכנס לאתר ע\"מ לבחור 10 פוסטים "
+
+#: ../commentluv.php:783
+#: ../commentluv.php:1235
+msgid "Register"
+msgstr "הרשם"
+
+#: ../commentluv.php:788
+msgid "recently posted"
+msgstr "פורסם לאחרונה"
+
+#: ../commentluv.php:789
+msgid "If you register as a user on my site, you can get your 10 most recent blog posts to choose from in this box."
+msgstr "אם אתה רשום לאתר , תוכל לבחור פוסט מתוך 10 הפוסטים האחרונים שלך בתיבה זו "
+
+#: ../commentluv.php:790
+msgid "If this user had registered to my site then they could get 10 last posts to choose from when they comment and you would be able to see a list of their recent posts in this panel"
+msgstr "אם משתמש זה נרשם לאתר שלי, הוא יוכל לבחור פוסט מתוך 10 הפוסטים האחרונים שלו לכשיגיב ותוכל לרשות רשימה של הפוסטים האחרונים שלו בפאנל זה"
+
+#: ../commentluv.php:971
+msgid "Settings"
+msgstr "הגדרות"
+
+#: ../commentluv.php:1010
+msgid "No Posts Were Found!"
+msgstr "לא נמצאו פוסטים!"
+
+#: ../commentluv.php:1050
+msgid "There is a new version of Commentluv available, please upgrade by visiting this site"
+msgstr "קיימת גרסה חדשה של התוסף, אנא בקר באתר ושדרג"
+
+#: ../commentluv.php:1053
+msgid "Dismiss notice"
+msgstr "בטל הודעה"
+
+#: ../commentluv.php:1080
+msgid "CommentLuv Settings v"
+msgstr "CommentLuv הגדרות"
+
+#: ../commentluv.php:1090
+msgid "Important!"
+msgstr "חשוב!"
+
+#: ../commentluv.php:1090
+msgid "Subscription Information"
+msgstr "פרטי הרשמה"
+
+#: ../commentluv.php:1095
+msgid "CommentLuv 3.0 Premium is coming soon!"
+msgstr "בדרך CommentLuv 3.0 Premiun "
+
+#: ../commentluv.php:1096
+msgid "I promise not to sell your details or send you spam. You will ONLY receive emails about plugin updates."
+msgstr "אני מבטיח לא לסחור בפרטיך או לשלוח ספאם. תקבל מייל הנוגע לעדכוני התוסף בלבד"
+
+#: ../commentluv.php:1099
+msgid "There is a premium version of CommentLuv coming that will have much more control of how the plugin works as well as exclusive features like keyword name, inline registration and much much more!. Signup to find out as soon as it is ready"
+msgstr "בקרוב תצא גרסת פרמיום לתוסף שתכיל אפשרויות שליטה נרחבות יותר, כמו גם אפשרויות יחודיות כמו שם עם מילת מפתח, אפשרויות רישום ועוד. הרשם ע\"מ לקבל עדכון ברגע שהגרסה מוכנה"
+
+#: ../commentluv.php:1102
+msgid "You have already subscribed, if you have not received the verification within 12 hours, please click the button to resend or try the form at"
+msgstr "אתה כבר רשום, אם לא קבלת אישור תוך 12 שעות לחץ על הכפתור על מנת לאתחל או נסה את הטופס"
+
+#: ../commentluv.php:1102
+msgid "Resend Verification"
+msgstr "שלח אישור שנית"
+
+#: ../commentluv.php:1104
+msgid "Click to register now!"
+msgstr "לחץ להרשמה כעת!"
+
+#: ../commentluv.php:1119
+msgid "Primary Setting"
+msgstr "הגדרות ראשיות"
+
+#: ../commentluv.php:1119
+#: ../commentluv.php:1153
+#: ../commentluv.php:1212
+#: ../commentluv.php:1268
+#: ../commentluv.php:1299
+msgid "Help Video"
+msgstr "וידאו עזרה"
+
+#: ../commentluv.php:1123
+msgid "Enable CommentLuv?"
+msgstr "הפעל את התוסף?"
+
+#: ../commentluv.php:1124
+msgid "Yes"
+msgstr "כן"
+
+#: ../commentluv.php:1125
+msgid "No"
+msgstr "לא"
+
+#: ../commentluv.php:1130
+msgid "On Posts"
+msgstr "בפוסטים"
+
+#: ../commentluv.php:1131
+msgid "On Pages"
+msgstr "בעמודים"
+
+#: ../commentluv.php:1132
+msgid "On Both"
+msgstr "בשניהם"
+
+#: ../commentluv.php:1137
+msgid "On by default?"
+msgstr "פעיל כברירת מחדל"
+
+#: ../commentluv.php:1141
+msgid "On for admin?"
+msgstr "פעיל עבור מנהל האתר"
+
+#: ../commentluv.php:1153
+msgid "Appearance"
+msgstr "תצוגה"
+
+#: ../commentluv.php:1157
+msgid "Badge"
+msgstr "תג"
+
+#: ../commentluv.php:1158
+msgid "Custom Image URL"
+msgstr "כתובת תמונה חיצונית"
+
+#: ../commentluv.php:1159
+msgid "Use Text"
+msgstr "השתמש בטקסט"
+
+#: ../commentluv.php:1167
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: ../commentluv.php:1168
+msgid "White"
+msgstr "לבן"
+
+#: ../commentluv.php:1169
+msgid "Black"
+msgstr "שחור"
+
+#: ../commentluv.php:1170
+msgid "None"
+msgstr "ללא"
+
+#: ../commentluv.php:1187
+msgid "Link to Commentluv?"
+msgstr "קישור לתוסף?"
+
+#: ../commentluv.php:1194
+msgid "Enable info panel?"
+msgstr "הפעל תפריט פרטים?"
+
+#: ../commentluv.php:1195
+msgid "Info panel background color"
+msgstr "צבע רקע של תפריט פרטים"
+
+#: ../commentluv.php:1196
+msgid "Info panel text color"
+msgstr "צבע טקסט של תפריט פרטים"
+
+#: ../commentluv.php:1202
+msgid "Example text and background color"
+msgstr "דוגמה של צבע טקסט ורקע"
+
+#: ../commentluv.php:1212
+msgid "Messages"
+msgstr "מסר"
+
+#: ../commentluv.php:1219
+msgid "Text to be displayed in the comment"
+msgstr "טקסט שיוצג בתגובה"
+
+#: ../commentluv.php:1222
+msgid "[name] = The users name"
+msgstr "[שם] = שם משתמש "
+
+#: ../commentluv.php:1222
+msgid "[lastpost] = The last blog post link"
+msgstr "קישור לפוסט האחרון בבלוג=[פוסט אחרון]"
+
+#: ../commentluv.php:1229
+msgid "Message for unregistered user in the drop down box"
+msgstr "הודעה עבור משתמשים לא רשומים"
+
+#: ../commentluv.php:1230
+#: ../commentluv.php:1254
+msgid "Message will not be shown if you do not have registrations enabled"
+msgstr "ההודעה לא תוצג אם לא תאפשר הרשמה באתר"
+
+#: ../commentluv.php:1234
+msgid "Your register link code"
+msgstr "קישור לקוד הרשמה"
+
+#: ../commentluv.php:1244
+msgid "You have NOT set your blog to allow registrations, you can do that in Settings/General"
+msgstr "הבלוג לא מאפשר רישום משתמשים, תוכל לשנות זאת בהגדרות--> כללי"
+
+#: ../commentluv.php:1245
+msgid "here"
+msgstr "כאן"
+
+#: ../commentluv.php:1253
+msgid "Message for unregistered user in the info panel"
+msgstr "הודעה למשתמש לא רשום בתיבת המידע"
+
+#: ../commentluv.php:1268
+msgid "Operational Settings"
+msgstr "הגדרות הפעלה"
+
+#: ../commentluv.php:1275
+msgid "Who to give 10 last posts to choose from when they comment?"
+msgstr "למי לאפשר בחירה להציג את  10 הפוסטים האחרונים?"
+
+#: ../commentluv.php:1276
+msgid "Only Registered Members"
+msgstr "רק משתמשים רשומים"
+
+#: ../commentluv.php:1277
+msgid "Everybody"
+msgstr "כולם"
+
+#: ../commentluv.php:1278
+msgid "Nobody"
+msgstr "אף אחד"
+
+#: ../commentluv.php:1285
+msgid "Whose links should be dofollow?"
+msgstr " ?dofollow מי מהמשתמשים יציג לינק "
+
+#: ../commentluv.php:1286
+msgid "Only Registered Members Links"
+msgstr "רק קישורים של משתמשים רשומים"
+
+#: ../commentluv.php:1287
+msgid "Everybody gets dofollow links"
+msgstr "  dofollow כולם מקבלים קישור"
+
+#: ../commentluv.php:1288
+msgid "Nobody gets dofollow links"
+msgstr "dofollow אף אחד לא מקבל  קישור"
+
+#: ../commentluv.php:1299
+msgid "Technical Settings"
+msgstr "הגדרות טכניות"
+
+#: ../commentluv.php:1299
+msgid "Click to open technical settings"
+msgstr "לחץ עבור הגדרות טכניות"
+
+#: ../commentluv.php:1306
+msgid "Please check the help video for this section before changing settings"
+msgstr "אנא העזר בסרטון העזרה לפני שתשנה הגדרות"
+
+#: ../commentluv.php:1307
+msgid "In most cases, you will NOT need to change the settings in this box unless you have a custom comment form, template or you are using minifying or caching plugins"
+msgstr "ברוב המקרים לא תצטרך לשנות הגדרות אלמלא יש לך טופס תגובות בתאמה אישית אן אתה משתמש בתוסף קאטץ' או מיניפיי."
+
+#: ../commentluv.php:1312
+msgid "Compatibility"
+msgstr "התאמה"
+
+#: ../commentluv.php:1316
+msgid "Use manual insert of badge code?"
+msgstr "להכניס קוד תג ידנית?"
+
+#: ../commentluv.php:1320
+msgid "Enable minifying compatibility?"
+msgstr "לאפשר מיניפיי?"
+
+#: ../commentluv.php:1321
+msgid "For caching plugins (places localized code in footer)"
+msgstr "עבור תוספי קאטץ' ( הקוד ימצא בתחתית אתר)"
+
+#: ../commentluv.php:1326
+msgid "API URL"
+msgstr "API URL"
+
+#: ../commentluv.php:1330
+msgid "URL to use for API"
+msgstr "  API לשמוש URL  "
+
+#: ../commentluv.php:1334
+msgid "Comment Form Field Values"
+msgstr "ערכים עבור טופס תגובות"
+
+#: ../commentluv.php:1337
+msgid "Authors Name field name"
+msgstr "שם שדה של שם הכותב"
+
+#: ../commentluv.php:1342
+msgid "Email field name"
+msgstr "שם תיבת האימייל"
+
+#: ../commentluv.php:1347
+msgid "Authors URL field name"
+msgstr "שם אזור כתובת הכותב"
+
+#: ../commentluv.php:1352
+msgid "Comment Text Area name"
+msgstr "שם אזור התגובות"
+
+#: ../commentluv.php:1357
+msgid "Diagnostics Info"
+msgstr "פרטי האבחון"
+
+#: ../commentluv.php:1375
+msgid "You can copy this information and send it to me if I request it"
+msgstr "אתה יכול להעתיק את המידע ולשלוח אותו אלי אם אבקש ממך"
+
+#: ../commentluv.php:1382
+msgid "Save Settings"
+msgstr "שמור הגדרות"
+
+#: ../commentluv.php:1384
+msgid "Reset Settings"
+msgstr "הגדרות אתחול"
+
+#: ../commentluv.php:1387
+msgid "Are you sure you want to reset your settings? Press OK to continue"
+msgstr "אתה בטוח שברצונך אתחל את ההגדרות? לחץ כן על מנת להמשיך"
+
+#: ../commentluv.php:1390
+msgid "Reset"
+msgstr "אתחל"
+
+#: ../commentluv.php:1398
+msgid "Plugin Info"
+msgstr "פרטי התוסף"
+
+#: ../commentluv.php:1401
+msgid "Start Here"
+msgstr "התחל כאן"
+
+#: ../commentluv.php:1402
+msgid "Author"
+msgstr "מחבר"
+
+#: ../commentluv.php:1403
+msgid "Home Page"
+msgstr "דף הבית"
+
+#: ../commentluv.php:1403
+msgid "Visit www.commentluv.com!"
+msgstr "www.commentluv.com בקר ב "
+
+#: ../commentluv.php:1404
+msgid "Social"
+msgstr "Social"
+
+#: ../commentluv.php:1405
+msgid "Help"
+msgstr "Help"
+
+#: ../commentluv.php:1405
+msgid "Help Desk"
+msgstr "Help Desk"
+
+#: ../commentluv.php:1406
+msgid "Do you like this plugin?"
+msgstr "Do you like this plugin?"
+
+#: ../commentluv.php:1408
+msgid "News"
+msgstr "News"
+
+#: ../commentluv.php:1414
+msgid "Thanks to the following for translations"
+msgstr "Thanks to the following for translations"
+
+#: ../commentluv.php:1415
+msgid "Italian"
+msgstr "Italian"
+
+#: ../commentluv.php:1416
+msgid "Dutch"
+msgstr "Dutch"
+
+#: ../commentluv.php:1417
+msgid "Polish"
+msgstr "Polish"
+
+#: ../commentluv.php:1418
+msgid "Georgian"
+msgstr "Georgian"
+
+#: ../commentluv.php:1419
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: ../commentluv.php:1420
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: ../commentluv.php:1421
+msgid "Malaysian"
+msgstr "Malaysian"
+
+#: ../commentluv.php:1422
+msgid "Hindi"
+msgstr "Hindi"
+
+#: ../commentluv.php:1423
+msgid "Russian"
+msgstr "Russian"
+
+#: ../commentluv.php:1424
+msgid "Chinese"
+msgstr "Chinese"
+
+#: ../commentluv.php:1425
+msgid "Hebrew"
+msgstr "עברית"
+
+#: ../commentluv.php:1426
+msgid "French"
+msgstr "French"
+
+#: ../commentluv.php:1428
+msgid "Romanian"
+msgstr "Romanian"
+
+#: ../commentluv.php:1429
+msgid "German"
+msgstr "German"
+
+# Bengali
+#: ../commentluv.php:1430
+msgid "Arabic"
+msgstr "Arabic"
+
+#: ../commentluv.php:1432
+msgid "Want your link here?"
+msgstr "רוצה קישור כאן?"
+
+#: ../commentluv.php:1432
+msgid "How To Submit A Translation"
+msgstr "איך לשלוח תרגום"
+
+#: ../commentluv.php:1433
+msgid "Special thanks go to the following"
+msgstr "תודות ל:"
+
+#: ../commentluv.php:1434
+msgid "CSS Help"
+msgstr "CSS עזרה"
+
+#: ../commentluv.php:1435
+msgid "Badge GFX"
+msgstr "Badge GFX"
+
