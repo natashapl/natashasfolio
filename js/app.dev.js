@@ -4,8 +4,9 @@ window.onload = function () {
   var filterLink = document.querySelectorAll(".filterLink");
   var body = document.querySelector("body");
   var parent = document.querySelector("main");
-  var asideClose = document.querySelector(".close");
   var portfolioItems = document.querySelectorAll(".grid-item");
+  var asideContainerPanel = document.querySelector(".asideContainer");
+  var asideClose = document.querySelector(".close");
   var slideClass = "show-detail";
   var toggleSwitch = document.querySelector('.themeSwitcher input[type="checkbox"]');
   var currentTheme = localStorage.getItem("theme");
@@ -90,32 +91,58 @@ window.onload = function () {
         button.click();
       }
     });
-  }); //Slide in Portfolio
+  });
+
+  function closePortfolio() {
+    body.classList.remove(slideClass);
+    asideContainerPanel.setAttribute('aria-hidden', 'true');
+    asideContainerPanel.classList.remove('visible'); // Update aria-expanded
+
+    var associatedItem = document.querySelector("[aria-controls=\"".concat(asideContainerPanel.id, "\"]"));
+    associatedItem.setAttribute('aria-expanded', 'false'); // Return focus to the associated portfolio item
+
+    associatedItem.focus();
+  } //Slide in Portfolio
+
 
   portfolioItems.forEach(function (elem) {
     var itemLink = elem.querySelector(".gridItemLink");
     var itemDetailHTML = elem.querySelector(".details").innerHTML;
     var asideDetail = document.querySelector(".aside-details");
-    itemLink.addEventListener("click", function () {
+    var detailHeader = elem.querySelector("h4");
+
+    function openPortfolioItem() {
+      var isExpanded = itemLink.getAttribute('aria-expanded') === 'true';
+      var asidePanelId = itemLink.getAttribute('aria-controls');
+      itemLink.focus();
+      itemLink.setAttribute('aria-expanded', !isExpanded);
       asideDetail.innerHTML = itemDetailHTML;
+      asideContainerPanel.id = asidePanelId;
       body.classList.add(slideClass);
+      var asidePanel = document.getElementById(asidePanelId);
+      asidePanel.setAttribute('aria-hidden', 'false');
+      asidePanel.setAttribute("aria-labelledby", detailHeader.id);
+      asidePanel.classList.add('visible');
+      asidePanel.focus();
+    }
+
+    itemLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      openPortfolioItem();
     });
     itemLink.addEventListener('keydown', function (event) {
-      if (event.key === 'Enter') {
+      if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
-        asideDetail.innerHTML = itemDetailHTML;
-        body.classList.add(slideClass);
+        openPortfolioItem();
       }
     });
     parent.addEventListener("click", function (e) {
       if (!e.target.matches(".thumbnail")) {
         body.classList.remove(slideClass);
-      } else {
-        console.log("is grid a item");
       }
     });
     asideClose.addEventListener("click", function () {
-      body.classList.remove(slideClass);
+      closePortfolio();
     });
   }); //Print Year in Footer
 
@@ -173,6 +200,12 @@ window.onload = function () {
     if (!navList.contains(event.target) && !menuToggle.contains(event.target)) {
       navList.classList.remove('open');
       menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  }); // Close panel with Escape key
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      closePortfolio();
     }
   });
 };

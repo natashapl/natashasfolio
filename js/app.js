@@ -2,8 +2,9 @@ window.onload = () => {
   const filterLink = document.querySelectorAll(".filterLink");
   const body = document.querySelector("body");
   const parent = document.querySelector("main");
-  const asideClose = document.querySelector(".close");
   const portfolioItems = document.querySelectorAll(".grid-item");
+  const asideContainerPanel = document.querySelector(".asideContainer");
+  const asideClose = document.querySelector(".close");
   const slideClass = "show-detail";
   const toggleSwitch = document.querySelector('.themeSwitcher input[type="checkbox"]');
   let currentTheme = localStorage.getItem("theme");
@@ -94,35 +95,65 @@ window.onload = () => {
     });
   });
 
+  function closePortfolio() {
+    body.classList.remove(slideClass);
+    asideContainerPanel.setAttribute('aria-hidden', 'true');
+    asideContainerPanel.classList.remove('visible');
+
+    // Update aria-expanded
+    const associatedItem = document.querySelector(`[aria-controls="${asideContainerPanel.id}"]`);
+    associatedItem.setAttribute('aria-expanded', 'false');
+
+    // Return focus to the associated portfolio item
+    associatedItem.focus();    
+  }
+
   //Slide in Portfolio
   portfolioItems.forEach((elem) => {
     let itemLink = elem.querySelector(".gridItemLink");
     let itemDetailHTML = elem.querySelector(".details").innerHTML;
     let asideDetail = document.querySelector(".aside-details");
+    let detailHeader = elem.querySelector("h4");
 
-    itemLink.addEventListener("click", () => {
+    function openPortfolioItem() {
+      const isExpanded = itemLink.getAttribute('aria-expanded') === 'true';
+      const asidePanelId = itemLink.getAttribute('aria-controls');
+
+      itemLink.focus();
+      itemLink.setAttribute('aria-expanded', !isExpanded);
       asideDetail.innerHTML = itemDetailHTML;
+      asideContainerPanel.id = asidePanelId;
       body.classList.add(slideClass);
+
+      const asidePanel = document.getElementById(asidePanelId);
+
+      asidePanel.setAttribute('aria-hidden', 'false');
+      asidePanel.setAttribute("aria-labelledby", detailHeader.id);
+      asidePanel.classList.add('visible');
+      
+      asidePanel.focus();
+    }
+
+    itemLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      openPortfolioItem();
     });
 
     itemLink.addEventListener('keydown', function (event) {
-      if (event.key === 'Enter') {
+      if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
-        asideDetail.innerHTML = itemDetailHTML;
-        body.classList.add(slideClass);
-      }
+        openPortfolioItem();
+      } 
     });
 
     parent.addEventListener("click", (e) => {
       if (!e.target.matches(".thumbnail")) {
         body.classList.remove(slideClass);
-      } else {
-        console.log("is grid a item");
       }
     });
   
     asideClose.addEventListener("click", () => {
-      body.classList.remove(slideClass);
+      closePortfolio();
     });
   });
 
@@ -190,5 +221,11 @@ window.onload = () => {
     }
   });
 
-};
+  // Close panel with Escape key
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      closePortfolio();
+    }
+  });
 
+};

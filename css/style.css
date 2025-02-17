@@ -197,94 +197,43 @@ Custom styles
 /* Sass Utilities */
 /* Animations */
 .fadeInDown {
-  -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
 }
 @keyframes fadeInDown {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
   100% {
     opacity: 1;
-    -webkit-transform: none;
     transform: none;
   }
 }
 .fadeInUp {
-  -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
 }
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
   100% {
     opacity: 1;
-    -webkit-transform: none;
     transform: none;
   }
 }
 .zoomIn {
-  -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-
-@-webkit-keyframes zoomIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  50% {
-    opacity: 1;
-  }
 }
 @keyframes zoomIn {
   0% {
     opacity: 0;
-    -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
   50% {
@@ -631,12 +580,10 @@ section .hidePortfolioItems {
   position: absolute;
 }
 section .showPortfolioItems {
-  -webkit-animation: zoomOut 0.5s forwards;
   animation: zoomIn 0.5s forwards;
 }
 section .resetPortfolioItems {
   transition: all 0s;
-  -webkit-animation: zoomIn 0.7s forwards;
   animation: zoomIn 0.7s forwards;
 }
 section .portfolio {
@@ -803,6 +750,9 @@ section .portfolio li {
   position: absolute;
   top: 15px;
   right: 15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 .asideContainer .close img {
   border: none;
@@ -815,6 +765,9 @@ section .portfolio li {
   margin: 30px 0 20px;
   line-height: 2.5rem;
   font-family: "Rancho", Arial, Helvetica, cursive;
+}
+.asideContainer h5 {
+  font-size: 1.5rem;
 }
 .asideContainer p {
   font-size: 1.125rem;
@@ -908,6 +861,16 @@ a.ctaButton {
   text-align: center;
 }
 
+.basic-list {
+  margin-top: 1rem;
+  line-height: 1.5;
+  padding-left: 3ch;
+  list-style: disc;
+}
+.basic-list li {
+  margin-bottom: 1rem;
+}
+
 /* Screen Reader Only */
 .sr-only {
   position: absolute;
@@ -997,8 +960,8 @@ a.ctaButton {
 }
 @media only screen and (max-width: 900px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-91%);
   }
 }
@@ -1006,57 +969,53 @@ a.ctaButton {
   .homeSection {
     padding: 90px 30px 40px;
   }
-
   .recentWorkButton {
     margin: 15px 0 0;
   }
-
   .skillsSection .contentColumn,
-.skillsSection .techStackIcons {
+  .skillsSection .techStackIcons {
     width: 100%;
   }
-
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-92%);
   }
 }
 @media only screen and (max-width: 700px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-93%);
   }
 }
 @media only screen and (max-width: 600px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-95%);
   }
 }
 @media only screen and (max-width: 480px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-97%);
   }
 }
 @media only screen and (max-width: 380px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-100%);
   }
 }
 @media only screen and (min-width: 992px) {
   h2,
-h3,
-h4 {
+  h3,
+  h4 {
     line-height: 4rem;
   }
-
   /* Header */
   nav {
     display: flex;
@@ -1103,7 +1062,6 @@ h4 {
   nav ul li a {
     border-bottom: 2px solid #222;
   }
-
   .introBanner {
     max-width: 1200px;
   }
@@ -1118,26 +1076,21 @@ h4 {
     line-height: 1.8em;
     font-size: 1.875rem;
   }
-
   section h3 {
     margin: 0 0 1.25rem;
   }
-
   .homeSection,
-.introBanner {
+  .introBanner {
     padding: 15px 30px;
     height: 100vh;
   }
-
   .aboutSection p {
     font-size: 1.375rem;
     line-height: 1.5em;
   }
-
   .skillsSection {
     height: auto;
   }
-
   .contactSection {
     min-height: 60vh;
   }
@@ -1146,28 +1099,24 @@ h4 {
     vertical-align: top;
     margin: 0;
   }
-
   .introBanner,
-.skillsSection,
-.contactSection {
+  .skillsSection,
+  .contactSection {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .asideContainer {
     width: 57%;
   }
-
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-62.5%);
   }
-
   .ctaButton,
-a.ctaButton {
+  a.ctaButton {
     font-size: 1.5rem;
   }
 }
@@ -1181,61 +1130,52 @@ a.ctaButton {
    ========================================================================== */
 @media print {
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
   a,
-a:visited {
+  a:visited {
     text-decoration: underline;
   }
-
   a[href]::after {
     content: " (" attr(href) ")";
   }
-
   abbr[title]::after {
     content: " (" attr(title) ")";
   }
-
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
   a[href^="#"]::after,
-a[href^="javascript:"]::after {
+  a[href^="javascript:"]::after {
     content: "";
   }
-
   pre {
     white-space: pre-wrap !important;
   }
-
   pre,
-blockquote {
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
   tr,
-img {
+  img {
     page-break-inside: avoid;
   }
-
   p,
-h2,
-h3 {
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
   }
-
   h2,
-h3 {
+  h3 {
     page-break-after: avoid;
   }
-}
+}/*# sourceMappingURL=style.css.map */
