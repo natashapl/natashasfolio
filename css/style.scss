@@ -819,14 +819,18 @@
   .aboutSection {
     .imageWrapper {
       max-width: 300px;
-      margin: 0 auto 20px;
+      margin: 0 auto 30px;
       overflow: hidden;
       border-radius: 220px;
+    }
+
+    .contentWrapper {
+      padding: 0 20px;
     }
   
     p {
       line-height: 1.5em;
-      margin: 0 0 20px;
+      margin: 0 0 30px;
     }
   }
   
