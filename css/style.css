@@ -99,7 +99,7 @@ Custom styles
   --font-color: #222;
   --bg-color: #eee;
   --lightLinkColor: #b8c7ff;
-  --darkLinkColor: #6b6fc4;
+  --darkLinkColor: #474EAE;
 }
 :root .filterColor {
   filter: invert(13%) sepia(0%) saturate(0%) hue-rotate(283deg) brightness(98%) contrast(99%);
