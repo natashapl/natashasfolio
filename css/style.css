@@ -339,17 +339,6 @@ button:not([disabled]):focus a:focus {
   outline-offset: 0rem;
 }
 
-.visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
 /* Header */
 header {
   background: #222;
@@ -864,6 +853,10 @@ a.ctaButton {
   text-align: center;
 }
 
+.text-small {
+  font-size: 0.875rem !important;
+}
+
 .basic-list {
   margin-top: 1rem;
   line-height: 1.5;
@@ -913,13 +906,12 @@ a.ctaButton {
   white-space: nowrap;
   width: 1px;
   /* 1 */
+  /*
+   * Extends the .visually-hidden class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
 }
-
-/*
- * Extends the .visually-hidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
 .visually-hidden.focusable:active, .visually-hidden.focusable:focus {
   clip: auto;
   height: auto;
