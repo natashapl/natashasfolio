@@ -1,1 +1,0 @@
-<div id="menubox"> <?php if (function_exists('dtab_echo_dtabs')) { dtab_echo_dtabs(); } ?> </div>
