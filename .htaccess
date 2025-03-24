@@ -63,3 +63,5 @@ Header append Vary User-Agent
 Options -Indexes
 # Enable caching for images, CSS, and JavaScript 
 Header set Cache-Control "max-age=31536000, public"
+# 404 Error Page
+ErrorDocument 404 /404.html
