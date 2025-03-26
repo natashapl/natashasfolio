@@ -507,7 +507,6 @@ nav ul li a:hover, nav ul li a.current {
   color: #b8c7ff;
 }
 nav ul li a.current {
-  font-weight: 700;
   border-bottom: 2px solid #b8c7ff;
 }
 nav ul li a .themeSwitcherWrapper .mdi:hover {
@@ -1243,24 +1242,6 @@ h3 {
     widows: 3;
   }
 
-  h2,
-h3 {
-    page-break-after: avoid;
-  }
-}kquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  tr,
-img {
-    page-break-inside: avoid;
-  }
-  p,
-h2,
-h3 {
-    orphans: 3;
-    widows: 3;
-  }
   h2,
 h3 {
     page-break-after: avoid;
