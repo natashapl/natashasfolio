@@ -34,15 +34,19 @@ window.onload = () => {
     };
     const updatePosition = () => {
       navLinks.forEach((link) => {
-        let section = document.querySelector(link.hash);
-
-        if (
-          section.offsetTop < scrollPos + 60 &&
-          section.offsetTop + section.offsetHeight > scrollPos + 60
-        ) {
-          link.classList.add("current");
-        } else {
-          link.classList.remove("current");
+        if (link.hash) {
+          let section = document.querySelector(link.hash);
+          
+          if (section) {
+            if (
+              section.offsetTop < scrollPos + 60 &&
+              section.offsetTop + section.offsetHeight > scrollPos + 60
+            ) {
+              link.classList.add("current");
+            } else {
+              link.classList.remove("current");
+            }
+          }
         }
       });
     };

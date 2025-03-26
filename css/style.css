@@ -311,12 +311,20 @@ h4 {
   text-align: center;
 }
 
+h1,
 h2 {
   font-family: "Caveat", Arial, Helvetica, cursive;
-  font-size: 3rem;
   font-weight: 600;
   margin: 0 0 20px;
   line-height: 3rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
 }
 
 h3 {
@@ -543,7 +551,7 @@ section ul li {
   margin: 5px 10px;
 }
 section ul .thumbnail {
-  box-shadow: 1px 1px 5px rgba(34, 34, 34, 0.5);
+  box-shadow: 1px 1px 5px 0px rgba(34, 34, 34, 0.5);
 }
 section .filter-controls {
   margin: 0 auto 2rem;
@@ -982,11 +990,15 @@ a.ctaButton {
     scroll-behavior: smooth;
   }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 991px) {
   .show-detail header,
 .show-detail main,
 .show-detail footer {
     transform: translate(-91%);
+  }
+
+  .homeSection.errorpage {
+    height: 70vh;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -1100,7 +1112,7 @@ h4 {
   .introBanner {
     max-width: 1200px;
   }
-  .introBanner h2 {
+  .introBanner h1 {
     font-size: 5rem;
     line-height: 6rem;
     margin: 0 0 45px;
@@ -1120,6 +1132,10 @@ h4 {
 .introBanner {
     padding: 15px 30px;
     height: 100vh;
+  }
+
+  .homeSection.errorpage {
+    height: 85vh;
   }
 
   .aboutSection p {
@@ -1227,6 +1243,24 @@ h3 {
     widows: 3;
   }
 
+  h2,
+h3 {
+    page-break-after: avoid;
+  }
+}kquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  tr,
+img {
+    page-break-inside: avoid;
+  }
+  p,
+h2,
+h3 {
+    orphans: 3;
+    widows: 3;
+  }
   h2,
 h3 {
     page-break-after: avoid;
