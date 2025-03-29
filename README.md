@@ -37,7 +37,7 @@ This project was created to:
 
 ## 🔗 Live Site
 
-<p><strong>👉 <a href="https://www.natashasfolio.com" target="_blank">natashasfolio.com</a></strong></p>
+👉 **[natashasfolio.com](https://www.natashasfolio.com)**
 
 ## 🛠 Built With
 
