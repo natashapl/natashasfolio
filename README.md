@@ -1,4 +1,4 @@
-# Portfolio of Natasha Pierre-Louis
+# Natasha's Personal Portfolio
 
 Welcome to my personal portfolio site — a hand-coded one-pager that showcases my work as a Design Technologist, Front-End Developer, and UI/UX Engineer. This project was built using only HTML5, CSS3, and vanilla JavaScript — no frameworks or libraries — to highlight my foundational front-end skills and design sensibilities.
 
