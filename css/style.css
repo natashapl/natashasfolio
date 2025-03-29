@@ -311,20 +311,12 @@ h4 {
   text-align: center;
 }
 
-h1,
 h2 {
   font-family: "Caveat", Arial, Helvetica, cursive;
+  font-size: 3rem;
   font-weight: 600;
   margin: 0 0 20px;
   line-height: 3rem;
-}
-
-h1 {
-  font-size: 5rem;
-}
-
-h2 {
-  font-size: 3rem;
 }
 
 h3 {
@@ -392,33 +384,33 @@ nav::before, nav::after {
 nav ::after {
   clear: both;
 }
-nav .logoName {
-  padding: 8px 15px;
-  float: left;
-  line-height: 2.1rem;
-}
-nav .logoName h1 {
+nav h1 {
   content: "";
   font-size: 1.4rem;
   margin: 0;
   letter-spacing: 1px;
+  padding: 8px 15px;
+  float: left;
+  line-height: 2.1rem;
 }
-nav .logoName h1 a {
+nav h1 a,
+nav h1 a:active,
+nav h1 a:visited {
   color: #fff;
   text-decoration: none;
   display: block;
   padding: 8px 0 0;
 }
-nav .logoName h1 span {
+nav h1 span {
   display: inline-block;
   vertical-align: top;
   line-height: 1rem;
 }
-nav .logoName h1 .name {
+nav h1 .name {
   margin-top: 3px;
   font-family: "Caveat", Arial, Helvetica, cursive;
 }
-nav .logoName h1 .braces {
+nav h1 .braces {
   color: #999;
   font-size: 1.7rem;
   line-height: 0.7em;
@@ -1111,7 +1103,7 @@ h4 {
   .introBanner {
     max-width: 1200px;
   }
-  .introBanner h1 {
+  .introBanner h2 {
     font-size: 5rem;
     line-height: 6rem;
     margin: 0 0 45px;
@@ -1242,6 +1234,24 @@ h3 {
     widows: 3;
   }
 
+  h2,
+h3 {
+    page-break-after: avoid;
+  }
+}quote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  tr,
+img {
+    page-break-inside: avoid;
+  }
+  p,
+h2,
+h3 {
+    orphans: 3;
+    widows: 3;
+  }
   h2,
 h3 {
     page-break-after: avoid;
