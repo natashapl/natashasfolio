@@ -1,6 +1,6 @@
 # Natasha's Personal Portfolio
 
-Welcome to my personal portfolio site — a hand-coded one-pager that showcases my work as a Design Technologist, Front-End Developer, and UI/UX Engineer. This project was built using only HTML5, CSS3, and vanilla JavaScript — no frameworks or libraries — to highlight my foundational front-end skills and design sensibilities.
+Welcome to my personal portfolio site - a hand-coded one-pager that showcases my work as a Design Technologist, Front-End Developer, and UI/UX Engineer. This project was built using only HTML5, CSS3, and vanilla JavaScript - no frameworks or libraries - to highlight my foundational front-end skills and design sensibilities.
 
 ## 🧠 Overview
 
@@ -74,7 +74,7 @@ If you'd like to run or customize this project:
    git clone https://github.com/natashapl/portfolio-site.git
    ```
 
-2. Open `index.html` in your browser — no build process required.
+2. Open `index.html` in your browser - no build process required.
 
 3. If modifying styles/scripts:
    - Update your Sass/JS source files
