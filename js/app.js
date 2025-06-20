@@ -19,6 +19,109 @@ window.onload = () => {
   const resetItemsFilterClass = "resetPortfolioItems";
   const currentFilterClass = "currentFilter";
 
+  // Deep linking functionality
+  function openProjectByHash(hash) {
+    // Remove the # from hash
+    const projectId = hash.replace('#', '');
+    
+    // Try data-project attribute first (more reliable), then CSS class with escaping
+    let targetItem = document.querySelector(`[data-project="${projectId}"]`);
+    
+    if (!targetItem) {
+      // For CSS class selector, escape if it starts with a digit
+      const escapedProjectId = /^\d/.test(projectId) ? `\\${projectId.charAt(0)} ${projectId.slice(1)}` : projectId;
+      try {
+        targetItem = document.querySelector(`.${escapedProjectId}`);
+      } catch (e) {
+        console.warn('Invalid CSS selector for project:', projectId);
+      }
+    }
+    
+    console.log('Looking for project:', projectId);
+    console.log('Found target item:', targetItem);
+    
+    if (targetItem) {
+      const itemLink = targetItem.querySelector(".gridItemLink");
+      console.log('Found item link:', itemLink);
+      
+      if (itemLink) {
+        // Scroll to portfolio section first
+        const portfolioSection = document.getElementById('portfolio');
+        if (portfolioSection) {
+          portfolioSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Small delay to ensure scroll completes before opening
+        setTimeout(() => {
+          // Trigger the portfolio item opening manually instead of click
+          triggerPortfolioOpen(targetItem);
+          
+          // Update URL without triggering scroll
+          history.replaceState(null, null, hash);
+        }, 800);
+        
+        return true;
+      }
+    }
+    console.log('Project not found:', projectId);
+    return false;
+  }
+
+  // Helper function to manually trigger portfolio opening
+  function triggerPortfolioOpen(elem) {
+    let itemLink = elem.querySelector(".gridItemLink");
+    let itemDetailHTML = elem.querySelector(".details").innerHTML;
+    let asideDetail = document.querySelector(".aside-details");
+    let detailHeader = elem.querySelector("h4");
+
+    if (itemLink && itemDetailHTML && asideDetail && detailHeader) {
+      const asidePanelId = itemLink.getAttribute('aria-controls');
+
+      itemLink.setAttribute('aria-expanded', 'true');
+      asideDetail.innerHTML = itemDetailHTML;
+      asideContainerPanel.id = asidePanelId;
+      body.classList.add(slideClass);
+
+      const asidePanel = document.getElementById(asidePanelId);
+
+      asidePanel.setAttribute('aria-hidden', 'false');
+      asidePanel.setAttribute("aria-labelledby", detailHeader.id);
+      asidePanel.classList.add('visible');
+      
+      asidePanel.focus();
+    }
+  }
+
+  // Check for hash on page load
+  function checkInitialHash() {
+    const hash = window.location.hash;
+    console.log('Initial hash:', hash);
+    
+    if (hash && hash !== '#home' && hash !== '#portfolio' && hash !== '#about' && 
+        hash !== '#skills' && hash !== '#testimonials' && hash !== '#contact') {
+      // This appears to be a project hash, try to open it
+      setTimeout(() => {
+        openProjectByHash(hash);
+      }, 500); // Longer delay for initial load
+    }
+  }
+
+  // Listen for hash changes (back/forward navigation)
+  window.addEventListener('hashchange', () => {
+    const hash = window.location.hash;
+    
+    // Close any open project first
+    closePortfolio();
+    
+    // If it's a project hash, open it
+    if (hash && hash !== '#home' && hash !== '#portfolio' && hash !== '#about' && 
+        hash !== '#skills' && hash !== '#testimonials' && hash !== '#contact') {
+      setTimeout(() => {
+        openProjectByHash(hash);
+      }, 300);
+    }
+  });
+
   //Sticky nav
   window.addEventListener("scroll", () => {
     let throttleTimer;
@@ -33,6 +136,11 @@ window.onload = () => {
       }, time);
     };
     const updatePosition = () => {
+      // Don't update navigation if a project is currently open
+      if (body.classList.contains(slideClass)) {
+        return;
+      }
+      
       navLinks.forEach((link) => {
         if (link.hash) {
           let section = document.querySelector(link.hash);
@@ -43,6 +151,11 @@ window.onload = () => {
               section.offsetTop + section.offsetHeight > scrollPos + 60
             ) {
               link.classList.add("current");
+              // Only update URL if it's not already a project hash
+              const currentHash = window.location.hash;
+              if (!currentHash || !isProjectHash(currentHash)) {
+                history.replaceState(null, null, link.hash);
+              }
             } else {
               link.classList.remove("current");
             }
@@ -52,6 +165,13 @@ window.onload = () => {
     };
     throttle(updatePosition, 100);
   });
+
+  // Helper function to check if hash is a project hash
+  function isProjectHash(hash) {
+    const projectHash = hash.replace('#', '');
+    const knownSections = ['home', 'portfolio', 'about', 'skills', 'testimonials', 'contact'];
+    return !knownSections.includes(projectHash);
+  }
 
   filterButtons.forEach(button => {
     button.addEventListener('click', () => {
@@ -106,10 +226,29 @@ window.onload = () => {
 
     // Update aria-expanded
     const associatedItem = document.querySelector(`[aria-controls="${asideContainerPanel.id}"]`);
-    associatedItem.setAttribute('aria-expanded', 'false');
+    if (associatedItem) {
+      associatedItem.setAttribute('aria-expanded', 'false');
+      // Return focus to the associated portfolio item
+      associatedItem.focus();
+    }
+    
+    // Always return to #portfolio when closing a project
+    history.replaceState(null, null, '#portfolio');
+  }
 
-    // Return focus to the associated portfolio item
-    associatedItem.focus();    
+  // Helper function to determine current section
+  function getCurrentSection() {
+    const sections = ['home', 'portfolio', 'about', 'skills', 'testimonials', 'contact'];
+    const scrollPos = window.scrollY + 100; // Add offset for header
+    
+    for (const sectionName of sections) {
+      const section = document.getElementById(sectionName);
+      if (section && scrollPos >= section.offsetTop && 
+          scrollPos < section.offsetTop + section.offsetHeight) {
+        return sectionName;
+      }
+    }
+    return 'home'; // Default
   }
 
   //Slide in Portfolio
@@ -136,6 +275,10 @@ window.onload = () => {
       asidePanel.classList.add('visible');
       
       asidePanel.focus();
+      
+      // Update URL with project hash (use data-project if available, fallback to class)
+      const projectId = elem.getAttribute('data-project') || elem.classList[0];
+      history.replaceState(null, null, `#${projectId}`);
     }
 
     itemLink.addEventListener('click', function (event) {
@@ -152,7 +295,9 @@ window.onload = () => {
 
     parent.addEventListener("click", (e) => {
       if (!e.target.matches(".thumbnail")) {
-        body.classList.remove(slideClass);
+        closePortfolio();
+
+        console.log("parent clicked")
       }
     });
   
@@ -232,4 +377,6 @@ window.onload = () => {
     }
   });
 
+  // Initialize deep linking after everything is set up
+  setTimeout(checkInitialHash, 100);
 };
