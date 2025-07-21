@@ -80,6 +80,8 @@ If you'd like to run or customize this project:
    - Update your Sass/JS source files
    - Minify as needed before deployment
 
+4. 🚫 PRs are not accepted. This is a personal portfolio project.
+
 ## 📬 Contact
 
 If you're interested in working together or have any questions:
