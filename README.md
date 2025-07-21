@@ -1,4 +1,4 @@
-# Natasha's Personal Portfolio
+# Oxygen's Personal Portfolio
 
 Welcome to my personal portfolio site - a hand-coded one-pager that showcases my work as a Design Technologist, Front-End Developer, and UI/UX Engineer. This project was built using only HTML5, CSS3, and vanilla JavaScript - no frameworks or libraries - to highlight my foundational front-end skills and design sensibilities.
 
@@ -37,7 +37,7 @@ This project was created to:
 
 ## 🔗 Live Site
 
-👉 **[natashasfolio.com](https://www.natashasfolio.com)**
+👉 **[oxygenfolio.com](https://www.oxygenfolio.com)**
 
 ## 🛠 Built With
 
@@ -71,7 +71,7 @@ If you'd like to run or customize this project:
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/natashapl/portfolio-site.git
+   git clone https://github.com/oxygen833/portfolio-site.git
    ```
 
 2. Open `index.html` in your browser - no build process required.
@@ -84,7 +84,7 @@ If you'd like to run or customize this project:
 
 If you're interested in working together or have any questions:
 
-- **Email:** [natashapl@natashasfolio.com](mailto:natashapl@natashasfolio.com)
-- **LinkedIn:** [linkedin.com/in/natashapl](https://www.linkedin.com/in/natashapl)
-- **Instagram:** [@natashasworld](https://www.instagram.com/natashasworld/)
-- **GitHub:** [@natashapl](https://github.com/natashapl)
+- **Email:** [Oxygenfolio.com](mailto:@josejoseff878@gmail.com)
+  
+- **WhatsApp:** [@Oxygen](https:/wa.me/254745829177 / https :wa.me/254106202547)
+- **GitHub:** [@oxygen833](https://github.com/oxygen833)
