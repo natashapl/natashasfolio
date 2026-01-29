@@ -1,18 +1,14 @@
 window.onload = () => {
-  const filterLink = document.querySelectorAll(".filterLink");
   const body = document.querySelector("body");
   const parent = document.querySelector("main");
   const portfolioItems = document.querySelectorAll(".grid-item");
   const asideContainerPanel = document.querySelector(".asideContainer");
   const asideClose = document.querySelector(".close");
   const slideClass = "show-detail";
-  const toggleSwitch = document.querySelector('.themeSwitcher input[type="checkbox"]');
   let currentTheme = localStorage.getItem("theme");
   const menuToggle = document.getElementById('menu-toggle');
   const navList = document.getElementById('nav-list');
   const themeToggleButton = document.getElementById('theme-toggle');
-  const darkThemeClass = 'dark-theme';
-  const lightThemeClass = 'light-theme';
   const filterButtons = document.querySelectorAll('.filter-button');
   const showItemsFilterClass = "showPortfolioItems";
   const hideItemsFilterClass = "hidePortfolioItems";
@@ -122,49 +118,54 @@ window.onload = () => {
     }
   });
 
-  //Sticky nav
-  window.addEventListener("scroll", () => {
-    let throttleTimer;
-    let navLinks = document.querySelectorAll("nav li a");
-    let scrollPos = window.scrollY;
-    const throttle = (callback, time) => {
-      if (throttleTimer) return;
-      throttleTimer = true;
-      setTimeout(() => {
-        callback();
-        throttleTimer = false;
-      }, time);
-    };
-    const updatePosition = () => {
-      // Don't update navigation if a project is currently open
-      if (body.classList.contains(slideClass)) {
-        return;
-      }
-      
-      navLinks.forEach((link) => {
-        if (link.hash) {
-          let section = document.querySelector(link.hash);
-          
-          if (section) {
-            if (
-              section.offsetTop < scrollPos + 60 &&
-              section.offsetTop + section.offsetHeight > scrollPos + 60
-            ) {
-              link.classList.add("current");
-              // Only update URL if it's not already a project hash
-              const currentHash = window.location.hash;
-              if (!currentHash || !isProjectHash(currentHash)) {
-                history.replaceState(null, null, link.hash);
-              }
-            } else {
-              link.classList.remove("current");
-            }
-          }
+// Sticky nav (fixed throttle + avoid replaceState spam)
+let isThrottled = false;
+let lastSectionHash = null;
+
+function updateStickyNav() {
+  // Don’t update nav when a project is open
+  if (body.classList.contains(slideClass)) return;
+
+  const navLinks = document.querySelectorAll("nav li a");
+  const scrollPos = window.scrollY + 60;
+
+  for (const link of navLinks) {
+    if (!link.hash) continue;
+
+    const section = document.querySelector(link.hash);
+    if (!section) continue;
+
+    const inView =
+      section.offsetTop < scrollPos &&
+      section.offsetTop + section.offsetHeight > scrollPos;
+
+    link.classList.toggle("current", inView);
+
+    if (inView) {
+      // Only write the hash if it actually changed
+      if (lastSectionHash !== link.hash) {
+        lastSectionHash = link.hash;
+
+        // Don’t override a project hash
+        const currentHash = window.location.hash;
+        if (!currentHash || !isProjectHash(currentHash)) {
+          history.replaceState(null, null, link.hash);
         }
-      });
-    };
-    throttle(updatePosition, 100);
-  });
+      }
+    }
+  }
+}
+
+window.addEventListener("scroll", () => {
+  if (isThrottled) return;
+
+  isThrottled = true;
+  setTimeout(() => {
+    updateStickyNav();
+    isThrottled = false;
+  }, 100);
+});
+
 
   // Helper function to check if hash is a project hash
   function isProjectHash(hash) {
@@ -293,17 +294,20 @@ window.onload = () => {
       } 
     });
 
+    // Close when clicking outside a portfolio item link or the aside panel
     parent.addEventListener("click", (e) => {
-      if (!e.target.matches(".thumbnail")) {
-        closePortfolio();
+      if (!body.classList.contains(slideClass)) return;
 
-        console.log("parent clicked")
-      }
-    });
-  
-    asideClose.addEventListener("click", () => {
+      // Don’t close when clicking inside the aside panel
+      if (asideContainerPanel.contains(e.target)) return;
+
+      // Don’t close when clicking the portfolio item link itself
+      if (e.target.closest(".gridItemLink")) return;
+
       closePortfolio();
     });
+
+    asideClose.addEventListener("click", () => closePortfolio());
   });
 
   //Print Year in Footer

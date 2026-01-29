@@ -1,20 +1,16 @@
 "use strict";
 
 window.onload = function () {
-  var filterLink = document.querySelectorAll(".filterLink");
   var body = document.querySelector("body");
   var parent = document.querySelector("main");
   var portfolioItems = document.querySelectorAll(".grid-item");
   var asideContainerPanel = document.querySelector(".asideContainer");
   var asideClose = document.querySelector(".close");
   var slideClass = "show-detail";
-  var toggleSwitch = document.querySelector('.themeSwitcher input[type="checkbox"]');
   var currentTheme = localStorage.getItem("theme");
   var menuToggle = document.getElementById('menu-toggle');
   var navList = document.getElementById('nav-list');
   var themeToggleButton = document.getElementById('theme-toggle');
-  var darkThemeClass = 'dark-theme';
-  var lightThemeClass = 'light-theme';
   var filterButtons = document.querySelectorAll('.filter-button');
   var showItemsFilterClass = "showPortfolioItems";
   var hideItemsFilterClass = "hidePortfolioItems";
@@ -115,50 +111,65 @@ window.onload = function () {
         openProjectByHash(hash);
       }, 300);
     }
-  }); //Sticky nav
+  }); // Sticky nav (fixed throttle + avoid replaceState spam)
 
-  window.addEventListener("scroll", function () {
-    var throttleTimer;
+  var isThrottled = false;
+  var lastSectionHash = null;
+
+  function updateStickyNav() {
+    // Don’t update nav when a project is open
+    if (body.classList.contains(slideClass)) return;
     var navLinks = document.querySelectorAll("nav li a");
-    var scrollPos = window.scrollY;
+    var scrollPos = window.scrollY + 60;
+    var _iteratorNormalCompletion = true;
+    var _didIteratorError = false;
+    var _iteratorError = undefined;
 
-    var throttle = function throttle(callback, time) {
-      if (throttleTimer) return;
-      throttleTimer = true;
-      setTimeout(function () {
-        callback();
-        throttleTimer = false;
-      }, time);
-    };
+    try {
+      for (var _iterator = navLinks[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+        var link = _step.value;
+        if (!link.hash) continue;
+        var section = document.querySelector(link.hash);
+        if (!section) continue;
+        var inView = section.offsetTop < scrollPos && section.offsetTop + section.offsetHeight > scrollPos;
+        link.classList.toggle("current", inView);
 
-    var updatePosition = function updatePosition() {
-      // Don't update navigation if a project is currently open
-      if (body.classList.contains(slideClass)) {
-        return;
-      }
+        if (inView) {
+          // Only write the hash if it actually changed
+          if (lastSectionHash !== link.hash) {
+            lastSectionHash = link.hash; // Don’t override a project hash
 
-      navLinks.forEach(function (link) {
-        if (link.hash) {
-          var section = document.querySelector(link.hash);
+            var currentHash = window.location.hash;
 
-          if (section) {
-            if (section.offsetTop < scrollPos + 60 && section.offsetTop + section.offsetHeight > scrollPos + 60) {
-              link.classList.add("current"); // Only update URL if it's not already a project hash
-
-              var currentHash = window.location.hash;
-
-              if (!currentHash || !isProjectHash(currentHash)) {
-                history.replaceState(null, null, link.hash);
-              }
-            } else {
-              link.classList.remove("current");
+            if (!currentHash || !isProjectHash(currentHash)) {
+              history.replaceState(null, null, link.hash);
             }
           }
         }
-      });
-    };
+      }
+    } catch (err) {
+      _didIteratorError = true;
+      _iteratorError = err;
+    } finally {
+      try {
+        if (!_iteratorNormalCompletion && _iterator["return"] != null) {
+          _iterator["return"]();
+        }
+      } finally {
+        if (_didIteratorError) {
+          throw _iteratorError;
+        }
+      }
+    }
+  }
 
-    throttle(updatePosition, 100);
+  window.addEventListener("scroll", function () {
+    if (isThrottled) return;
+    isThrottled = true;
+    setTimeout(function () {
+      updateStickyNav();
+      isThrottled = false;
+    }, 100);
   }); // Helper function to check if hash is a project hash
 
   function isProjectHash(hash) {
@@ -279,15 +290,18 @@ window.onload = function () {
         event.preventDefault();
         openPortfolioItem();
       }
-    });
+    }); // Close when clicking outside a portfolio item link or the aside panel
+
     parent.addEventListener("click", function (e) {
-      if (!e.target.matches(".thumbnail")) {
-        closePortfolio();
-        console.log("parent clicked");
-      }
+      if (!body.classList.contains(slideClass)) return; // Don’t close when clicking inside the aside panel
+
+      if (asideContainerPanel.contains(e.target)) return; // Don’t close when clicking the portfolio item link itself
+
+      if (e.target.closest(".gridItemLink")) return;
+      closePortfolio();
     });
     asideClose.addEventListener("click", function () {
-      closePortfolio();
+      return closePortfolio();
     });
   }); //Print Year in Footer
 
