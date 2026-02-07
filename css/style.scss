@@ -121,7 +121,7 @@
     --font-color: #222;
     --bg-color: #eee;
     --lightLinkColor: #b8c7ff;
-    --darkLinkColor: #474EAE;
+    --darkLinkColor: #40469C;
   
     .filterColor {
       filter: invert(13%) sepia(0%) saturate(0%) hue-rotate(283deg) brightness(98%) contrast(99%);   
@@ -910,6 +910,7 @@
       textarea {
         padding: 10px;
         width: 95%;
+        color: var(--font-color);
       }
   
       input,
@@ -922,7 +923,6 @@
         width: 100%;
         margin: 15px auto;
         font-size: 1.25rem;
-        font-weight: 600;
         cursor: pointer;
   
         &:hover {
@@ -939,6 +939,12 @@
         p {
           margin: 0 0 15px;
         }
+      }
+
+      #formStatus {
+        font-weight: bold;
+        padding-top: 15px;
+        color: var(--font-color);
       }
     }
   }

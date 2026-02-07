@@ -99,7 +99,7 @@ Custom styles
   --font-color: #222;
   --bg-color: #eee;
   --lightLinkColor: #b8c7ff;
-  --darkLinkColor: #474EAE;
+  --darkLinkColor: #40469C;
 }
 :root .filterColor {
   filter: invert(13%) sepia(0%) saturate(0%) hue-rotate(283deg) brightness(98%) contrast(99%);
@@ -723,6 +723,7 @@ section .portfolio li {
 .contactSection form textarea {
   padding: 10px;
   width: 95%;
+  color: var(--font-color);
 }
 .contactSection form input,
 .contactSection form textarea,
@@ -733,7 +734,6 @@ section .portfolio li {
   width: 100%;
   margin: 15px auto;
   font-size: 1.25rem;
-  font-weight: 600;
   cursor: pointer;
 }
 .contactSection form .ctaButton:hover {
@@ -745,6 +745,11 @@ section .portfolio li {
 }
 .contactSection form .thankyou_message p {
   margin: 0 0 15px;
+}
+.contactSection form #formStatus {
+  font-weight: bold;
+  padding-top: 15px;
+  color: var(--font-color);
 }
 
 .asideContainer {
