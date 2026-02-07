@@ -383,4 +383,57 @@ window.addEventListener("scroll", () => {
 
   // Initialize deep linking after everything is set up
   setTimeout(checkInitialHash, 100);
+
+// Form submission handler
+(function() {
+  const contactForm = document.getElementById('contactForm');
+  const formStatus = document.getElementById('formStatus');
+  
+  if (!contactForm || !formStatus) {
+    console.error('Form elements not found!');
+    return;
+  }
+  
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    const submitBtn = contactForm.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+    
+    const formData = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      message: document.getElementById('message').value,
+      botField: document.querySelector('input[name="botField"]').value
+    };
+    
+    try {
+      await fetch('https://script.google.com/macros/s/AKfycbxPNIDKm93naZY5rPzibSLVpAfUV9cKzEaS_uPhcytB48aYJ6diwNEmsEjdmzshMlbt/exec', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
+      
+      formStatus.style.display = 'block';
+      formStatus.textContent = 'Thanks! Your message has been sent.';
+      contactForm.reset();
+      
+    } catch (error) {
+      console.error('Fetch error:', error);
+      formStatus.style.display = 'block';
+      formStatus.style.color = 'red';
+      formStatus.textContent = 'Oops! Something went wrong. Please try again.';
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send Message';
+    }
+  });
+  
+  console.log('Form event listener attached!');
+})();
 };

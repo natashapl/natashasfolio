@@ -11,19 +11,18 @@ This site includes:
 - Accessible navigation with ARIA roles and keyboard support
 - Theme switcher (light/dark mode)
 - Interactive slide-in project details panel
-- Testimonials and contact links
+- Testimonials and contact form
 
 ## 📂 Project Structure
-
 ```
-
-├── css/
-├── js/
+├── css/               # Stylesheets (compiled from SCSS)
+├── js/                # JavaScript files
 ├── img/               # Images and thumbnails
 ├── fonts/             # Custom fonts
 ├── 404.html           # 404 page
 ├── index.html         # Main HTML file
-├── README.md          # This page
+├── package.json       # Build configuration
+├── README.md          # This file
 └── site.webmanifest   # Web app manifest
 ```
 
@@ -42,8 +41,9 @@ This project was created to:
 ## 🛠 Built With
 
 - HTML5
-- CSS3 (with Sass precompiled into minified CSS)
-- JavaScript (ES6+)
+- CSS3 (Sass preprocessed and minified)
+- Vanilla JavaScript (ES6+)
+- Google Apps Script (contact form backend)
 - No frameworks or CSS libraries
 
 ## ✨ Features
@@ -53,7 +53,9 @@ This project was created to:
 - Accessible keyboard navigation and ARIA attributes
 - Interactive modal-style portfolio detail viewer
 - Dark/light theme toggle with preference saved to `localStorage`
+- Fully functional contact form with spam protection
 - Dynamic footer year injection
+- Optimized performance (Lighthouse scores: ~100 across all metrics)
 
 ## 🧪 Accessibility Notes
 
@@ -63,30 +65,46 @@ This site follows accessibility best practices:
 - Semantic HTML tags
 - `aria-*` attributes for dynamic elements
 - Keyboard support for navigation, toggles, and filters
+- WCAG 2.1 AA compliant
 
-## 🧑‍💻 Developer Notes
+## 🧑‍💻 Developer Setup
 
 If you'd like to run or customize this project:
 
-1. Clone the repo:
+1. **Clone the repo:**
+```bash
+   git clone https://github.com/natashapl/natashasfolio.git
+   cd natashasfolio
+```
 
-   ```bash
-   git clone https://github.com/natashapl/portfolio-site.git
-   ```
+2. **Install dependencies:**
+```bash
+   npm install
+```
 
-2. Open `index.html` in your browser - no build process required.
+3. **Start development** (auto-compiles SCSS & JS on save):
+```bash
+   npm run dev
+```
 
-3. If modifying styles/scripts:
-   - Update your Sass/JS source files
-   - Minify as needed before deployment
+4. **Build for production:**
+```bash
+   npm run build
+```
 
-🚫 PRs are not accepted. This is a personal portfolio project.
+5. **Open `index.html`** in your browser or deploy to your preferred hosting.
+
+🚫 **Note:** PRs are not accepted. This is a personal portfolio project.
 
 ## 📬 Contact
 
-If you're interested in working together or have any questions:
+Interested in working together or have questions?
 
 - **Email:** [natashapl@natashasfolio.com](mailto:natashapl@natashasfolio.com)
 - **LinkedIn:** [linkedin.com/in/natashapl](https://www.linkedin.com/in/natashapl)
 - **Instagram:** [@natashasworld](https://www.instagram.com/natashasworld/)
 - **GitHub:** [@natashapl](https://github.com/natashapl)
+
+---
+
+© 2026 Natasha Pierre-Louis. All Rights Reserved.

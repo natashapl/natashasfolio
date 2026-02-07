@@ -104,6 +104,9 @@ Custom styles
 :root .filterColor {
   filter: invert(13%) sepia(0%) saturate(0%) hue-rotate(283deg) brightness(98%) contrast(99%);
 }
+:root .filterColor:hover {
+  filter: brightness(0) saturate(100%) invert(28%) sepia(38%) saturate(1465%) hue-rotate(205deg) brightness(89%) contrast(95%);
+}
 
 [data-theme=dark] {
   --primary-color: #fff;
@@ -134,9 +137,6 @@ Custom styles
 }
 [data-theme=dark] .skillsSection a:hover {
   color: var(--lightLinkColor);
-}
-[data-theme=dark] .contactSection form .ctaButton:hover {
-  color: var(--darkLinkColor);
 }
 [data-theme=dark] .testimonialSection ul li .authorName {
   color: var(--lightLinkColor);
@@ -989,76 +989,70 @@ a.ctaButton {
 }
 @media only screen and (max-width: 991px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-91%);
   }
-
   .homeSection.errorpage {
     height: 70vh;
   }
 }
 @media only screen and (max-width: 800px) {
   .fadeInDown,
-.fadeInUp {
+  .fadeInUp {
     animation-duration: 0.8s;
     -webkit-animation-duration: 0.8s;
   }
-
   .homeSection {
     padding: 90px 30px 40px;
   }
-
   .recentWorkButton {
     margin: 15px 0 0;
   }
-
   .skillsSection .contentColumn,
-.skillsSection .techStackIcons {
+  .skillsSection .techStackIcons {
     width: 100%;
   }
-
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-92%);
   }
 }
 @media only screen and (max-width: 700px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-93%);
   }
 }
 @media only screen and (max-width: 600px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-95%);
   }
 }
 @media only screen and (max-width: 480px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-97%);
   }
 }
 @media only screen and (max-width: 380px) {
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-100%);
   }
 }
 @media only screen and (min-width: 992px) {
   h2,
-h3,
-h4 {
+  h3,
+  h4 {
     line-height: 4rem;
   }
-
   /* Header */
   nav {
     display: flex;
@@ -1105,7 +1099,6 @@ h4 {
   nav ul li a {
     border-bottom: 2px solid #222;
   }
-
   .introBanner {
     max-width: 1200px;
   }
@@ -1120,30 +1113,24 @@ h4 {
     line-height: 1.8em;
     font-size: 2rem;
   }
-
   section h3 {
     margin: 0 0 1.25rem;
   }
-
   .homeSection,
-.introBanner {
+  .introBanner {
     padding: 15px 30px;
     height: 100vh;
   }
-
   .homeSection.errorpage {
     height: 85vh;
   }
-
   .aboutSection p {
     font-size: 1.375rem;
     line-height: 1.5em;
   }
-
   .skillsSection {
     height: auto;
   }
-
   .contactSection {
     min-height: 60vh;
   }
@@ -1152,28 +1139,24 @@ h4 {
     vertical-align: top;
     margin: 0;
   }
-
   .introBanner,
-.skillsSection,
-.contactSection {
+  .skillsSection,
+  .contactSection {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .asideContainer {
     width: 57%;
   }
-
   .show-detail header,
-.show-detail main,
-.show-detail footer {
+  .show-detail main,
+  .show-detail footer {
     transform: translate(-62.5%);
   }
-
   .ctaButton,
-a.ctaButton {
+  a.ctaButton {
     font-size: 1.5rem;
   }
 }
@@ -1187,61 +1170,54 @@ a.ctaButton {
    ========================================================================== */
 @media print {
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
   a,
-a:visited {
+  a:visited {
     text-decoration: underline;
   }
-
   a[href]::after {
     content: " (" attr(href) ")";
   }
-
   abbr[title]::after {
     content: " (" attr(title) ")";
   }
-
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
   a[href^="#"]::after,
-a[href^="javascript:"]::after {
+  a[href^="javascript:"]::after {
     content: "";
   }
-
   pre {
     white-space: pre-wrap !important;
   }
-
   pre,
-blockquote {
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
   tr,
-img {
+  img {
     page-break-inside: avoid;
   }
-
   p,
-h2,
-h3 {
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
   }
-
   h2,
-h3 {
+  h3 {
     page-break-after: avoid;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+{
+  "name": "natashasfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "sass css/style.scss css/style.min.css --style=compressed",
+    "build:js": "terser js/app.js -o js/app.prod.js -c -m",
+    "build": "npm run build:css && npm run build:js",
+    "watch:css": "sass css/style.scss css/style.min.css --watch --style=compressed",
+    "watch:js": "chokidar 'js/app.js' -c 'npm run build:js'",
+    "watch": "npm-run-all --parallel watch:css watch:js",
+    "dev": "npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natashapl/natashasfolio.git"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "cssnano": "^6.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.0",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.69.0",
+    "terser": "^5.26.0"
+  }
+}
