@@ -2,12 +2,13 @@
   "name": "natashasfolio",
   "version": "1.0.0",
   "scripts": {
-    "build:css": "sass css/style.scss css/style.min.css --style=compressed",
+    "build:css": "sass css/style.scss css/style.min.css --style=compressed && cleancss -o css/devicon.min.css css/devicon.css",
     "build:js": "terser js/app.js -o js/app.prod.js -c -m",
     "build": "npm run build:css && npm run build:js",
     "watch:css": "sass css/style.scss css/style.min.css --watch --style=compressed",
+    "watch:devicon": "chokidar 'css/devicon.css' -c 'cleancss -o css/devicon.min.css css/devicon.css'",
     "watch:js": "chokidar 'js/app.js' -c 'npm run build:js'",
-    "watch": "npm-run-all --parallel watch:css watch:js",
+    "watch": "npm-run-all --parallel watch:css watch:devicon watch:js",
     "dev": "npm run watch"
   },
   "repository": {
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
+    "clean-css-cli": "^5.6.3",
     "cssnano": "^6.0.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.0",
