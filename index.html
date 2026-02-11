@@ -127,6 +127,68 @@
           </div>          
 
           <ul class="grid portfolio">
+            <li class="moodTrackerDetail grid-item frontEnd" data-category="frontEnd" data-project="moodTrackerDetail">
+              <a href="#moodTrackerDetail" class="gridItemLink" aria-controls="moodTrackerDetail" aria-expanded="false">
+                <img class="thumbnail" loading="lazy" width="350" height="250" src="/img/thumb-moodTracker.webp" alt="Mood Tracker thumbnail">
+              </a>
+              <div class="details visually-hidden">
+                <h4 id="moodTrackerHeader">Mood Tracker</h4>
+                <img class="fullImage" src="/img/details-mood-tracker.webp" width="750" height="699" alt="Mood Tracker" loading="lazy">
+                <p>
+                  Mood Tracker is a comprehensive full-stack web application designed to help users log and track their daily emotional wellness. Built as a solution to a Frontend Mentor challenge, this project goes beyond the original requirements by implementing complete user authentication, database integration, and cloud-based file storage.
+                </p>
+                <p>
+                  The application enables users to record their daily mood, feelings, reflections, and sleep patterns while providing insightful visualizations through interactive charts. Users can identify trends over time, compare recent averages with previous periods, and receive mood-based inspirational quotes to support their wellness journey.
+                </p>
+                <h5>My Contributions</h5>
+                <p class="text-bold">Full-Stack Application Development</p>
+                <ul class="basic-list">
+                  <li>Built a complete full-stack React application from the ground up using TypeScript, Vite, and Tailwind CSS for a modern, type-safe development experience.</li>
+                  <li>Designed and implemented the PostgreSQL database schema using Supabase, including proper Row Level Security (RLS) policies for secure data access.</li>
+                  <li>Created a seamless user authentication system supporting both email/password and Google OAuth integration.</li>
+                </ul>
+                <p class="text-bold">Advanced Authentication & User Experience</p>
+                <ul class="basic-list">
+                  <li>Integrated Google OAuth 2.0 for one-click sign-in with automatic profile creation and avatar syncing.</li>
+                  <li>Configured custom email branding using Google Workspace SMTP (welcome@natashasworld.com) to enhance professionalism and reduce spam filtering.</li>
+                  <li>Implemented protected routes and session management to ensure secure access to user data.</li>
+                  <li>Developed automatic profile synchronization that intelligently merges Google OAuth metadata without overwriting user customizations.</li>
+                </ul>
+                <p class="text-bold">Interactive Data Visualization</p>
+                <ul class="basic-list">
+                  <li>Built an interactive trends chart using Recharts that displays 11 most recent entries with custom tooltips.</li>
+                  <li>Implemented click-through functionality allowing users to view complete entry details for any day directly from the chart.</li>
+                  <li>Created dynamic average calculations with period-over-period comparisons to help users track their progress.</li>
+                </ul>
+                <p class="text-bold">Cloud Integration & File Management</p>
+                <ul class="basic-list">
+                  <li>Integrated Supabase Storage for secure avatar image hosting with proper validation (2MB max, image files only).</li>
+                  <li>Implemented file upload security through Row Level Security policies ensuring users can only access their own uploaded content.</li>
+                  <li>Developed automatic avatar sync from Google OAuth while preserving user-uploaded custom avatars.</li>
+                </ul>
+                <p class="text-bold">User-Centered Features</p>
+                <ul class="basic-list">
+                  <li>Designed a multi-step wizard interface for capturing daily mood, feelings, sleep, and reflections with an intuitive flow.</li>
+                  <li>Implemented edit capability for same-day entries to allow users to update their records.</li>
+                  <li>Created dynamic mood quote system that displays relevant inspirational content based on selected mood.</li>
+                  <li>Built comprehensive settings modal for profile management including name and avatar updates.</li>
+                </ul>
+                <p class="text-bold">Technical Excellence & Best Practices</p>
+                <ul class="basic-list">
+                  <li>Implemented proper date management utilities to handle timezone differences and ensure entries are associated with the correct local date.</li>
+                  <li>Created automatic deduplication logic to maintain one entry per day per user.</li>
+                  <li>Enhanced accessibility with semantic HTML5 markup, ARIA labels, and proper autocomplete attributes.</li>
+                  <li>Developed mobile-first responsive design ensuring optimal experience across all device sizes.</li>
+                  <li>Implemented comprehensive error handling and loading states throughout the application.</li>
+                  <li>Created development testing utilities for sample data generation to facilitate testing and development.</li>
+                </ul>
+                <p>
+                  This project showcases my ability to build complete full-stack applications with modern technologies, implement secure authentication flows, integrate third-party services, and create intuitive user experiences. The combination of React, TypeScript, Supabase, and cloud services demonstrates proficiency in contemporary web development practices.
+                </p>
+                <p class="text-bold text-small"><a href="https://moodtracker.natashasworld.com" target="_blank">View the Mood Tracker App</a></p>
+                <p class="text-bold text-small"><a href="https://github.com/natashapl/mood-tracking-app" target="_blank">View code on Github</a></p>
+              </div>
+            </li>
             <li class="10xSiteDetail grid-item frontEnd" data-category="frontEnd" data-project="10xSiteDetail">
               <a href="#10xSiteDetail" class="gridItemLink" aria-controls="10xSiteDetail" aria-expanded="false">
                 <img class="thumbnail" loading="lazy" width="350" height="250" src="/img/thumb-10xsite.webp" alt="10x Website thumbnail">
@@ -268,17 +330,6 @@
                   the standards for all HTML and CSS on the site. I also made the homepage responsive.</p>
                 <img class="fullImage" src="/img/details-pa.webp"
                   width="689" height="1573" alt="Citrix Project Accelerator" loading="lazy">
-              </div>
-            </li>
-            <li class="paperCloudDetail grid-item frontEnd" data-category="frontEnd" data-project="paperCloudDetail">
-              <a href="#paperCloudDetail" class="gridItemLink" aria-controls="paperCloudDetail" aria-expanded="false">
-                <img class="thumbnail" loading="lazy" width="350" height="250" src="/img/thumb-papercloud.webp" alt="Citrix Project Accelerator">
-              </a>
-              <div class="details visually-hidden">
-                <h4 id="paperCloudDetailHeader">Paper Cloud - UI/Frontend Development</h4>
-                <p>I volunteered to do the Front-end Development of Paper Cloud. This was a WordPress site with a
-                  customized theme.</p>
-                <img class="fullImage" src="/img/details-papercloud.webp" width="758" height="1483" alt="Citrix Project Accelerator" loading="lazy">
               </div>
             </li>
             <li class="pglaDetail grid-item frontEnd" data-category="frontEnd" data-project="pglaDetail">
@@ -688,5 +739,4 @@
   <script src="/js/vendor/modernizr-3.12.0.min.js" async></script>
   <script src="/js/app.prod.js" defer></script>
 </body>
-
 </html>
