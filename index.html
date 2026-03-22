@@ -127,6 +127,62 @@
           </div>          
 
           <ul class="grid portfolio">
+            <li class="personalFinanceDetail grid-item frontEnd" data-category="frontEnd" data-project="personalFinanceDetail">
+              <a href="#personalFinanceDetail" class="gridItemLink" aria-controls="personalFinanceDetail" aria-expanded="false">
+                <img class="thumbnail" loading="lazy" width="350" height="250" src="/img/thumb_personalFinance.webp" alt="Personal Finance App thumbnail">
+              </a>
+              <div class="details visually-hidden">
+                <h4 id="personalFinanceHeader">Personal Finance App - Frontend Mentor Challenge</h4>
+                <p><span class="text-bold">Role:</span>Frontend Engineer <br />
+                  <span class="text-bold">Live Project:</span> <a href="https://personal-finance-natashasworld.vercel.app" target="_blank">personal-finance-natashasworld.vercel.app</a> <br />
+                  <span class="text-bold">Code Repository:</span> <a href="https://github.com/natashapl/personal-finance" target="_blank">github.com/natashapl/personal-finance</a>
+                </p>
+                <img class="fullImage" src="/img/details-personal-finance.webp" width="750" height="570" alt="Personal Finance App" loading="lazy">
+                <p>Personal Finance App is a comprehensive full-stack web application that helps users take control of their money by tracking transactions, managing budgets, and building savings goals. Built as a solution to a Frontend Mentor challenge, this project goes beyond the original requirements by implementing complete user authentication, a REST API backend, persistent cloud database storage, and a full end-to-end test suite.</p>
+
+                <p>The application gives users a real-time financial dashboard with an overview of balances, budgets, and pots, alongside detailed transaction history with search, sort, and filter capabilities. A built-in demo account lets visitors explore all features with realistic pre-loaded data without having to create an account.</p>
+                <h5>My Contributions</h5>
+                <p class="text-bold">Full-Stack Application Development</p>
+                <ul class="basic-list">
+                  <li>Built a complete full-stack application from the ground up using Angular 21 for the frontend and Ruby on Rails 8.1 in API-only mode for the backend.</li>
+                  <li>Designed and implemented the PostgreSQL database schema hosted on Supabase, with all data scoped to individual users for complete privacy isolation.</li>
+                  <li>Deployed the frontend to Vercel and the Rails API to Render, configuring each service for production with proper environment variables and CORS policies.</li>
+                </ul>
+                <p class="text-bold">Authentication & User Management</p>
+                <ul class="basic-list">
+                  <li>Implemented JWT-based authentication with bcrypt password hashing, including login, signup, and a read-only demo account for visitors.</li>
+                  <li>Built an Angular HTTP interceptor to automatically attach bearer tokens to all API requests without any component-level token handling.</li>
+                  <li>Enforced demo account restrictions server-side with a <code>require_non_demo!</code> guard on all mutation endpoints.</li>
+                </ul>
+                <p class="text-bold">Modern Angular Architecture</p>
+                <ul class="basic-list">
+                  <li>Used Angular 21 standalone components exclusively - no NgModules anywhere in the codebase.</li>
+                  <li>Managed all application state with Angular Signals (<code>signal()</code>, <code>computed()</code>, <code>effect()</code>), eliminating the need for RxJS-heavy state management.</li>
+                  <li>Applied <code>ChangeDetectionStrategy.OnPush</code> throughout and removed Zone.js entirely in favour of zoneless change detection, improving Lighthouse desktop performance to 100 and mobile performance to 94.</li>
+                  <li>Implemented lazy-loaded routes for all five feature pages to keep the initial bundle size minimal.</li>
+                </ul>
+                <p class="text-bold">Feature Pages & UI</p>
+                <ul class="basic-list">
+                  <li>Built five fully functional pages: Overview (with a custom SVG donut chart), Transactions (with pagination, search, sort, and category filter), Budgets (CRUD with per-category spend tracking), Pots (savings goals with add/withdraw money flows), and Recurring Bills (with paid and due-soon status indicators).</li>
+                  <li>Implemented a collapsible navigation sidebar with a mobile bottom nav that adapts across breakpoints.</li>
+                  <li>Built a global toast notification system using Angular Signals with auto-dismiss, success and error variants, and screen reader announcements via <code>aria-live</code>.</li>
+                </ul>
+                <p class="text-bold">Accessibility & Quality</p>
+                <ul class="basic-list">
+                  <li>Achieved Lighthouse scores of 100 for Accessibility, Best Practices, and SEO on both desktop and mobile.</li>
+                  <li>Built a custom <code>FocusTrapDirective</code> that locks keyboard focus inside modals, moves focus to the first interactive element on open, and restores it to the trigger element on close.</li>
+                  <li>Applied WCAG AA standards throughout: semantic HTML, ARIA roles, colour contrast, <code>aria-busy</code> on loading states, and <code>role="progressbar"</code> on savings bars.</li>
+                </ul>
+                <p class="text-bold">End-to-End Testing</p>
+                <ul class="basic-list">
+                  <li>Wrote a full Playwright E2E test suite covering all 25 test cases across auth flows, budgets CRUD, pots CRUD (including add and withdraw money), transactions CRUD, search and filter, and pagination - all passing.</li>
+                  <li>Diagnosed and resolved several tricky Playwright failures including strict mode locator violations, race conditions between Angular's loading cycle and DOM assertions, and simultaneous toast interference with <code>toContainText</code> assertions.</li>
+                </ul>
+                <p>
+                  Personal Finance App demonstrates my ability to architect and deliver a complete full-stack application end-to-end - from database design and API development through to accessible UI, automated testing, and production deployment. The combination of Angular 21, Rails 8.1, Supabase, and modern tooling reflects current professional development practices.
+                </p>
+              </div>
+            </li>
             <li class="moodTrackerDetail grid-item frontEnd" data-category="frontEnd" data-project="moodTrackerDetail">
               <a href="#moodTrackerDetail" class="gridItemLink" aria-controls="moodTrackerDetail" aria-expanded="false">
                 <img class="thumbnail" loading="lazy" width="350" height="250" src="/img/thumb-moodTracker.webp" alt="Mood Tracker thumbnail">
@@ -214,7 +270,7 @@
                 <p class="text-bold">Design System &amp; Global Styles</p>
                 <ul class="basic-list">
                   <li>Built and maintained the application's CSS architecture from the ground up, managing a custom stylesheet that grew to 2,500+ lines across the project lifecycle</li>
-                  <li>Implemented a cohesive look and feel across all product surfaces — navigation, modals, forms, data tables, toolbars, and fullscreen views</li>
+                  <li>Implemented a cohesive look and feel across all product surfaces - navigation, modals, forms, data tables, toolbars, and fullscreen views</li>
                   <li>Integrated Material Design Icons as the application's icon library, including font asset setup and CSS configuration</li>
                 </ul>
                 <p class="text-bold">Navigation &amp; Application Shell</p>
@@ -526,20 +582,6 @@
                   Painted sometime between 2000 and 2002</p>
                 <p>Rustic Still Life was created during my college years. The print is available on <a href="https://natashasworldshop.etsy.com/listing/1730844826" target="_blank">Etsy</a>.</p>
                 <img class="fullImage" src="/img/painting-rustic-still-life.webp" width="750" height="540" alt="Rustic Still Life - Painting" loading="lazy">
-              </div>
-            </li>
-            <li class="sunshineDetail grid-item paintings" data-category="paintings" data-project="sunshineDetail">
-              <a href="#sunshineDetail" class="gridItemLink" aria-controls="sunshineDetail"   aria-expanded="false">
-                <img class="thumbnail" loading="lazy" width="350" height="250"
-                  src="/img/thumb-sunshine.webp"
-                  alt="Sunshine - Painting">
-              </a>
-              <div class="details visually-hidden">
-                <h4 id="sunshineDetailHeader">Sunshine - Painting</h4>
-                <p>Medium: Acrylic <br>
-                  Painted in 2002</p>
-                <p>This piece is an imaginary landscape created during my college years. The painting was damaged during a recent move and revamped in 2025. The print is available on <a href="https://natashasworldshop.etsy.com/listing/4328048239" target="_blank">Etsy</a>.</p>
-                <img class="fullImage" src="/img/painting-sunshine.webp" width="750" height="584" alt="Sunshine - Painting" loading="lazy">
               </div>
             </li>
             <li class="mirrorInTime grid-item paintings" data-category="paintings" data-project="mirrorInTime">
