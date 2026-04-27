@@ -457,6 +457,8 @@
   p {
     margin: 0 0 15px;
     word-break: break-word;
+    font-size: 1.1375rem;
+    line-height: 1.5;
   }
   
   ul {
@@ -678,7 +680,7 @@
     }
   
     .contentWrapper {
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 0 auto;
     }
   
@@ -812,7 +814,7 @@
   
       &.resumeLinks {
         a {
-          display: block;
+          display: inline-block;
           margin: 0 0 10px;
         }
       }
@@ -1026,7 +1028,8 @@
     position: absolute;
   
     p {
-      padding: 30px
+      padding: 30px;
+      font-size: 1rem;
     }
   }
   
