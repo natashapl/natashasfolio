@@ -643,6 +643,15 @@
           &.current {
             border-bottom: 2px solid #b8c7ff;
           }
+
+          span {
+            display: inline-block;
+            vertical-align: top;
+          }
+
+          .externalLinkIcon {
+            margin-top: -2px;
+          }
   
           .themeSwitcherWrapper {
             .mdi {
@@ -816,6 +825,15 @@
         a {
           display: inline-block;
           margin: 0 0 10px;
+
+          span {
+            display: inline-block;
+            vertical-align: top;
+          }
+
+          .externalLinkIcon {
+            margin-top: -3px;
+          }
         }
       }
 
@@ -1387,7 +1405,7 @@
         text-align: center;
         margin: 0 0 50px;
         line-height: 1.8em;
-        font-size: 2rem;
+        font-size: 1.9rem;
       }
     }
   
