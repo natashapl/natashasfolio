@@ -271,6 +271,7 @@ body {
   color: var(--font-color);
   margin: 0;
   padding: 0;
+  min-width: 20rem;
 }
 
 body,
@@ -978,9 +979,7 @@ a.ctaButton {
 }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+Media Queries for Responsive Design
    ========================================================================== */
 @media (prefers-reduced-motion: no-preference) {
   html {
