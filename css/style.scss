@@ -798,6 +798,14 @@
       }
     }
   }
+
+  #stayForDinnerDetail {
+    .fullImage {
+      margin: 40px auto;
+      box-shadow: 1px 1px 5px 0px rgba(34, 34, 34, 0.5);
+      border-radius: 5px;
+    }
+  }
   
   .aboutSection {
     .imageWrapper {

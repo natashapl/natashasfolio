@@ -137,6 +137,87 @@
           </div>          
 
           <ul class="grid portfolio">
+            <li class="stayForDinnerDetail grid-item frontEnd" data-category="frontEnd" data-project="stayForDinnerDetail">
+              <a href="#stayForDinnerDetail" class="gridItemLink" aria-controls="stayForDinnerDetail" aria-expanded="false">
+                <img class="thumbnail" loading="lazy" width="350" height="250" src="/img/thumb_stayForDinner.webp" alt="Stay for Dinner CSS art kitchen thumbnail">
+              </a>
+              <div class="details visually-hidden">
+                <h4 id="stayForDinnerHeader">Stay for Dinner - CSS Art</h4>
+                <p><span class="text-bold">Role:</span> Frontend Engineer <br />
+                  <span class="text-bold">Live Project:</span> <a href="https://stay-for-dinner-three.vercel.app/" target="_blank">stay-for-dinner-three.vercel.app</a> <br />
+                  <span class="text-bold">Code Repository:</span> <a href="https://github.com/natashapl/stay-for-dinner" target="_blank">github.com/natashapl/stay-for-dinner</a>
+                </p>
+                <img class="fullImage" src="/img/details-stay-for-dinner.webp" width="750" height="563" alt="Stay for Dinner - an interactive CSS art kitchen at dusk" loading="lazy">
+                <p>Stay for Dinner is an interactive CSS art illustration built for the DEV Frontend Challenge: Comfort Food Edition. It depicts a cozy kitchen at dusk centered on a pasta and meatball dinner, and every visual element in the scene - the sage cabinetry, the subway tile, the sunset landscape through the window, the food itself - is drawn with HTML elements and CSS. There is no SVG, canvas, image assets, icon fonts, and emoji anywhere in the artwork.</p>
+
+                <p>The scene is explorable rather than static. Visitors can open a recipe drawer from either bowl, plate the dinner step by step, transition the room from dusk to night, run the faucet, and open the refrigerator and wall cabinets to reveal fully drawn interiors. Every interaction works with a mouse, a keyboard, and a screen reader.</p>
+
+                <h5>My Contributions</h5>
+                <p class="text-bold">CSS Illustration</p>
+                <ul class="basic-list">
+                  <li>Illustrated an entire kitchen scene - architecture, appliances, decor, plants, landscape, and food - using only gradients, <code>border-radius</code>, <code>clip-path</code>, box shadows, and pseudo-elements across roughly 450 DOM elements.</li>
+                  <li>Built repeating organic detail such as the distant treeline and the pasta nest as stacks of hard-stop radial gradients on a single element rather than as dozens of nodes, keeping the DOM small enough to score well on performance.</li>
+                  <li>Applied a consistent three-face rule to every solid object - lightest top, base-colour front, darker side, with the visible flank always turned toward the centre of the frame - so appliances read as volumes instead of rectangles.</li>
+                </ul>
+
+                <p class="text-bold">Scene Architecture</p>
+                <ul class="basic-list">
+                  <li>Established a single proportional unit, <code>--u: 1cqw</code>, using a CSS size container, then sized every object in multiples of it and positioned everything in percentages. The illustration rescales as one composition at any screen size with no breakpoint moving a single object.</li>
+                  <li>Declared the entire depth order in one z-index block rather than scattering local values, and split the shadow pass by depth so back-wall occlusion paints behind the foreground instead of across it.</li>
+                  <li>Organised two dozen components and seventeen stylesheets with a deliberate cascade order: design tokens first, artwork back to front, lighting passes next because they re-light everything above them, then interactions, then responsive overrides last.</li>
+                </ul>
+
+                <p class="text-bold">Lighting and Depth</p>
+                <ul class="basic-list">
+                  <li>Lit the whole room in two passes composited over the finished artwork - a <code>mix-blend-mode: multiply</code> shadow layer and a <code>screen</code> light layer - so every surface darkens and brightens through its own hue instead of drifting toward grey.</li>
+                  <li>Built a volumetric sunbeam from a blurred, clipped gradient that widens and dissolves along its length, connecting the window to the food and establishing the focal point of the composition.</li>
+                  <li>Added an open-refrigerator light that spills into the room, which required moving the effect out of the appliance and into the room's lighting pass, since a stacking context isolates blend modes from everything behind it.</li>
+                </ul>
+
+                <p class="text-bold">Interactive Experience</p>
+                <ul class="basic-list">
+                  <li>Built a recipe drawer as a native <code>&lt;dialog&gt;</code> styled to slide in from the right, inheriting Escape handling and focus containment from the platform and adding backdrop dismissal and focus restoration in JavaScript.</li>
+                  <li>Implemented a multi-step plating sequence with enforced order - plate, then pasta, then meatballs - where the food bowls change behaviour based on state, opening the recipe when idle and serving when plating is active.</li>
+                  <li>Built a dusk-to-night transition that repaints the sky, landscape, cabinetry, room lighting, stars, and window reflection, with the moon rising behind the hills after the sun sets.</li>
+                  <li>Added independent refrigerator and freezer compartments with fully drawn interiors, two opening wall cabinets, and a working faucet with an animated water stream and basin ripple.</li>
+                </ul>
+
+                <p class="text-bold">State and Component Design</p>
+                <ul class="basic-list">
+                  <li>Kept state flowing one way: a single component owns all interaction state and passes it down, and the scene root converts that state into class flags on one element so CSS cascades it to the entire illustration from a single place.</li>
+                  <li>Registered the scene palette with <code>@property</code> as typed <code>&lt;color&gt;</code> and <code>&lt;number&gt;</code> values so night interpolates through every intermediate shade rather than snapping between palettes, and so other effects can multiply by the lighting strength directly.</li>
+                  <li>Held JavaScript to interaction state and accessibility only - no library beyond React, and no scripted animation anywhere in the artwork.</li>
+                </ul>
+
+                <p class="text-bold">Accessibility and Quality</p>
+                <ul class="basic-list">
+                  <li>Achieved Lighthouse scores of 100 for Performance, Accessibility, Best Practices, and SEO on the production deployment.</li>
+                  <li>Overlaid a transparent semantic <code>button</code> on each interactive object rather than wrapping the artwork, since buttons may only contain phrasing content, then drove the same visual response from both hover and <code>:focus-within</code>.</li>
+                  <li>Applied <code>aria-pressed</code>, <code>aria-expanded</code>, and <code>aria-controls</code> to scene toggles, announced plating progress through an <code>aria-live</code> region, hid decorative lettering from the accessibility tree, and reduced all decorative motion under <code>prefers-reduced-motion</code>.</li>
+                  <li>Measured tab order, focus indicators, and touch target sizes in a headless browser rather than by eye, which surfaced two defects inspection had missed: a scrollable recipe body with no focusable element inside it, unreachable by keyboard, and primary controls rendering as small as 27px tall on a 360px viewport.</li>
+                  <li>Corrected page text failing WCAG AA contrast against the background gradient, and fixed touch targets in pixels rather than scene units, on the reasoning that a target is a physical measurement of a fingertip rather than part of the drawing.</li>
+                </ul>
+
+                <p class="text-bold">Performance</p>
+                <ul class="basic-list">
+                  <li>Shipped the full illustration in roughly 21 KB of gzipped CSS, with a largest contentful paint of 0.3 seconds, zero total blocking time, and zero cumulative layout shift.</li>
+                  <li>Restricted all animation to compositor-friendly properties - transforms, opacity, and filters - and kept continuous ambient motion to six looping animations across the entire scene.</li>
+                  <li>Audited the stylesheets for unreachable rules in a final polish pass and removed 289 lines of dead CSS left over from superseded implementations.</li>
+                </ul>
+
+                <p class="text-bold">AI Collaboration</p>
+                <ul class="basic-list">
+                  <li>Built in collaboration with Claude Code and Codex, working through a twelve-phase implementation brief I wrote, reviewing each phase visually against a reference before continuing.</li>
+                  <li>Directed all design and architectural decisions, including dropping proposed interactions that did not earn their place and setting the constraint that the artwork remain pure HTML and CSS throughout.</li>
+                  <li>Diagnosed illustration bugs through visual review that automated tooling could not catch.</li>
+                </ul>
+
+                <p>
+                  Stay for Dinner demonstrates depth in CSS itself rather than in framework tooling - compositing, container-relative units, registered custom properties, and blend-mode lighting - applied with the same accessibility and performance rigour I bring to production work. It is proof that an illustration can be a real interface: keyboard operable, screen reader friendly, motion safe, and fast.
+                </p>
+              </div>
+            </li>
+
             <li class="personalFinanceDetail grid-item frontEnd" data-category="frontEnd" data-project="personalFinanceDetail">
               <a href="#personalFinanceDetail" class="gridItemLink" aria-controls="personalFinanceDetail" aria-expanded="false">
                 <img class="thumbnail" loading="lazy" width="350" height="250" src="/img/thumb_personalFinance.webp" alt="Personal Finance App thumbnail">
