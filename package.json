@@ -9,17 +9,20 @@
     "watch:devicon": "chokidar 'css/devicon.css' -c 'cleancss -o css/devicon.min.css css/devicon.css'",
     "watch:js": "chokidar 'js/app.js' -c 'npm run build:js'",
     "watch": "npm-run-all --parallel watch:css watch:devicon watch:js",
-    "dev": "npm run watch"
+    "dev": "npm run watch",
+    "test:ui": "node tests/ui.mjs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/natashapl/natashasfolio.git"
   },
   "devDependencies": {
+    "axe-core": "^4.13.0",
     "chokidar-cli": "^3.0.0",
     "clean-css-cli": "^5.6.3",
     "cssnano": "^6.0.0",
     "npm-run-all": "^4.1.5",
+    "playwright-core": "^1.62.1",
     "postcss": "^8.4.0",
     "postcss-cli": "^11.0.0",
     "sass": "^1.69.0",

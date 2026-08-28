@@ -122,6 +122,7 @@
     --bg-color: #faf7f2;
     --lightLinkColor: #b8c7ff;
     --darkLinkColor: #40469C;
+    --panelLinkColor: #40469C;
   
     .filterColor {
       filter: invert(13%) sepia(0%) saturate(0%) hue-rotate(283deg) brightness(98%) contrast(99%);
@@ -130,7 +131,8 @@
         filter: brightness(0) saturate(100%) invert(28%) sepia(38%) saturate(1465%) hue-rotate(205deg) brightness(89%) contrast(95%);      }
     }
 
-    .ctaButton {
+    .ctaButton,
+    .backToTop {
       &:hover {
         color: var(--lightLinkColor);
       }
@@ -205,7 +207,8 @@
       }
     }
 
-    .ctaButton {
+    .ctaButton,
+    .backToTop {
       &:hover {
         color: var(--darkLinkColor);
       }
@@ -495,6 +498,15 @@
     height: 58px;
     transition: transform 0.6s ease;
   }
+
+  span {
+    @include inlineBlock;
+    line-height: 1.5rem;
+  }
+
+  .externalLinkIcon {
+    margin-top: -2px;
+  }
   
   nav {
     text-align: right;
@@ -524,11 +536,6 @@
         .braces {
           color: var(--lightLinkColor);
         }
-      }
-
-      span {
-        @include inlineBlock;
-        line-height: 1rem;
       }
 
       .name {
@@ -644,15 +651,6 @@
             border-bottom: 2px solid #b8c7ff;
           }
 
-          span {
-            display: inline-block;
-            vertical-align: top;
-          }
-
-          .externalLinkIcon {
-            margin-top: -2px;
-          }
-  
           .themeSwitcherWrapper {
             .mdi {
               &:hover {
@@ -903,12 +901,13 @@
     }
     
     p {
-      margin: 20px 0 25px;
+      margin: 20px auto 25px;
       line-height: 2rem;
+      max-width: 600px;
   
       a{ 
-        display: block;
         margin: 40px 0;
+        font-weight: bold;
       }
   
       img {
@@ -920,6 +919,15 @@
           filter: invert(48%) sepia(47%) saturate(601%) hue-rotate(199deg) brightness(86%) contrast(88%);
         }
       }
+
+      span {
+        line-height: 2rem;
+
+        &.externalLinkIcon {
+          margin-left: 2px;
+        }
+      }
+
     }
   
     form {
@@ -990,6 +998,21 @@
     padding: 30px 30px 30px 95px;
     border-left: 2px solid #ccc;
     color: #222;
+
+    /* Keep the closed panel out of the tab order and the accessibility tree.
+       The delayed hide lets the page slide back over it before it disappears. */
+    visibility: hidden;
+    transition: visibility 0.6s ease;
+
+    &.visible {
+      visibility: visible;
+    }
+
+    /* Panel is white in both themes, so links keep the light-theme colour */
+    a,
+    a:hover {
+      color: var(--panelLinkColor);
+    }
   
     img {
       display: block;
@@ -1016,7 +1039,7 @@
   
     }
   
-    h4 {
+    h3 {
       font-size: 2rem;
       text-align: left;
       margin: 30px 0 20px;
@@ -1024,8 +1047,11 @@
       font-family: "Rancho", Arial, Helvetica, cursive;
     }
 
-    h5 {
+    h4 {
       font-size: 1.5rem;
+      /* Was an h5, so it escaped the global heading centring - keep it left */
+      text-align: left;
+      line-height: 1.5;
     }
   
     p {
@@ -1091,9 +1117,47 @@
   .recentWorkButton {
     span {
       margin-right: 3px;
+      display: inline-block;
+      vertical-align: middle;
     }
   }
   
+  .backToTop {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    line-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    z-index: 22;
+
+    &.isVisible {
+      opacity: 1;
+      visibility: visible;
+      transform: none;
+    }
+
+    svg {
+      vertical-align: middle;
+    }
+
+    /* Keep the button out of the way while a project panel is open */
+    body.show-detail & {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
   .skip-link {
     position: absolute;
     top: -40px;
@@ -1313,6 +1377,13 @@
         transform: translate(-95%);
       }
     }
+
+    .backToTop {
+      right: 15px;
+      bottom: 15px;
+      width: 42px;
+      height: 42px;
+    }
   }
   
   @media only screen and (max-width: 480px) {
@@ -1456,7 +1527,7 @@
         }
       }
     }
-  
+
     .introBanner,
     .skillsSection,
     .contactSection {

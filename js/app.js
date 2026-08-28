@@ -10,10 +10,27 @@ window.onload = () => {
   const navList = document.getElementById('nav-list');
   const themeToggleButton = document.getElementById('theme-toggle');
   const filterButtons = document.querySelectorAll('.filter-button');
+  const backToTopButton = document.getElementById('back-to-top');
+  const homeSection = document.getElementById('home');
+  const backToTopVisibleClass = "isVisible";
   const showItemsFilterClass = "showPortfolioItems";
   const hideItemsFilterClass = "hidePortfolioItems";
   const resetItemsFilterClass = "resetPortfolioItems";
   const currentFilterClass = "currentFilter";
+  // Only one aside panel exists, so only one trigger may be expanded at a time
+  let activeItemLink = null;
+
+  function setActiveItemLink(itemLink) {
+    if (activeItemLink && activeItemLink !== itemLink) {
+      activeItemLink.setAttribute('aria-expanded', 'false');
+    }
+
+    activeItemLink = itemLink;
+
+    if (itemLink) {
+      itemLink.setAttribute('aria-expanded', 'true');
+    }
+  }
 
   // Deep linking functionality
   function openProjectByHash(hash) {
@@ -68,23 +85,23 @@ window.onload = () => {
     let itemLink = elem.querySelector(".gridItemLink");
     let itemDetailHTML = elem.querySelector(".details").innerHTML;
     let asideDetail = document.querySelector(".aside-details");
-    let detailHeader = elem.querySelector("h4");
+    let detailHeader = elem.querySelector("h3");
 
     if (itemLink && itemDetailHTML && asideDetail && detailHeader) {
-      const asidePanelId = itemLink.getAttribute('aria-controls');
-
-      itemLink.setAttribute('aria-expanded', 'true');
+      setActiveItemLink(itemLink);
       asideDetail.innerHTML = itemDetailHTML;
-      asideContainerPanel.id = asidePanelId;
+      // Copying the markup would duplicate every id from the hidden source, so
+      // strip them and give the panel heading one stable id to be labelled by
+      asideDetail.querySelectorAll('[id]').forEach((el) => el.removeAttribute('id'));
+      const panelHeading = asideDetail.querySelector('h3');
+      if (panelHeading) panelHeading.id = 'details-title';
       body.classList.add(slideClass);
 
-      const asidePanel = document.getElementById(asidePanelId);
+      asideContainerPanel.setAttribute('aria-hidden', 'false');
+      asideContainerPanel.setAttribute("aria-labelledby", "details-title");
+      asideContainerPanel.classList.add('visible');
 
-      asidePanel.setAttribute('aria-hidden', 'false');
-      asidePanel.setAttribute("aria-labelledby", detailHeader.id);
-      asidePanel.classList.add('visible');
-      
-      asidePanel.focus();
+      asideContainerPanel.focus();
     }
   }
 
@@ -128,6 +145,7 @@ function updateStickyNav() {
 
   const navLinks = document.querySelectorAll("nav li a");
   const scrollPos = window.scrollY + 60;
+  let inViewSection = false;
 
   for (const link of navLinks) {
     if (!link.hash) continue;
@@ -142,6 +160,8 @@ function updateStickyNav() {
     link.classList.toggle("current", inView);
 
     if (inView) {
+      inViewSection = true;
+
       // Only write the hash if it actually changed
       if (lastSectionHash !== link.hash) {
         lastSectionHash = link.hash;
@@ -154,6 +174,35 @@ function updateStickyNav() {
       }
     }
   }
+
+  // The home section has no nav link, so nothing matches up there. Drop the
+  // stale hash instead of leaving the last section we scrolled past in the URL.
+  if (!inViewSection) clearSectionHash();
+}
+
+// Strip the hash without adding a history entry or moving the page
+function clearSectionHash() {
+  const currentHash = window.location.hash;
+
+  // Leave project deep links alone
+  if (currentHash && isProjectHash(currentHash)) return;
+
+  lastSectionHash = null;
+
+  if (currentHash) {
+    history.replaceState(null, null, window.location.pathname + window.location.search);
+  }
+}
+
+// Back to top: only show once the home section has scrolled out of the way
+function updateBackToTop() {
+  if (!backToTopButton) return;
+
+  const threshold = homeSection
+    ? homeSection.offsetTop + homeSection.offsetHeight
+    : window.innerHeight;
+
+  backToTopButton.classList.toggle(backToTopVisibleClass, window.scrollY >= threshold);
 }
 
 window.addEventListener("scroll", () => {
@@ -162,9 +211,25 @@ window.addEventListener("scroll", () => {
   isThrottled = true;
   setTimeout(() => {
     updateStickyNav();
+    updateBackToTop();
     isThrottled = false;
   }, 100);
 });
+
+if (backToTopButton) {
+  backToTopButton.addEventListener("click", () => {
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
+
+    // Hand focus back to the top of the page so keyboard users carry on from there
+    const topLink = document.querySelector("nav h1 a");
+    if (topLink) topLink.focus({ preventScroll: true });
+  });
+
+  // Account for a page that loads already scrolled (e.g. a deep link)
+  updateBackToTop();
+}
 
 
   // Helper function to check if hash is a project hash
@@ -221,20 +286,28 @@ window.addEventListener("scroll", () => {
   });
 
   function closePortfolio() {
+    // Nothing is open, so there is nothing to close (and no hash to rewrite)
+    if (!body.classList.contains(slideClass)) return;
+
     body.classList.remove(slideClass);
     asideContainerPanel.setAttribute('aria-hidden', 'true');
     asideContainerPanel.classList.remove('visible');
 
-    // Update aria-expanded
-    const associatedItem = document.querySelector(`[aria-controls="${asideContainerPanel.id}"]`);
+    // Update aria-expanded on the trigger that opened the panel
+    const associatedItem = activeItemLink;
+    activeItemLink = null;
+
     if (associatedItem) {
       associatedItem.setAttribute('aria-expanded', 'false');
       // Return focus to the associated portfolio item
       associatedItem.focus();
     }
     
-    // Always return to #portfolio when closing a project
-    history.replaceState(null, null, '#portfolio');
+    // Fall back to #portfolio only when we're leaving a project hash.
+    // If the user navigated to a real section, keep the hash they asked for.
+    if (isProjectHash(window.location.hash)) {
+      history.replaceState(null, null, '#portfolio');
+    }
   }
 
   // Helper function to determine current section
@@ -257,25 +330,24 @@ window.addEventListener("scroll", () => {
     let itemLink = elem.querySelector(".gridItemLink");
     let itemDetailHTML = elem.querySelector(".details").innerHTML;
     let asideDetail = document.querySelector(".aside-details");
-    let detailHeader = elem.querySelector("h4");
+    let detailHeader = elem.querySelector("h3");
 
     function openPortfolioItem() {
-      const isExpanded = itemLink.getAttribute('aria-expanded') === 'true';
-      const asidePanelId = itemLink.getAttribute('aria-controls');
-
       itemLink.focus();
-      itemLink.setAttribute('aria-expanded', !isExpanded);
+      setActiveItemLink(itemLink);
       asideDetail.innerHTML = itemDetailHTML;
-      asideContainerPanel.id = asidePanelId;
+      // Copying the markup would duplicate every id from the hidden source, so
+      // strip them and give the panel heading one stable id to be labelled by
+      asideDetail.querySelectorAll('[id]').forEach((el) => el.removeAttribute('id'));
+      const panelHeading = asideDetail.querySelector('h3');
+      if (panelHeading) panelHeading.id = 'details-title';
       body.classList.add(slideClass);
 
-      const asidePanel = document.getElementById(asidePanelId);
+      asideContainerPanel.setAttribute('aria-hidden', 'false');
+      asideContainerPanel.setAttribute("aria-labelledby", "details-title");
+      asideContainerPanel.classList.add('visible');
 
-      asidePanel.setAttribute('aria-hidden', 'false');
-      asidePanel.setAttribute("aria-labelledby", detailHeader.id);
-      asidePanel.classList.add('visible');
-      
-      asidePanel.focus();
+      asideContainerPanel.focus();
       
       // Update URL with project hash (use data-project if available, fallback to class)
       const projectId = elem.getAttribute('data-project') || elem.classList[0];
